@@ -1,58 +1,74 @@
-site_name: AstroSite
+site_name: PC5132 Website
 
 theme:
-  name: 'material'
+    name: 'material'
 
-  # 404 page
-  static_templates:
-    - 404.html
+    features:
+        - navigation.tabs
+        - search.suggest
+        - search.share
 
-  # Necessary for search to work properly
-  include_search_page: false
-  search_index_only: true
+    # 404 page
+    static_templates:
+        - 404.html
 
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: material/telescope
+    # Necessary for search to work properly
+    include_search_page: false
+    search_index_only: true
 
-  palette:
-    - scheme: slate
-      primary: black
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
-    - scheme: default
-      primary: black
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+    # Default values, taken from mkdocs_theme.yml
+    language: en
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/favicon.png
+    icon:
+        logo: material/telescope
+
+    palette:
+        - media: '(prefers-color-scheme: dark)'
+          scheme: slate
+          primary: black
+          toggle:
+              icon: material/toggle-switch
+              name: Switch to light mode
+        - media: '(prefers-color-scheme: light)'
+          scheme: default
+          primary: black
+          toggle:
+              icon: material/toggle-switch-off-outline
+              name: Switch to dark mode
+
+extra_css:
+    - stylesheets/style.css
 
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - tables
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.arithmatex:
-      generic: true
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - tables
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.arithmatex:
+          generic: true
+    - attr_list
+    - md_in_html
+    - pymdownx.tabbed:
+          alternate_style: true
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    - javascripts/mathjax.js
+    - https://polyfill.io/v3/polyfill.min.js?features=es6
+    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - Home: index.md
-  - 'Getting Started.md'
+  - How to Use:
+      - Home: instructions/index.md
+      - 'instructions/Getting Started.md'
