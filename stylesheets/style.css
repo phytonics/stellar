@@ -1,6 +1,7 @@
 body {
     /* using CSS variables */
     --md-default-bg-color--dark: #181a1b;
+    --md-footer-bg-color--dark: rgba(0, 0, 0, .87);
 }
 
 [data-md-color-scheme='slate'] {
