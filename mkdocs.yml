@@ -74,3 +74,14 @@ nav:
       - 'instructions/Getting Started.md'
   - Ornithopters:
       - Home: ornithopters/index.md
+
+plugins:
+  - mkdocs-jupyter
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/phytonics/PC5132-website
+
+copyright: Copyright &copy; 2022 Phytonics
