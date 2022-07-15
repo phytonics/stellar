@@ -75,6 +75,10 @@ nav:
       - Home: ornithopters/index.md
   - Stellar Evolution:
       - Home: stellar/index.md
+  - MRIs:
+      - Home: mri/index.md
+  - Quantum Computing:
+      - Home: computing/index.md
 
 plugins:
   - mkdocs-jupyter
