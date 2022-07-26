@@ -1,7 +1,7 @@
 site_name: PC5132 Website
 
 theme:
-    name: 'material'
+    name: "material"
 
     features:
         - navigation.tabs
@@ -26,13 +26,13 @@ theme:
         logo: material/telescope
 
     palette:
-        - media: '(prefers-color-scheme: dark)'
+        - media: "(prefers-color-scheme: dark)"
           scheme: slate
           primary: black
           toggle:
               icon: material/toggle-switch
               name: Switch to light mode
-        - media: '(prefers-color-scheme: light)'
+        - media: "(prefers-color-scheme: light)"
           scheme: default
           primary: black
           toggle:
@@ -68,25 +68,19 @@ extra_javascript:
     - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
-  - Home: index.md
-  - How to Use:
-      - Home: instructions/index.md
-  - Ornithopters:
-      - Home: ornithopters/index.md
-  - Stellar Evolution:
-      - Home: stellar/index.md
-  - MRIs:
-      - Home: mri/index.md
-  - Quantum Computing:
-      - Home: computing/index.md
+    - Home: index.md
+    - How to Use:
+          - Home: instructions/index.md
+    - Stellar Evolution:
+          - Home: stellar/index.md
 
 plugins:
-  - mkdocs-jupyter
-  - search
+    - mkdocs-jupyter
+    - search
 
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/phytonics/PC5132-website
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/phytonics/PC5132-website
 
 copyright: Copyright &copy; 2022 Phytonics
