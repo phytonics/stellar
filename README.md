@@ -1,6 +1,7 @@
 # PC5132 Website
 
-Welcome to the PC5132 Website prepared by Team **Freemesons**
+Welcome to the PC5132 Website prepared by Team **Celestial Darwins**:
+
 - Khang
 - Markus
 - Pin Che
@@ -8,6 +9,4 @@ Welcome to the PC5132 Website prepared by Team **Freemesons**
 
 from M22504.
 
-Current Topic: **Ornithopters**
-
-Back-Up Topic: **Stellar Evolution**
+**Current Topic**: Stellar Evolution
