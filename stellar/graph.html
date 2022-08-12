@@ -8,8 +8,11 @@
     ></script>
     <style type="text/css">
       #mynetwork {
-        width: 540px;
-        height: 360px;
+        width: 100vw;
+        height: 100vh;
+      }
+      body{
+        background-color: black;
       }
     </style>
   </head>
@@ -74,19 +77,44 @@
           edges: {
             smooth: {
               type: "cubicBezier",
-              forceDirection: "horizontal",
+              forceDirection: "horisontal",
               roundness: 0,
             },
+            color: "#ffffff",
           },
+
           layout: {
             hierarchical: {
               direction: "LR",
             },
           },
-          physics: false,
-        nodes: {
-          shape: "box",
-        },
+
+          physics: {
+            "minVelocity": 0.49,
+            "forceAtlas2Based": {
+              "springLength": 100
+            },
+            "minVelocity": 0.1,
+          },
+
+          nodes: {
+            shape: "box",
+            color: {
+              border: "#ffffff",
+              background: "#000000",
+              highlight:{
+                border: "#ffffff",
+                background: "#000000",
+              },
+              hover: {
+                border: "#ffffff",
+                background: "#000000",
+              },
+            },
+            font: {
+              color: "#ffffff",
+            },
+          },
         };
       var network = new vis.Network(container, data, options);
 
