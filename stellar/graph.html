@@ -40,14 +40,21 @@
         { id: 17, label: "Planetary\nNebula", margin: 20, url: "./others/planetary_nebula/" },
         { id: 18, label: "White\nDwarf", margin: 20, url: "./dwarves/white_dwarf/"},
         { id: 19, label: "Black\nDwarf", margin: 20, url: "./dwarves/black_dwarf/" },
+        { id: 20, label: "Herbig Ae/Be Star", margin: 20, url: "./beginning/herbig-ae-be/" },
+        { id: 21, label: "T-Tauri Star", margin: 20, url: "./beginning/t-tauri/" },
       ]);
 
       // create an array with edges
       var edges = new vis.DataSet([
         { from: 1, to: 2, arrows: "to" },
-        { from: 2, to: 3, arrows: "to", label: "> 8 × Mass\n of Sun", font: { multi: "md" } },
-        { from: 2, to: 4, arrows: "to", label: "< 8 × Mass\n of Sun", font: { multi: "md" } },
-        { from: 2, to: 5, arrows: "to", label: "< 0.08 × Mass\n of Sun", font: { multi: "md" } },
+
+        { from: 2, to: 20, arrows: "to" ,label: "> 8 × Mass\n of Sun", font: { multi: "md" } },
+        { from: 2, to: 21, arrows: "to" , label: "< 8 × Mass\n of Sun", font: { multi: "md" } },
+
+        { from: 20, to: 3, arrows: "to" },
+        { from: 21, to: 4, arrows: "to" },
+        { from: 21, to: 5, arrows: "to" },
+
         { from: 3, to: 6, arrows: "to" },
         { from: 6, to: 7, arrows: "to" },
         { from: 7, to: 8, arrows: "to" },
