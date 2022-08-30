@@ -74,11 +74,11 @@ nav:
         - Index: stellar/graph.html
     - How to Use:
         - Home: instructions/index.md
-    - Observation:
-        - stellar/observation/magnitude_scale.md
-    - Classification:
-        - stellar/classification/star_classification.md
-        - stellar/classification/hr_diagram.md
+    - Preliminaries:
+        - stellar/preliminaries/stellar_structure.md
+        - stellar/preliminaries/magnitude_scale.md
+        - stellar/preliminaries/star_classification.md
+        - stellar/preliminaries/hr_diagram.md
     - The Beginning:
         - stellar/beginning/molecular_cloud.md
         - stellar/beginning/protostar.md
