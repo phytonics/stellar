@@ -8,16 +8,15 @@ At first, heat is lost rapidly to the void of space through radiation. However, 
 
 Accretion of dust from the circumstellar disk continues until the star is hot enough to reach a state of _hydrostatic equilibrium_.
 
-The mass at which a star achieves hydrostatic equilibrium depends on many factors.
 
-
-
-If the protostar never exceeds temperatures of 10$^7$K, then it becomes a _brown dwarf_.
-
-[Next: Brown Dwarf](../dwarves/brown_dwarf.md)
+<hr/>
 
 ## References
 
-http://sunshine.chpc.utah.edu/Labs/StarLife/protostars.html
+[1] http://sunshine.chpc.utah.edu/Labs/StarLife/protostars.html
 
-https://www.astronomynotes.com/evolutn/s3.htm
+[2] https://www.astronomynotes.com/evolutn/s3.htm
+
+[3] https://ui.adsabs.harvard.edu/abs/2003ApJ...592..282J/abstract 
+
+[4] https://en.wikipedia.org/wiki/Lithium_burning
