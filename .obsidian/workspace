@@ -6,24 +6,13 @@
       {
         "id": "5ae30fb967b3a11a",
         "type": "leaf",
-        "dimension": 46.64082687338501,
+        "dimension": 99.99999999999999,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/stellar/stellar-structure.md",
+            "file": "docs/stellar/random-shit.md",
             "mode": "source",
             "source": false
-          }
-        }
-      },
-      {
-        "id": "99e2dde9a33aca1b",
-        "type": "leaf",
-        "dimension": 53.35917312661499,
-        "state": {
-          "type": "pdf",
-          "state": {
-            "file": "ref/Fundamental Astronomy.pdf"
           }
         }
       }
@@ -81,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/stellar/stellar-structure.md",
+                "file": "docs/stellar/random-shit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,12 +93,12 @@
     "docs/stellar/stellar-evo.jpeg",
     "ref/Fundamental Astronomy.pdf",
     "docs/stellar/random-shit.md",
-    "docs/index.md",
     "docs/stellar/stellar-structure.md",
+    "docs/stellar/stars/low_mass_star.md",
+    "docs/index.md",
     "docs/instructions/index.md",
     "docs/stellar/index.md",
     "docs/stellar/others/black_hole.md",
-    "README.md",
-    "docs/Getting Started.md"
+    "README.md"
   ]
 }
