@@ -6,6 +6,7 @@
       {
         "id": "5ae30fb967b3a11a",
         "type": "leaf",
+        "dimension": 99.99999999999999,
         "state": {
           "type": "markdown",
           "state": {
@@ -89,12 +90,15 @@
   },
   "active": "5ae30fb967b3a11a",
   "lastOpenFiles": [
+    "docs/stellar/stellar-evo.jpeg",
+    "ref/Fundamental Astronomy.pdf",
+    "docs/stellar/random-shit.md",
     "docs/stellar/stellar-structure.md",
+    "docs/stellar/stars/low_mass_star.md",
+    "docs/index.md",
+    "docs/instructions/index.md",
     "docs/stellar/index.md",
     "docs/stellar/others/black_hole.md",
-    "docs/index.md",
-    "README.md",
-    "docs/instructions/index.md",
-    "docs/Getting Started.md"
+    "README.md"
   ]
 }
