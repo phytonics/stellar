@@ -14,7 +14,7 @@ In a binary system, the space around the system is affected by the gravitational
 
 ## Stealing Gas
 
-In a binary white dwarf system, the white dwarf's gravitational field can begin to pull gas from its partner to itself -- in other words, the size of its partner exceeds their Roche lobe. The result is that the white dwarf slowly accrues gas from its partner.
+In a binary white dwarf system, the white dwarf's gravitational field can begin to pull gas from its partner to itself -- in other words, the size of its partner exceeds their Roche lobe. The result is that the white dwarf slowly accrues gas from its partner. This occurs most when its partner is also reaching the end of its main sequence and has expanded to a red giant, where it is much easier for the size of the partner to exceed their lobe. 
 
 (image placeholder)
 
@@ -26,7 +26,7 @@ While the white dwarf attempts to pull mass from its partner straight towards it
 
 (image placeholder)
 
-As gas particles in the swirling disk collide, they will lose energy and be unable to sustain their existing orbital position, falling slowly towards the white dwarf until they fall onto the surface.
+As gas particles in the swirling disk collide, they will lose energy and be unable to sustain their existing orbital position, falling towards the white dwarf's surface. As the gas falls, it heats up -- so hot that it begins to radiate with peak wavelengths in visible and even ultraviolet and X-ray ranges, radiating light that outshines the white dwarf itself. 
 
 ## Gas Buildup, Novas and Supernovas
 
