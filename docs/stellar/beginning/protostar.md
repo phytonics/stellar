@@ -1,13 +1,20 @@
 # The Protostar
 
-The ball of gas formed from cloud collapse is not quite a star yet. The interstellar dust particles that are being pulled in collide with each other, generating heat which radiates outwards as infrared radiation (Since its heat is still relatively low). 
+A protostar is a young star which is still gathering mass from its parent molecular cloud through a process called accretion. In this state, it is not yet hot enough for hydrogen fusion to occur.
 
-Gas is pulled into a disk-like shape around the protostar as it falls towards the growing clump. This is a process known as accretion. 
+Gravity pulls gas into a disk-like shape around the protostar, called a _circumstellar disk_. Particles that are pulled in collide with each other, generating heat.
 
-For scale, protostar accretion disks are generally larger than the solar system. Within these accretion disks planets or other stars are often formed.
+At first, heat is lost rapidly to the void of space through radiation. However, as its mass increases, the protostar gradually becomes opaque to its own radiation. Heat can no longer escape and begins accumulating at the core of the nascent star.
 
-As its mass increases, the protostar gradually becomes opaque to its own radiation. Heat can no longer escape the core of the nascent star, and interesting things start to happen.
+Accretion of dust from the circumstellar disk continues until the star is hot enough to reach a state of _hydrostatic equilibrium_.
 
+The mass at which a star achieves hydrostatic equilibrium depends on many factors.
+
+
+
+If the protostar never exceeds temperatures of 10$^7$K, then it becomes a _brown dwarf_.
+
+[Next: Brown Dwarf](../dwarves/brown_dwarf.md)
 
 ## References
 
