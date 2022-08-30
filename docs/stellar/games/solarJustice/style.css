@@ -1,0 +1,61 @@
+body {
+    background-color: #181a1b;
+    color: #ffffff;
+    font-family: "Quicksand";
+}
+
+
+h1 {
+    font-size: 25pt;
+    padding-left: 20px;
+}
+
+ol {
+    padding: 0
+}
+
+li {
+    font-size: 11pt;
+    margin-left: 36pt;
+}
+
+.doc {
+    max-width: 451.4pt;
+}
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    float: left;
+
+}
+
+td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid white;
+    text-align: center;
+    width: 60px;
+}
+
+#board {
+    display: table;
+    margin: 10px;
+}
+
+.child {
+    display: table-cell;
+    float: left;
+    position: relative;
+}
+
+#grid {
+    width: 300px;
+    height: 300px;
+}
+
+#compass {
+    width: 180px;
+    height: 180px;
+    margin: 60px;
+}

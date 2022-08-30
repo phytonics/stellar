@@ -105,7 +105,9 @@ nav:
             - stellar/others/planetary_nebula.md
             - stellar/dwarves/white_dwarf.md
             - stellar/dwarves/black_dwarf.md
-
+    - Games:
+        - Home: stellar/games/index.md
+        - Solar Justice: stellar/games/solarJustice/index.html
 
 plugins:
     - mkdocs-jupyter
