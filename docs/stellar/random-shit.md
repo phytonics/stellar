@@ -33,6 +33,19 @@ As it becomes hotter and denser it forms a **T-Tauri** star -> characterised by 
 Eventually, the center of the star becomes hot and dense enough for **nuclear fusion to start**. *The start stops collapsing once the radiation reaches the surface and halt the collapse* 
 >A star’s life is all about a battle between the radiation pressure from within and gravitational collapse of the star itself -> **hydrostatic equilibirum???**
 
+*Why does the T-Tauri star become less luminous??*
+
+
+Formation of stars
+
+**T-Tauri Star** follows the Hayashi track -> becomes less luminous and same temperature
+-> Nuclear fusion then starts and the star slowly collapses and reach hydrostatic equilibrium -> becomes hotter but stays at the same luminosity
+
+
+Hayashi track is more dominant for less massive stars
+
+while the massive stars almost immediately enters the Henyey track as they start nuclear fusion earlier due to their larger size
+
 
 Resources:
 [Hayashi and Henyey Tracks](https://www.youtube.com/watch?v=1YgDVrH8bXs&ab_channel=AnoushKazarians)
