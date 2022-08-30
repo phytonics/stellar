@@ -512,9 +512,54 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Magnitude Scale
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Magnitude Scale
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hipparchus-and-the-greek-observation" class="md-nav__link">
+    Hipparchus and the Greek Observation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#norman-pogson" class="md-nav__link">
+    Norman Pogson
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-points" class="md-nav__link">
+    Reference Points
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1137,6 +1182,35 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hipparchus-and-the-greek-observation" class="md-nav__link">
+    Hipparchus and the Greek Observation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#norman-pogson" class="md-nav__link">
+    Norman Pogson
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-points" class="md-nav__link">
+    Reference Points
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1150,7 +1224,25 @@
 
 
 <h1 id="magnitude-scale">Magnitude Scale</h1>
-<p>This is a brief overview of the Magnitude Scale system before we move on to the classification of Stars.</p>
+<p>This is a brief overview of the Magnitude Scale system before we move on to the classification of stars.</p>
+<p>The understand the Magnitude System, we must first start by discussing the historical significance of the system.</p>
+<h2 id="hipparchus-and-the-greek-observation">Hipparchus and the Greek Observation</h2>
+<p><img _="," align="right" alt="Hipparchus (https://prabook.com/web/hipparchus.of_nicaea/3779216)" src="../../../assets/preliminaries/hipparchus.jpg" width="150" /></p>
+<p>Hipparchus of Nicea (190 BC - 120 BC) was one of the many astronomers in the time of the Greeks, and influenced much of what we understand of astronomy today. What sets him apart is he is still considered, to this date, the greatest astronomical observer in history. His work on star catalogs, spherical trigonometry and more still astounds astronomers working today, but what we want to focus on today is his work on the Magnitude Scale.</p>
+<p>Prior to Hipparchus, most Greek astronomers believed that a star's brightness is only based on its size, which we now know is in fact false. There are many factors in play here, and we needed to spend more time analysing it.</p>
+<p>Then Hipparchus himself came to the scene. As perhaps the greatest anicient astronomer, he used his ingenuity to group stars up into specific classes based on their perceived brightness. He assigned discrete integer values to each star, such that the brightest stars would fall into the <em>"Stars of the First Magnitude"</em> and the barely visible stars were allocated to the <em>"Stars of the Sixth Magnitude"</em>.</p>
+<p>The problem with this system was unfortunately the fact that just plain observation is incredibly subjective, since stars often vary in brightness. However, this set the seedling for what was yet to come...</p>
+<h2 id="norman-pogson">Norman Pogson</h2>
+<p><img _="," align="right" alt="Norman Pogson (https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/NR_Pogson.jpg/440px-NR_Pogson.jpg)" src="../../../assets/preliminaries/pogson.jpg" width="150" /></p>
+<p>In 1856, an Astronomer working at Oxford University by the name of Norman Pogson came up with an efficient scale to work with the preset definitions from Hipparchus.</p>
+<p>He believed that our observation and hence tabulation of the magnitudes of different stars was influenced by a Logarithmic Scale. However, it wasn't purely based on a logarithmic scale in the conventional sense. Scaling and done to ensure that a simple step-down of 5 steps of magnitude would entail the star being about a <strong>hundred</strong> times brighter. To visualise, it would be something like this:</p>
+<div class="arithmatex">\[
+\frac{F}{F_\text{ref}} = 100^{(m - m_\text{ref})/5}
+\]</div>
+<p>Where we have that <span class="arithmatex">\(F\)</span> and <span class="arithmatex">\(m\)</span> are the brightness (as intensity) and magnitude (as a decimal value). We have to base it off the referential object, reprsented by the <span class="arithmatex">\(\text{ref}\)</span> keyword.</p>
+<h2 id="reference-points">Reference Points</h2>
+<p>For the most part, astronomers used to use Polaris (the North Star) as a reference, defining its magnitude as about <span class="arithmatex">\(+2.0\)</span>. However, it was later found that Polaris was a variable star, which essentially means that its brightness would vary with time.</p>
+<p>We eventually moved to Vega, another star whose brightness was believed to be about <span class="arithmatex">\(+0.0\)</span></p>
 
               
             </article>
