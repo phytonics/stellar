@@ -13,7 +13,9 @@ The gases in the accretion disk cannot keep on orbiting the white dwarf forever 
 
 Eventually, the hydrogen gets hotter and hotter until reaching a critical point of about 20 million Kelvin, at which point the hydrogen ignites and begins to undergo nuclear fusion into helium. As a refresher, this nuclear reaction is exactly the same as the reaction that the cores of stars in their main sequence undergo to produce their energy.
 
-
+$$
+4\ce{^{1}_{1}H} + 2\ce{^{0}_{-1}e} \rightarrow \ce{^{4}_{2}He} + 2\nu
+$$
 
 *References:*
 
