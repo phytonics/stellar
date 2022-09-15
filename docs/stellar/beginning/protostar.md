@@ -10,7 +10,17 @@ At first, heat is lost rapidly to the void of space through radiation. However, 
 
 Angular momentum from the falling mass is regulated by shooting streams of matter outwards perpendicular to the circumstellar disk. 
 
-At the point when 
+The mass of the protostar determines its classification as it moves on to its next stage. If its mass exceeds 8 times the mass of the sun, the gas collapses too quickly for an intermediate phase to occur, and it turns into a Massive star.
+
+[Next: Massive star](../stars/massive_star.md)
+
+If its mass is between 2 and 8 solar masses, it turns into a Herbig Ae/Be star
+
+[Next: Herbig Ae/Be star](./herbig-ae-be.md)
+
+And if its mass is less than 2 solar masses it turns into a T-tauri star
+
+[Next: T-tauri star](./t-tauri.md)
 
 
 
