@@ -14,6 +14,18 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "f7fd0b5876ebc6f0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/stellar/beginning/t-tauri.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -89,9 +101,9 @@
   },
   "active": "2f69b4db5d2cd9e1",
   "lastOpenFiles": [
-    "docs/stellar/giants/red_giant.md",
-    "docs/stellar/stars/low_mass_star.md",
     "docs/stellar/beginning/t-tauri.md",
+    "docs/stellar/stars/low_mass_star.md",
+    "docs/stellar/giants/red_giant.md",
     "docs/stellar/random-shit.md",
     "docs/stellar/stars/bradley.png",
     "docs/stellar/formula.png",
