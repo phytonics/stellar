@@ -6,6 +6,9 @@
 ![[sun.gif|center]]
 A classic example of a **low-mass star** is our very own **sun**!
 
+>[!Caution]
+>Be sure to read [stellar structure](../preliminaries/stellar_structure) before proceeding with this one
+
 ## The Proton-Proton Chain
 The **proton-proton chain** (or **pp-chain**) is the main mechanism that converts hydrogen into helium-4 in the cores of low-mass stars. In doing so, energy is released which fuels the star.
 There are *three branches* of the pp-chain. However, they all start with the same two steps, the production of *deuterium* and *helium-3*
@@ -131,3 +134,29 @@ Note, however, that the SC limit can be exceeded if there is another source of p
 This can occur in the star if the electrons in the gas become **degenerate**, which happens when the gas density is so high that the electrons are forced to occupy the *lowest possible energy state*.
 However, due to **Pauli's exclusion principle**, which forbids electrons from occupying the same quantum state, the electrons will be stacked on progressively higher energy levels. This results in a sort of non-thermal **electron degeneracy pressure** which pushes against the gravitional collapse and allowing the star to **exceed the Schönberg–Chandrasekhar limit**
 
+---
+## Questions! :)
+### Question 1: Pressure Integral
+The pressure intergral computes the pressure distribution given some distribution function $n_pdp$
+$$
+P = \frac{1}{3}\int_0^\infty pvn_pdp
+$$
+Calculate the expression for the radiation pressure of a star
+
+*Add solutions here later*
+
+### Question 2: 
+For an inverse square force, **virial theorem** states that
+$$
+\begin{gather}
+E = \frac{1}{2} U\\
+\text{total mechanical energy} = \frac{1}{2}\text{potential energy}
+\end{gather}
+$$
+Furthermore, given that the gravitational potential energy of two particles is given by
+$$
+U = -G\frac{Mm}{r}
+$$
+Find the total mechanical energy of a star given its mass $M$ and radius $R$
+
+*Add solution here later*
