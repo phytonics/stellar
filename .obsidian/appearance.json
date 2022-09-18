@@ -1,5 +1,8 @@
 {
   "baseFontSize": 16,
   "cssTheme": "Primary",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "center-img"
+  ]
 }

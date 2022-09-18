@@ -20,6 +20,7 @@ with $L_r$ being energy flux
 $$
 \frac{dT}{dr} = \left(-\frac{3}{4ac}\right)\left(\frac{\kappa\rho}{T^3}\right)\left(\frac{L_r}{4\pi r^2}\right)
 $$
+![[formula.png]]
 
 ## Formation of Stars in Brief
 >Qualitatively, it is as follows -> will find more rigorous descriptions of the process that occurs in each stage
