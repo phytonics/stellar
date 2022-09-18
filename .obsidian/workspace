@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/stellar/stars/low_mass_star.md",
+            "file": "docs/stellar/random-shit.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/stellar/stars/low_mass_star.md",
+                "file": "docs/stellar/random-shit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "2f69b4db5d2cd9e1",
   "lastOpenFiles": [
-    "docs/stellar/stars/star_formation.md",
     "docs/stellar/stars/low_mass_star.md",
-    "docs/stellar/beginning/t-tauri.md",
-    "docs/stellar/beginning/herbig-ae-be.md",
     "docs/stellar/random-shit.md",
     "docs/stellar/stellar-evo.jpeg",
+    "docs/index.md",
+    "docs/stellar/beginning/t-tauri.md",
+    "docs/stellar/stars/star_formation.md",
+    "docs/stellar/beginning/herbig-ae-be.md",
     "ref/Fundamental Astronomy.pdf",
     "docs/stellar/stellar-structure.md",
-    "docs/index.md",
     "docs/instructions/index.md"
   ]
 }
