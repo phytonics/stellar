@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/stellar/stars/low_mass_star.md",
+                "file": "docs/stellar/beginning/t-tauri.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,10 +99,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2f69b4db5d2cd9e1",
+  "active": "f7fd0b5876ebc6f0",
   "lastOpenFiles": [
-    "docs/stellar/beginning/t-tauri.md",
     "docs/stellar/stars/low_mass_star.md",
+    "docs/stellar/beginning/t-tauri.md",
     "docs/stellar/giants/red_giant.md",
     "docs/stellar/random-shit.md",
     "docs/stellar/stars/bradley.png",

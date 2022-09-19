@@ -3,8 +3,8 @@
 >Stars that started out with mass in the range $0.3\ M_\odot$ to $1.2\ M_\odot$
 >The dominant mechanism that converts *hydrogen into helium* in low-mass stars is the **pp-chain**, which implies that the cores of low-mass stars are **radiative**.
 
-![](sun.gif)
-{ align=center }
+![](sun.gif){ align=center }
+
 A classic example of a **low-mass star** is our very own **sun**!
 
 >[!Caution]
@@ -50,13 +50,11 @@ $$
 Due to the slower speed of the proton as compared to the eletron, this branch is less likely to occur than the **PP II** branch.
 ### In the Sun
 We include the following nice diagram from *Bradley's Introduction to Modern Astronomy* which illustrates the branches along with their probability of occuring in **the sun**
-![](bradley.png)
-{ align=center }
+![](bradley.png){ align=center }
 
 ## Temperature Requirement
 For a **pp-chain** to occur, the colliding nuclei must overcome the electrostatic repulsion between them to get into the regime of the *strong nuclear force*, whereby the nuclei fuses, we call this energy barrier the **Coulomb barrier**.
-![](coulomb-barrier.png)
-{ align=center }
+![](coulomb-barrier.png){ align=center }
 
 Classically, we would expect only nuclei that possesses kinetic energy that surpasses that of the *Coulomb barrier* to react. In which case, considering the reduced mass $\mu$ of two colliding particles give
 $$
