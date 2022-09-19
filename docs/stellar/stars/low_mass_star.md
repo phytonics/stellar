@@ -3,8 +3,7 @@
 >Stars that started out with mass in the range $0.3\ M_\odot$ to $1.2\ M_\odot$
 >The dominant mechanism that converts *hydrogen into helium* in low-mass stars is the **pp-chain**, which implies that the cores of low-mass stars are **radiative**.
 
-![](../../assets/stars/sun.gif){ align=center }
-
+<center> <img src="D:/CompSci/Projects/stellar/docs/assets/stars/sun.gif" /> </center>
 A classic example of a **low-mass star** is our very own **sun**!
 
 >[!Caution]
