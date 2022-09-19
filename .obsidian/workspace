@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2f69b4db5d2cd9e1",
+        "id": "bb4f5af89e160168",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "docs/stellar/stars/low_mass_star.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "f7fd0b5876ebc6f0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "docs/stellar/beginning/t-tauri.md",
             "mode": "source",
             "source": false
           }
@@ -99,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2f69b4db5d2cd9e1",
+  "active": "bb4f5af89e160168",
   "lastOpenFiles": [
     "docs/stellar/beginning/t-tauri.md",
     "docs/stellar/stars/low_mass_star.md",
+    "docs/stellar/preliminaries/hr_diagram.md",
     "docs/stellar/giants/red_giant.md",
     "docs/stellar/random-shit.md",
-    "docs/stellar/stars/bradley.png",
+    "docs/assets/stars/bradley.png",
     "docs/stellar/formula.png",
     "ref/An Introduction to Modern Astrophysics.pdf",
     "ref/Eric Chaisson - Astronomy Today.pdf",
-    "ref/Fundamental Astronomy.pdf",
-    "docs/stellar/stellar-evo.jpeg"
+    "ref/Fundamental Astronomy.pdf"
   ]
 }
