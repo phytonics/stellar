@@ -1,14 +1,14 @@
 # Low-Mass Stars
->[!Definition]
->Stars that started out with mass in the range $0.3\ M_\odot$ to $1.2\ M_\odot$
->The dominant mechanism that converts *hydrogen into helium* in low-mass stars is the **pp-chain**, which implies that the cores of low-mass stars are **radiative**.
+!!! definition
+	Stars that started out with mass in the range $0.3\ M_\odot$ to $1.2\ M_\odot$
+	The dominant mechanism that converts *hydrogen into helium* in low-mass stars is the **pp-chain**, which implies that the cores of low-mass stars are **radiative**.
 
 ![](../../assets/stars/sun.gif){align = center}
 
 A classic example of a **low-mass star** is our very own **sun**!
 
->[!Caution]
->Be sure to read [stellar structure](../preliminaries/stellar_structure) before proceeding with this one
+!!! caution
+	Be sure to read [stellar structure](../preliminaries/stellar_structure) before proceeding with this one
 
 ## The Proton-Proton Chain
 The **proton-proton chain** (or **pp-chain**) is the main mechanism that converts hydrogen into helium-4 in the cores of low-mass stars. In doing so, energy is released which fuels the star.
