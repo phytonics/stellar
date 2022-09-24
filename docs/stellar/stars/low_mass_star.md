@@ -5,6 +5,10 @@
 
 ![](../../assets/stars/sun.gif){align = center}
 
+<p align="center">
+    <img src="../../assets/stars/sun.gif">alt-text</img>
+</p>
+
 A classic example of a **low-mass star** is our very own **sun**!
 
 !!! caution
@@ -14,10 +18,10 @@ A classic example of a **low-mass star** is our very own **sun**!
 The **proton-proton chain** (or **pp-chain**) is the main mechanism that converts hydrogen into helium-4 in the cores of low-mass stars. In doing so, energy is released which fuels the star.
 There are *three branches* of the pp-chain. However, they all start with the same two steps, the production of *deuterium* and *helium-3*
 $$
-\begin{gather}
-^1_1\text{H} + ^1_1\text{H}\rightarrow\ ^2_1\text{H} + e^+ + \nu_e\\
+^1_1\text{H} + ^1_1\text{H}\rightarrow\ ^2_1\text{H} + e^+ + \nu_e
+$$
+$$
 ^2_1\text{H} + ^1_1\text{H}\rightarrow\ ^3_2\text{He} + \gamma
-\end{gather}
 $$
 ### PP I branch
 This branch is the most typical branch that occurs for a **pp-chain**.
@@ -32,20 +36,22 @@ $$
 ### PP II branch
 As helium-3 and helium-4 is both produced in the core, they might collide to form beryllium, giving rise to the **PP II** branch. This will eventually give two *helium-4*'s
 $$
-\begin{gather}
-^3_2\text{He} + ^4_2\text{He}\rightarrow\ ^7_4\text{Be} + \gamma\\
+^3_2\text{He} + ^4_2\text{He}\rightarrow\ ^7_4\text{Be} + \gamma
+$$
+$$
 ^7_4\text{Be} + e^-\rightarrow\ ^7_3\text{Li} + \nu_e\\
 ^7_3\text{Li} + ^1_1\text{H}\rightarrow\ 2\ ^4_2\text{He}
-\end{gather}
 $$
 ### PP III branch
 Beryllium-7 instead of capturing an electron as in step 2 of **PP II**, it might capture a proton instead, giving rise to the **PP III** branch.
 $$
-\begin{gather}
-^7_4\text{Be} + ^1_1\text{H}\rightarrow\ ^8_5\text{B} + \gamma\\
-^8_5\text{B} \rightarrow\ ^8_4\text{Be} + e^+ + \nu_e\\
+^7_4\text{Be} + ^1_1\text{H}\rightarrow\ ^8_5\text{B} + \gamma
+$$
+$$
+^8_5\text{B} \rightarrow\ ^8_4\text{Be} + e^+ + \nu_e
+$$
+$$
 ^8_4\text{Be}\rightarrow\ 2\ ^4_3\text{He}
-\end{gather}
 $$
 Due to the slower speed of the proton as compared to the eletron, this branch is less likely to occur than the **PP II** branch.
 ### In the Sun
@@ -58,11 +64,11 @@ For a **pp-chain** to occur, the colliding nuclei must overcome the electrostati
 
 Classically, we would expect only nuclei that possesses kinetic energy that surpasses that of the *Coulomb barrier* to react. In which case, considering the reduced mass $\mu$ of two colliding particles give
 $$
-\begin{gather}
 \frac{1}{2}\mu \overline v_{rel}^2 = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
-\Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}\\
+\Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
+$$
+$$
 \Rightarrow T = \frac{1}{6\pi\epsilon_0}\frac{q_1q_2}{rk}\approx 10^{10}\quad \text{(for the sun)}
-\end{gather}
 $$
 However, from experimental observation, we find that pp-chain still happen in stars that operate at a temperatures much lower than this, for example our sun has a core temperature of $\approx 1.57\times10^{7} < 10^{10}$.
 This is because, in real life, quantum effects allows the nuclei to **quantum tunnel** through the Coulomb barrier, resulting in a much lower required temperature of 
@@ -86,11 +92,12 @@ where
 - $\overline m$ is the average nuclear mass in the star
 - $m_H$ is the mass of a hydrogen atom.
 We know that the pressure at the core of the star is due to a combination of gas and radiation pressure, which is given by the **hydrostatic pressure equation**
+
 $$
-\begin{align*}
-P &= \frac{\rho kT}{\mu m_H} + \frac{1}{3}aT^4 \\
-&\approx \frac{\rho kT}{\mu m_H}\quad \text{(at low temperatures)}
-\end{align*}
+P = \frac{\rho kT}{\mu m_H} + \frac{1}{3}aT^4
+$$
+$$
+\Rightarrow P \approx \frac{\rho kT}{\mu m_H}\quad \text{(at low temperatures)}
 $$
 where
 - $\rho$ is the density of the star
@@ -122,7 +129,7 @@ The ash from the hydrogen burning in the envelope goes into **increasing the mas
 [Next: Red Giant](../giants/red_giant.md)
 
 ### The Schönberg–Chandrasekhar Limit
-The **Schönberg–Chandrasekhar limit** (SC limit) decribes the maximum ratio of *core mass to star mass* whereby the star is still able to support itself, it is given by
+The **Schönberg–Chandrasekhar limit** (SC limit) decribes the maximum ratio of *core mass* to *star mass* whereby the star is still able to support itself, it is given by
 $$
 \frac{M_{ic}}{M} = 0.37\left(\frac{\mu_{env}}{\mu_{ic}}\right)^2
 $$
@@ -138,7 +145,18 @@ However, due to **Pauli's exclusion principle**, which forbids electrons from oc
 
 ---
 ## Questions! :)
-### Question 1: Pressure Integral
+
+### Question 1: Low-Mass Stars
+a) Are the cores of low-mass stars convective or radiative? <br>
+b) What does it mean for a core to be convective? <br>
+c) What does it mean for a core to be radiative? <br>
+
+**Solutions** <br>
+a) *They are radiative* <br>
+b) *The energy of the core is transported by convection current of matter* <br>
+c) *The energy of the core is transported through radiation and conduction* <br>
+
+### Question 2: Pressure Integral
 The pressure intergral computes the pressure distribution given some distribution function $n_pdp$
 $$
 P = \frac{1}{3}\int_0^\infty pvn_pdp
@@ -147,13 +165,13 @@ Calculate the expression for the radiation pressure of a star
 
 *Add solutions here later*
 
-### Question 2: 
+### Question 3: Virial Theorem
 For an inverse square force, **virial theorem** states that
 $$
-\begin{gather}
-E = \frac{1}{2} U\\
+E = \frac{1}{2} U
+$$
+$$
 \text{total mechanical energy} = \frac{1}{2}\text{potential energy}
-\end{gather}
 $$
 Furthermore, given that the gravitational potential energy of two particles is given by
 $$
