@@ -1052,15 +1052,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#question-1-pressure-integral" class="md-nav__link">
-    Question 1: Pressure Integral
+  <a href="#question-1-low-mass-stars" class="md-nav__link">
+    Question 1: Low-Mass Stars
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#question-2" class="md-nav__link">
-    Question 2:
+  <a href="#question-2-pressure-integral" class="md-nav__link">
+    Question 2: Pressure Integral
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-3-virial-theorem" class="md-nav__link">
+    Question 3: Virial Theorem
   </a>
   
 </li>
@@ -1395,15 +1402,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#question-1-pressure-integral" class="md-nav__link">
-    Question 1: Pressure Integral
+  <a href="#question-1-low-mass-stars" class="md-nav__link">
+    Question 1: Low-Mass Stars
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#question-2" class="md-nav__link">
-    Question 2:
+  <a href="#question-2-pressure-integral" class="md-nav__link">
+    Question 2: Pressure Integral
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-3-virial-theorem" class="md-nav__link">
+    Question 3: Virial Theorem
   </a>
   
 </li>
@@ -1434,6 +1448,10 @@
 The dominant mechanism that converts <em>hydrogen into helium</em> in low-mass stars is the <strong>pp-chain</strong>, which implies that the cores of low-mass stars are <strong>radiative</strong>.</p>
 </div>
 <p><img align="align" alt="" src="../../../assets/stars/sun.gif" /></p>
+<p align="center">
+    <img src="../../assets/stars/sun.gif">alt-text</img>
+</p>
+
 <p>A classic example of a <strong>low-mass star</strong> is our very own <strong>sun</strong>!</p>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
@@ -1443,10 +1461,10 @@ The dominant mechanism that converts <em>hydrogen into helium</em> in low-mass s
 <p>The <strong>proton-proton chain</strong> (or <strong>pp-chain</strong>) is the main mechanism that converts hydrogen into helium-4 in the cores of low-mass stars. In doing so, energy is released which fuels the star.
 There are <em>three branches</em> of the pp-chain. However, they all start with the same two steps, the production of <em>deuterium</em> and <em>helium-3</em>
 $$
-\begin{gather}
-^1_1\text{H} + ^1_1\text{H}\rightarrow\ ^2_1\text{H} + e^+ + \nu_e\
+^1_1\text{H} + ^1_1\text{H}\rightarrow\ ^2_1\text{H} + e^+ + \nu_e
+$$
+$$
 ^2_1\text{H} + ^1_1\text{H}\rightarrow\ ^3_2\text{He} + \gamma
-\end{gather}
 $$</p>
 <h3 id="pp-i-branch">PP I branch</h3>
 <p>This branch is the most typical branch that occurs for a <strong>pp-chain</strong>.
@@ -1461,20 +1479,22 @@ $$</p>
 <h3 id="pp-ii-branch">PP II branch</h3>
 <p>As helium-3 and helium-4 is both produced in the core, they might collide to form beryllium, giving rise to the <strong>PP II</strong> branch. This will eventually give two <em>helium-4</em>'s
 $$
-\begin{gather}
-^3_2\text{He} + ^4_2\text{He}\rightarrow\ ^7_4\text{Be} + \gamma\
+^3_2\text{He} + ^4_2\text{He}\rightarrow\ ^7_4\text{Be} + \gamma
+$$
+$$
 ^7_4\text{Be} + e^-\rightarrow\ ^7_3\text{Li} + \nu_e\
 ^7_3\text{Li} + ^1_1\text{H}\rightarrow\ 2\ ^4_2\text{He}
-\end{gather}
 $$</p>
 <h3 id="pp-iii-branch">PP III branch</h3>
 <p>Beryllium-7 instead of capturing an electron as in step 2 of <strong>PP II</strong>, it might capture a proton instead, giving rise to the <strong>PP III</strong> branch.
 $$
-\begin{gather}
-^7_4\text{Be} + ^1_1\text{H}\rightarrow\ ^8_5\text{B} + \gamma\
-^8_5\text{B} \rightarrow\ ^8_4\text{Be} + e^+ + \nu_e\
+^7_4\text{Be} + ^1_1\text{H}\rightarrow\ ^8_5\text{B} + \gamma
+$$
+$$
+^8_5\text{B} \rightarrow\ ^8_4\text{Be} + e^+ + \nu_e
+$$
+$$
 ^8_4\text{Be}\rightarrow\ 2\ ^4_3\text{He}
-\end{gather}
 $$
 Due to the slower speed of the proton as compared to the eletron, this branch is less likely to occur than the <strong>PP II</strong> branch.</p>
 <h3 id="in-the-sun">In the Sun</h3>
@@ -1485,11 +1505,11 @@ Due to the slower speed of the proton as compared to the eletron, this branch is
 <img align="center" alt="" src="../../../assets/stars/coulomb-barrier.png" /></p>
 <p>Classically, we would expect only nuclei that possesses kinetic energy that surpasses that of the <em>Coulomb barrier</em> to react. In which case, considering the reduced mass <span class="arithmatex">\(\mu\)</span> of two colliding particles give
 $$
-\begin{gather}
 \frac{1}{2}\mu \overline v_{rel}^2 = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
-\Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}\
+\Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
+$$
+$$
 \Rightarrow T = \frac{1}{6\pi\epsilon_0}\frac{q_1q_2}{rk}\approx 10^{10}\quad \text{(for the sun)}
-\end{gather}
 $$
 However, from experimental observation, we find that pp-chain still happen in stars that operate at a temperatures much lower than this, for example our sun has a core temperature of <span class="arithmatex">\(\approx 1.57\times10^{7} &lt; 10^{10}\)</span>.
 This is because, in real life, quantum effects allows the nuclei to <strong>quantum tunnel</strong> through the Coulomb barrier, resulting in a much lower required temperature of 
@@ -1511,12 +1531,12 @@ $$
 where
 - <span class="arithmatex">\(\overline m\)</span> is the average nuclear mass in the star
 - <span class="arithmatex">\(m_H\)</span> is the mass of a hydrogen atom.
-We know that the pressure at the core of the star is due to a combination of gas and radiation pressure, which is given by the <strong>hydrostatic pressure equation</strong>
+We know that the pressure at the core of the star is due to a combination of gas and radiation pressure, which is given by the <strong>hydrostatic pressure equation</strong></p>
+<p>$$
+P = \frac{\rho kT}{\mu m_H} + \frac{1}{3}aT^4
 $$
-\begin{align<em>}
-P &amp;= \frac{\rho kT}{\mu m_H} + \frac{1}{3}aT^4 \
-&amp;\approx \frac{\rho kT}{\mu m_H}\quad \text{(at low temperatures)}
-\end{align</em>}
+$$
+\Rightarrow P \approx \frac{\rho kT}{\mu m_H}\quad \text{(at low temperatures)}
 $$
 where
 - <span class="arithmatex">\(\rho\)</span> is the density of the star
@@ -1544,7 +1564,7 @@ The ash from the hydrogen burning in the envelope goes into <strong>increasing t
 <p><strong>Eventually the envelope of the star grows and cools sufficiently to become convective, in which case it has reached the Red Giant Phase</strong>
 <a href="../../giants/red_giant/">Next: Red Giant</a></p>
 <h3 id="the-schonbergchandrasekhar-limit">The Schönberg–Chandrasekhar Limit</h3>
-<p>The <strong>Schönberg–Chandrasekhar limit</strong> (SC limit) decribes the maximum ratio of <em>core mass to star mass</em> whereby the star is still able to support itself, it is given by
+<p>The <strong>Schönberg–Chandrasekhar limit</strong> (SC limit) decribes the maximum ratio of <em>core mass</em> to <em>star mass</em> whereby the star is still able to support itself, it is given by
 $$
 \frac{M_{ic}}{M} = 0.37\left(\frac{\mu_{env}}{\mu_{ic}}\right)^2
 $$
@@ -1559,20 +1579,28 @@ This can occur in the star if the electrons in the gas become <strong>degenerate
 However, due to <strong>Pauli's exclusion principle</strong>, which forbids electrons from occupying the same quantum state, the electrons will be stacked on progressively higher energy levels. This results in a sort of non-thermal <strong>electron degeneracy pressure</strong> which pushes against the gravitional collapse and allowing the star to <strong>exceed the Schönberg–Chandrasekhar limit</strong></p>
 <hr />
 <h2 id="questions">Questions! :)</h2>
-<h3 id="question-1-pressure-integral">Question 1: Pressure Integral</h3>
+<h3 id="question-1-low-mass-stars">Question 1: Low-Mass Stars</h3>
+<p>a) Are the cores of low-mass stars convective or radiative? <br>
+b) What does it mean for a core to be convective? <br>
+c) What does it mean for a core to be radiative? <br></p>
+<p><strong>Solutions</strong> <br>
+a) <em>They are radiative</em> <br>
+b) <em>The energy of the core is transported by convection current of matter</em> <br>
+c) <em>The energy of the core is transported through radiation and conduction</em> <br></p>
+<h3 id="question-2-pressure-integral">Question 2: Pressure Integral</h3>
 <p>The pressure intergral computes the pressure distribution given some distribution function <span class="arithmatex">\(n_pdp\)</span>
 $$
 P = \frac{1}{3}\int_0^\infty pvn_pdp
 $$
 Calculate the expression for the radiation pressure of a star</p>
 <p><em>Add solutions here later</em></p>
-<h3 id="question-2">Question 2:</h3>
+<h3 id="question-3-virial-theorem">Question 3: Virial Theorem</h3>
 <p>For an inverse square force, <strong>virial theorem</strong> states that
 $$
-\begin{gather}
-E = \frac{1}{2} U\
+E = \frac{1}{2} U
+$$
+$$
 \text{total mechanical energy} = \frac{1}{2}\text{potential energy}
-\end{gather}
 $$
 Furthermore, given that the gravitational potential energy of two particles is given by
 $$
