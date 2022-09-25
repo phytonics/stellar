@@ -1,3 +1,4 @@
+<!--Contributors: Khang -->
 # Low-Mass Stars
 !!! definition
 	Stars that started out with mass in the range $0.3\ M_\odot$ to $1.2\ M_\odot$
