@@ -557,24 +557,38 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#the-fundamental-flaw-with-m" class="md-nav__link">
+    The Fundamental Flaw with \(m\)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relating-to-distance" class="md-nav__link">
+    Relating to Distance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#establishing-a-universal-standard-the-absolute-magnitude" class="md-nav__link">
+    Establishing a Universal Standard: The Absolute Magnitude
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fun-questions" class="md-nav__link">
+    Fun Questions
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../star_classification/" class="md-nav__link">
-        Star Classification
-      </a>
     </li>
   
 
@@ -1237,6 +1251,34 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#the-fundamental-flaw-with-m" class="md-nav__link">
+    The Fundamental Flaw with \(m\)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relating-to-distance" class="md-nav__link">
+    Relating to Distance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#establishing-a-universal-standard-the-absolute-magnitude" class="md-nav__link">
+    Establishing a Universal Standard: The Absolute Magnitude
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fun-questions" class="md-nav__link">
+    Fun Questions
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1265,12 +1307,219 @@
 <p>In 1856, an Astronomer working at Oxford University by the name of Norman Pogson came up with an efficient scale to work with the preset definitions from Hipparchus.</p>
 <p>He believed that our observation and hence tabulation of the magnitudes of different stars was influenced by a Logarithmic Scale. However, it wasn't purely based on a logarithmic scale in the conventional sense. Scaling and done to ensure that a simple step-down of 5 steps of magnitude would entail the star being about a <strong>hundred</strong> times brighter. To visualise, it would be something like this:</p>
 <div class="arithmatex">\[
-\frac{F}{F_\text{ref}} = 100^{(m - m_\text{ref})/5}
+\frac{F}{F_\text{ref}} = 100^{(m_\text{ref} - m)/5}
 \]</div>
-<p>Where we have that <span class="arithmatex">\(F\)</span> and <span class="arithmatex">\(m\)</span> are the brightness (as intensity) and magnitude (as a decimal value). We have to base it off the referential object, reprsented by the <span class="arithmatex">\(\text{ref}\)</span> keyword.</p>
+<p>or in other words:</p>
+<div class="arithmatex">\[
+m = m_\text{ref} + 2.5 \log \left(\frac{F_\text{ref}}{F}\right)
+\]</div>
+<p>Where we have that <span class="arithmatex">\(F\)</span> and <span class="arithmatex">\(m\)</span> are the flux (as intensity) and magnitude (as a decimal value). We have to base it off the referential object, reprsented by the <span class="arithmatex">\(\text{ref}\)</span> keyword.</p>
+<p>This is known as <strong>Pogson's Law</strong>, an incredibly important theorem in the field of stellar astronomy and observational astronomy. We can use this for comparisons between different variables or simply for identifying the magnitude/flux of the object to be observed. Ideally, if the value of <span class="arithmatex">\(m\)</span> is larger than 6, we can just say that the object is invisible in the night sky via the use of the naked eye, although using traditional telescopes or even high-powered space-based observatories like the Hubble Space Telescope (HST) and the James Webb Space Telescope (JWST), we can identify much, <strong>MUCH</strong> fainter stars, which is truly extraordinary.</p>
+<p>Noticeably, this result can be simplfied by essentially modifying to base of the exponent to be <span class="arithmatex">\(100^{1/5} \approx 2.512\)</span> instead of just <span class="arithmatex">\(100\)</span>. Generally however, sticking to <span class="arithmatex">\(100\)</span> is better for achieving a value closer to the actual value. However</p>
 <h2 id="reference-points">Reference Points</h2>
 <p>For the most part, astronomers used to use Polaris (the North Star) as a reference, defining its magnitude as about <span class="arithmatex">\(+2.0\)</span>. However, it was later found that Polaris was a variable star, which essentially means that its brightness would vary with time.</p>
-<p>We eventually moved to Vega, another star whose brightness was believed to be about <span class="arithmatex">\(+0.0\)</span></p>
+<p>We eventually moved to Vega, another star whose brightness was believed to be about <span class="arithmatex">\(+0.0\)</span> (the actual value was in fact <span class="arithmatex">\(+0.026\)</span>). However, recent studies have shown that Vega is also variable, although we have not yet identified the next best reference point.</p>
+<p>However, for a better compilation, we can list the following samples:</p>
+<table>
+<thead>
+<tr>
+<th>Reference Point</th>
+<th>Reference <span class="arithmatex">\(m\)</span></th>
+<th>Reference Point</th>
+<th>Reference <span class="arithmatex">\(m\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sun</td>
+<td>-26.74</td>
+<td>Full Moon</td>
+<td>-12.7</td>
+</tr>
+<tr>
+<td>Venus</td>
+<td>-4.5</td>
+<td>Jupiter</td>
+<td>-2.5</td>
+</tr>
+<tr>
+<td>Saturn</td>
+<td>+0.7</td>
+<td>Sirius</td>
+<td>-1.46</td>
+</tr>
+<tr>
+<td>Canopus</td>
+<td>-0.72</td>
+<td>Alpha Centauri</td>
+<td>-0.01</td>
+</tr>
+<tr>
+<td>Arcturus</td>
+<td>-0.04</td>
+<td>Vega</td>
+<td>+0.026</td>
+</tr>
+<tr>
+<td>Capella</td>
+<td>+0.08</td>
+<td>Rigel</td>
+<td>+0.18</td>
+</tr>
+<tr>
+<td>Procyon</td>
+<td>+0.34</td>
+<td>Achernar</td>
+<td>+0.50</td>
+</tr>
+<tr>
+<td>Polaris</td>
+<td>+1.97</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Looking through this expansive list, we are able to identify some key sources. We have the brightest planets in the night sky, namely Venus, Jupiter and Saturn. Sirius is the brightest star in the night sky, and Alpha Centauri is the closest star to our solar system beyond, of course, our Sun.</p>
+<h2 id="the-fundamental-flaw-with-m">The Fundamental Flaw with <span class="arithmatex">\(m\)</span></h2>
+<p>As you've seen, we've used <span class="arithmatex">\(m\)</span> here to represent the visual magnitude, but this is in fact the <strong>apparent</strong> visual magnitude. The readings in the above system only match up based on a specifc common origin, which in this case is the earth. However, at other points, this same visual perception would be vastly different. For a simple set-up, consider viewing the Sun from the Earth and Saturn, as shown in the diagram below.</p>
+<p align = "center">
+<img src="../../../assets/preliminaries/diminishing_light_intensity.png"></img>
+<span>Figure 1.1: Comparison of Luminosities of the Sun from Earth and Saturn
+</p>
+
+<p>It is a noticeable difference, and it is also apparent in the values for <span class="arithmatex">\(F\)</span>. Based on our understanding of flux intensity, we have the following:</p>
+<div class="arithmatex">\[
+F = \frac{P}{A} = \frac{L}{4\pi R^2}
+\]</div>
+<p>This means that at further distances, the flux decreases. Hence the value for <span class="arithmatex">\(m\)</span> at Saturn will <strong>NOT</strong> be <span class="arithmatex">\(-26.74\)</span>.</p>
+<p>This poses an important issue in the face of astronomers, and they have come up with two different ways to fix this, namely the following:</p>
+<ol>
+<li><strong>Scaling</strong> based on Distance</li>
+<li>Establishing a <strong>Universal Standard</strong></li>
+</ol>
+<p>Let's cover both of them.</p>
+<h2 id="relating-to-distance">Relating to Distance</h2>
+<p>Considering the same flux equation above, we can easily extrapolate the following relation for the same star from varied distances:</p>
+<div class="arithmatex">\[
+\begin{align*}
+F_1 &amp;= \frac{L}{4\pi R_1^2} \\
+F_2 &amp;= \frac{L}{4\pi R_2^2} \\
+\frac{F_1}{F_2} &amp;= 100^{(m_2 - m_1)/5} \\
+\frac{\frac{L}{4\pi R_1^2}}{\frac{L}{4\pi R_2^2}} &amp;= 100^{(m_2 - m_1)/5} \\
+\frac{R_2}{R_1} &amp;= 10^{(m_2 - m_1)/5} \\
+m_2 - m_1 &amp;= 5 \log \left(\frac{R_2}{R_1} \right)
+\end{align*}
+\]</div>
+<p>This can be used easily to scale the magnitude. For instance, if the object is brought ten times closer, the new magnitude is 5 times larger. We also see that magnitude increases with increases distance, so for some arbitrary point. It follows the following graph:</p>
+<p align = "center">
+<img src="../../../assets/preliminaries/mvd.png"></img>
+<span>Figure 1.2: Plot of m as it varies with R (Reference Point is the Sun)</span>
+</p>
+
+<h2 id="establishing-a-universal-standard-the-absolute-magnitude">Establishing a Universal Standard: The Absolute Magnitude</h2>
+<p>Another general solution was <a href="https://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?2006JAHH....9..173H&amp;defaultprint=YES&amp;filetype=.pdf">later established</a>, which introduced a universal standard known as the <strong>Absolute Magnitude</strong>. This system was defined based on a referential distance, that is to say that the absolute magnitude, <span class="arithmatex">\(M\)</span> would occur at that specific distance from any given object. This distance was <strong>10 parsecs</strong>. For the sake of this context, let a parsec (<span class="arithmatex">\(\text{pc}\)</span>) be a given unit of measurement, similar to a lightyear or AU. By definition, <span class="arithmatex">\(1\text{ pc} = 3.086 \times 10^{16}\text{ m} = 3.262\text{ ly}\)</span>. Hence we had the following equation:</p>
+<div class="arithmatex">\[m - M = 5 \log \left(\frac{R}{10 \text{ pc} } \right)\]</div>
+<p>Of course, if this wasn't enough, Astronmers have an interesting term for the Left-Hand Side of the above Equation, <span class="arithmatex">\(\mu = m - M\)</span>. This value is known as the <em>distance modulus</em>, since it is only really affected by the distance from the given object.</p>
+<p>We often use <span class="arithmatex">\(M\)</span> instead so that we can get an accurate perception of a given star, and this comes in handy with stellar evolution.</p>
+<p>Notably, if we were to represent <span class="arithmatex">\(R\)</span> in parsecs, we have the following:</p>
+<div class="arithmatex">\[M = m + 5 - 5\log R\]</div>
+<p>This is useful since the distance in parsecs is also known as the <em>parallax</em> of any given object, <span class="arithmatex">\(\pi\)</span>. Hence,</p>
+<div class="arithmatex">\[M = m + 5 - 5\log \pi\]</div>
+<p>For instance, the absolute magnitude of the Sun is given by <span class="arithmatex">\(+4.83\)</span>.</p>
+<h2 id="fun-questions">Fun Questions</h2>
+<div class="admonition question">
+<p class="admonition-title">A Triple Star System</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:4"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Question</label><label for="__tabbed_1_2">Solution (a)</label><label for="__tabbed_1_3">Solution (b)</label><label for="__tabbed_1_4">Solution (c)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>A Triple Star System is defined for where three stars move around another in a consistent eclipse. Most stable triple star systems involve a faraway star influencing an eclipsing binary star system. Let's assume, for the sake of this discussion, that this oscillating system is observed in the eclipsing pattern, that is to say that they move along a singular planar line with reference from the earth.</p>
+<p>Thus, while in reality, the situation is very much as shown in the below image:</p>
+<p><img alt="" src="../../../assets/preliminaries/eclipsing.gif" /></p>
+<p>However, from Earth, the view would be more so as shown in the diagram below:</p>
+<p><img alt="" src="../../../assets/preliminaries/eclipsing_view.gif" /></p>
+<p>Assuming that these are identical stars and hence emit identical luminosities, and assuming that the nearest point for the independent teritiary or the binary star system (which you can treat as a singular entity) is given by a distance variable <span class="arithmatex">\(R\)</span>, and the radius of the circular orbit is of radius <span class="arithmatex">\(\frac{R}{2}\)</span>, derive the magnitudes of the Eclipsing Binary (EB) and Tertiary Candidate (TC) when:</p>
+<p><ol type = "a">
+<li>the tertiary candidate is furthest.</li>
+<li>the tertiary candidate is closest.</li>
+<li>the tertiary candidate and eclipsing binary are equidistant from the Earth</li>
+</ol></p>
+<p>Assume that for overlap, no light is blocked (unrealistic circumstance).</p>
+<p>Leave your answer in terms of the absolute magnitude of any one of the given stars, <span class="arithmatex">\(M\)</span>, and <span class="arithmatex">\(R\)</span>.</p>
+</div>
+<div class="tabbed-block">
+<p>For Part (a), let's visualise the solution as below:
+<img alt="" src="../../../assets/preliminaries/parta.png" /></p>
+<p>This is a pretty interesting solution. First, let's start by obtaining the visual magnitude of the tertiary candidate (TC) and the eclipsing binary (EB).</p>
+<div class="arithmatex">\[
+\begin{align*}
+m_\text{TC} &amp;= M_\text{TC} + 5 \log \left(\frac{2R}{10 \text{ pc} } \right) \\
+m_\text{EB} &amp;= M_\text{EB} + 5 \log \left(\frac{R}{10 \text{ pc} } \right)
+\end{align*}
+\]</div>
+<p>We can arbitrate <span class="arithmatex">\(M_\text{TC}\)</span> to be <span class="arithmatex">\(M\)</span>, the absolute magnitude of any of the given stars.</p>
+<p>As for <span class="arithmatex">\(M_\text{EB}\)</span>, we must use Flux to conclude what the value for this is.</p>
+<p>Since the two stars in the eclipsing binary are effectively identical, the flux from both stars can be represented as a variable <span class="arithmatex">\(F\)</span>. Thus:</p>
+<div class="arithmatex">\[
+\begin{align*}
+M_\text{EB} &amp;= M + \log \left(\frac{F}{F_\text{EB} } \right) \\
+&amp;= M - \log 2
+\end{align*}
+\]</div>
+<p>Thus, we have the following:</p>
+<div class="arithmatex">\[
+\begin{align*}
+m_\text{TC} &amp;= M + 5\log 2 + 5 \log \left(\frac{R}{10 \text{ pc} } \right) \\
+m_\text{EB} &amp;= M - \log 2 + 5 \log \left(\frac{R}{10 \text{ pc} } \right)
+\end{align*}
+\]</div>
+</div>
+<div class="tabbed-block">
+<p>For Part (b), let's visualise the solution as below:
+<img alt="" src="../../../assets/preliminaries/partb.png" /></p>
+<p>This is a pretty interesting solution. First, let's start by obtaining the visual magnitude of the tertiary candidate (TC) and the eclipsing binary (EB).</p>
+<div class="arithmatex">\[
+\begin{align*}
+m_\text{TC} &amp;= M_\text{TC} + 5 \log \left(\frac{R}{10 \text{ pc} } \right) \\
+m_\text{EB} &amp;= M_\text{EB} + 5 \log \left(\frac{2R}{10 \text{ pc} } \right)
+\end{align*}
+\]</div>
+<p>We can arbitrate <span class="arithmatex">\(M_\text{TC}\)</span> to be <span class="arithmatex">\(M\)</span>, the absolute magnitude of any of the given stars.</p>
+<p>As for <span class="arithmatex">\(M_\text{EB}\)</span>, from Part (a),</p>
+<div class="arithmatex">\[M_\text{EB} = M - \log 2\]</div>
+<p>Thus, we have the following:</p>
+<div class="arithmatex">\[
+\begin{align*}
+m_\text{TC} &amp;= M + 5 \log \left(\frac{R}{10 \text{ pc} } \right) \\
+m_\text{EB} &amp;= M - \log 2 + 5\log 2 + 5 \log \left(\frac{R}{10 \text{ pc} } \right) \\
+&amp;= M + 4\log 2 + 5 \log \left(\frac{R}{10 \text{ pc} } \right) 
+\end{align*}
+\]</div>
+</div>
+<div class="tabbed-block">
+<p>For Part (c), let's visualise the solution as below:
+<img alt="" src="../../../assets/preliminaries/partc.png" /></p>
+<p>This is a pretty interesting solution. First, let's start by obtaining the visual magnitude of the tertiary candidate (TC) and the eclipsing binary (EB).</p>
+<div class="arithmatex">\[
+\begin{align*}
+m_\text{TC} &amp;= M_\text{TC} + 5 \log \left(\frac{\sqrt{10} }{2}\frac{R}{10 \text{ pc} } \right) \\
+m_\text{EB} &amp;= M_\text{EB} + 5 \log \left(\frac{\sqrt{10} }{2}\frac{R}{10 \text{ pc} } \right)
+\end{align*}
+\]</div>
+<p>We can arbitrate <span class="arithmatex">\(M_\text{TC}\)</span> to be <span class="arithmatex">\(M\)</span>, the absolute magnitude of any of the given stars.</p>
+<p>As for <span class="arithmatex">\(M_\text{EB}\)</span>, from Part (a),</p>
+<div class="arithmatex">\[M_\text{EB} = M - \log 2\]</div>
+<p>Thus, we have the following:</p>
+<div class="arithmatex">\[
+\begin{align*}
+m_\text{TC} &amp;= M + \frac{5}{2} + 5 \log \left(\frac{R}{20 \text{ pc} } \right) \\
+m_\text{EB} &amp;= M - \log 2 + \frac{5}{2} + 5 \log \left(\frac{R}{20 \text{ pc} } \right)
+\end{align*}
+\]</div>
+</div>
+</div>
+</div>
+</div>
 
               
             </article>
@@ -1300,13 +1549,13 @@
       
       
         
-        <a href="../star_classification/" class="md-footer__link md-footer__link--next" aria-label="Next: Star Classification" rel="next">
+        <a href="../hr_diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: Hr diagram" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Star Classification
+              Hr diagram
             </div>
           </div>
           <div class="md-footer__button md-icon">
