@@ -58,11 +58,10 @@ For a **pp-chain** to occur, the colliding nuclei must overcome the electrostati
 
 Classically, we would expect only nuclei that possesses kinetic energy that surpasses that of the *Coulomb barrier* to react. In which case, considering the reduced mass $\mu$ of two colliding particles give
 $$
-\begin{gather}
-\frac{1}{2}\mu \overline v_{rel}^2 = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
-\Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}\\
+\begin{align*}
+\frac{1}{2}\mu \overline v_{rel}^2 = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r} \Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r} \\
 \Rightarrow T = \frac{1}{6\pi\epsilon_0}\frac{q_1q_2}{rk}\approx 10^{10}\quad \text{(for the sun)}
-\end{gather}
+\end{align*}
 $$
 However, from experimental observation, we find that pp-chain still happen in stars that operate at a temperatures much lower than this, for example our sun has a core temperature of $\approx 1.57\times10^{7} < 10^{10}$.
 This is because, in real life, quantum effects allows the nuclei to **quantum tunnel** through the Coulomb barrier, resulting in a much lower required temperature of 
