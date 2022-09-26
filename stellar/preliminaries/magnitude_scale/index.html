@@ -226,7 +226,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../stellar_structure/" class="md-tabs__link md-tabs__link--active">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Preliminaries
       </a>
     </li>
@@ -487,20 +487,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../stellar_structure/" class="md-nav__link">
-        Stellar Structure
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -544,8 +530,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#norman-pogson" class="md-nav__link">
-    Norman Pogson
+  <a href="#pogsons-law" class="md-nav__link">
+    Pogson's Law
   </a>
   
 </li>
@@ -601,7 +587,7 @@
   
     <li class="md-nav__item">
       <a href="../hr_diagram/" class="md-nav__link">
-        Hr diagram
+        The Hertzprung-Russell Diagram
       </a>
     </li>
   
@@ -1238,8 +1224,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#norman-pogson" class="md-nav__link">
-    Norman Pogson
+  <a href="#pogsons-law" class="md-nav__link">
+    Pogson's Law
   </a>
   
 </li>
@@ -1298,13 +1284,13 @@
 <p>The understand the Magnitude System, we must first start by discussing the historical significance of the system.</p>
 <h2 id="hipparchus-and-the-greek-observation">Hipparchus and the Greek Observation</h2>
 <p><img _="," align="right" alt="Hipparchus (https://prabook.com/web/hipparchus.of_nicaea/3779216)" src="../../../assets/preliminaries/hipparchus.jpg" width="150" /></p>
-<p>Hipparchus of Nicea (190 BC - 120 BC) was one of the many astronomers in the time of the Greeks, and influenced much of what we understand of astronomy today. What sets him apart is he is still considered, to this date, the greatest astronomical observer in history. His work on star catalogs, spherical trigonometry and more still astounds astronomers working today, but what we want to focus on today is his work on the Magnitude Scale.</p>
+<p><strong>Hipparchus of Nicea</strong> (190 BC - 120 BC) was one of the many astronomers in the time of the Greeks, and influenced much of what we understand of astronomy today. What sets him apart is he is still considered, to this date, the greatest astronomical observer in history. His work on star catalogs, spherical trigonometry and more still astounds astronomers working today, but what we want to focus on today is his work on the Magnitude Scale.</p>
 <p>Prior to Hipparchus, most Greek astronomers believed that a star's brightness is only based on its size, which we now know is in fact false. There are many factors in play here, and we needed to spend more time analysing it.</p>
 <p>Then Hipparchus himself came to the scene. As perhaps the greatest anicient astronomer, he used his ingenuity to group stars up into specific classes based on their perceived brightness. He assigned discrete integer values to each star, such that the brightest stars would fall into the <em>"Stars of the First Magnitude"</em> and the barely visible stars were allocated to the <em>"Stars of the Sixth Magnitude"</em>.</p>
 <p>The problem with this system was unfortunately the fact that just plain observation is incredibly subjective, since stars often vary in brightness. However, this set the seedling for what was yet to come...</p>
-<h2 id="norman-pogson">Norman Pogson</h2>
+<h2 id="pogsons-law">Pogson's Law</h2>
 <p><img _="," align="right" alt="Norman Pogson (https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/NR_Pogson.jpg/440px-NR_Pogson.jpg)" src="../../../assets/preliminaries/pogson.jpg" width="150" /></p>
-<p>In 1856, an Astronomer working at Oxford University by the name of Norman Pogson came up with an efficient scale to work with the preset definitions from Hipparchus.</p>
+<p>In 1856, an Astronomer working at Oxford University by the name of <strong>Norman Pogson</strong> came up with an efficient scale to work with the preset definitions from Hipparchus.</p>
 <p>He believed that our observation and hence tabulation of the magnitudes of different stars was influenced by a Logarithmic Scale. However, it wasn't purely based on a logarithmic scale in the conventional sense. Scaling and done to ensure that a simple step-down of 5 steps of magnitude would entail the star being about a <strong>hundred</strong> times brighter. To visualise, it would be something like this:</p>
 <div class="arithmatex">\[
 \frac{F}{F_\text{ref}} = 100^{(m_\text{ref} - m)/5}
@@ -1385,7 +1371,7 @@ m = m_\text{ref} + 2.5 \log \left(\frac{F_\text{ref}}{F}\right)
 <p>As you've seen, we've used <span class="arithmatex">\(m\)</span> here to represent the visual magnitude, but this is in fact the <strong>apparent</strong> visual magnitude. The readings in the above system only match up based on a specifc common origin, which in this case is the earth. However, at other points, this same visual perception would be vastly different. For a simple set-up, consider viewing the Sun from the Earth and Saturn, as shown in the diagram below.</p>
 <p align = "center">
 <img src="../../../assets/preliminaries/diminishing_light_intensity.png"></img>
-<span>Figure 1.1: Comparison of Luminosities of the Sun from Earth and Saturn
+<span>Figure 1.1.1: Comparison of Luminosities of the Sun from Earth and Saturn
 </p>
 
 <p>It is a noticeable difference, and it is also apparent in the values for <span class="arithmatex">\(F\)</span>. Based on our understanding of flux intensity, we have the following:</p>
@@ -1414,7 +1400,7 @@ m_2 - m_1 &amp;= 5 \log \left(\frac{R_2}{R_1} \right)
 <p>This can be used easily to scale the magnitude. For instance, if the object is brought ten times closer, the new magnitude is 5 times larger. We also see that magnitude increases with increases distance, so for some arbitrary point. It follows the following graph:</p>
 <p align = "center">
 <img src="../../../assets/preliminaries/mvd.png"></img>
-<span>Figure 1.2: Plot of m as it varies with R (Reference Point is the Sun)</span>
+<span>Figure 1.1.2: Plot of m as it varies with R (Reference Point is the Sun)</span>
 </p>
 
 <h2 id="establishing-a-universal-standard-the-absolute-magnitude">Establishing a Universal Standard: The Absolute Magnitude</h2>
@@ -1533,7 +1519,7 @@ m_\text{EB} &amp;= M - \log 2 + \frac{5}{2} + 5 \log \left(\frac{R}{20 \text{ pc
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../stellar_structure/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Stellar Structure" rel="prev">
+        <a href="../../../instructions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Home" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1542,20 +1528,20 @@ m_\text{EB} &amp;= M - \log 2 + \frac{5}{2} + 5 \log \left(\frac{R}{20 \text{ pc
               <span class="md-footer__direction">
                 Previous
               </span>
-              Stellar Structure
+              Home
             </div>
           </div>
         </a>
       
       
         
-        <a href="../hr_diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: Hr diagram" rel="next">
+        <a href="../hr_diagram/" class="md-footer__link md-footer__link--next" aria-label="Next: The Hertzprung-Russell Diagram" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Hr diagram
+              The Hertzprung-Russell Diagram
             </div>
           </div>
           <div class="md-footer__button md-icon">
