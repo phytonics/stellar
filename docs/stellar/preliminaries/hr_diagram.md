@@ -16,8 +16,16 @@ which illustrates the fact that stars with higher temperature (further to the le
 
 However, we do notice two deviations from the main sequence, that is for very cold stars that shines brightly and very hot stars that shines dimly. In this case, the area term is significant enough that it dominates the temperature term leading to [*giants*](../giants/red_giant.md) and [*dwarves*](../dwarves/white_dwarf.md) respectively.
 
-## The Henyey Track
-
-
 ## The Hayashi Track
+![](../../assets/preliminaries/hayashi.jpg)
+<br>
+The **Hayashi Track** is the almost vertical "path" that protostars (with masses less than $3 M_\odot$) take down the HR diagram.<br>
+It represents the gravitational collapse of [T Tauri stars](../beginning/t-tauri.md), the collapsing star becomes less luminous because as the star contracts, there is less area available for the star to emit light. <br>
+### The Forbidden Zone 💀
+*Add something here later*
+
+## The Henyey Track
+![](../../assets/preliminaries/henyey.png)
+<br>
+The **Henyey Track** is a the almost horizontal "path" to the main sequence that stars take after the hayashi track, or right as they form if they have sufficient mass kickstart hydrogen fusion in their cores. Stars that enter the henyey track directly are known as [Herbig Ae/Be Stars](../beginning/herbig-ae-be.md)
 
