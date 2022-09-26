@@ -9,7 +9,6 @@ The protostar at some point becomes massive enough that it can be considered a _
 The circumstellar disk from the protostar phase also begins to disappate. This can happen because of loss of mass, excessive heat or simply because it is blown away by the protostellar jets. 
 
 ### Lithium Burning
-
 The nuclear reactions for Lithium Burning are as follows. 
 
 A proton fuses with lithium to form beryllium,
