@@ -8,7 +8,7 @@ The understand the Magnitude System, we must first start by discussing the histo
 
 ![Hipparchus (https://prabook.com/web/hipparchus.of_nicaea/3779216)](../../assets/preliminaries/hipparchus.jpg){ width="150", align=right }
 
-Hipparchus of Nicea (190 BC - 120 BC) was one of the many astronomers in the time of the Greeks, and influenced much of what we understand of astronomy today. What sets him apart is he is still considered, to this date, the greatest astronomical observer in history. His work on star catalogs, spherical trigonometry and more still astounds astronomers working today, but what we want to focus on today is his work on the Magnitude Scale.
+**Hipparchus of Nicea** (190 BC - 120 BC) was one of the many astronomers in the time of the Greeks, and influenced much of what we understand of astronomy today. What sets him apart is he is still considered, to this date, the greatest astronomical observer in history. His work on star catalogs, spherical trigonometry and more still astounds astronomers working today, but what we want to focus on today is his work on the Magnitude Scale.
 
 Prior to Hipparchus, most Greek astronomers believed that a star's brightness is only based on its size, which we now know is in fact false. There are many factors in play here, and we needed to spend more time analysing it.
 
@@ -16,11 +16,11 @@ Then Hipparchus himself came to the scene. As perhaps the greatest anicient astr
 
 The problem with this system was unfortunately the fact that just plain observation is incredibly subjective, since stars often vary in brightness. However, this set the seedling for what was yet to come...
 
-## Norman Pogson
+## Pogson's Law
 
 ![Norman Pogson (https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/NR_Pogson.jpg/440px-NR_Pogson.jpg)](../../assets/preliminaries/pogson.jpg){ width="150", align=right }
 
-In 1856, an Astronomer working at Oxford University by the name of Norman Pogson came up with an efficient scale to work with the preset definitions from Hipparchus.
+In 1856, an Astronomer working at Oxford University by the name of **Norman Pogson** came up with an efficient scale to work with the preset definitions from Hipparchus.
 
 He believed that our observation and hence tabulation of the magnitudes of different stars was influenced by a Logarithmic Scale. However, it wasn't purely based on a logarithmic scale in the conventional sense. Scaling and done to ensure that a simple step-down of 5 steps of magnitude would entail the star being about a **hundred** times brighter. To visualise, it would be something like this:
 
@@ -67,7 +67,7 @@ As you've seen, we've used $m$ here to represent the visual magnitude, but this 
 
 <p align = "center">
 <img src="../../../assets/preliminaries/diminishing_light_intensity.png"></img>
-<span>Figure 1.1: Comparison of Luminosities of the Sun from Earth and Saturn
+<span>Figure 1.1.1: Comparison of Luminosities of the Sun from Earth and Saturn
 </p>
 
 It is a noticeable difference, and it is also apparent in the values for $F$. Based on our understanding of flux intensity, we have the following:
@@ -103,7 +103,7 @@ $$
 This can be used easily to scale the magnitude. For instance, if the object is brought ten times closer, the new magnitude is 5 times larger. We also see that magnitude increases with increases distance, so for some arbitrary point. It follows the following graph:
 <p align = "center">
 <img src="../../../assets/preliminaries/mvd.png"></img>
-<span>Figure 1.2: Plot of m as it varies with R (Reference Point is the Sun)</span>
+<span>Figure 1.1.2: Plot of m as it varies with R (Reference Point is the Sun)</span>
 </p>
 
 ## Establishing a Universal Standard: The Absolute Magnitude
