@@ -20,7 +20,7 @@ $$
 The fusion reaction releases a very large amount of energy, causing the hydrogen to heat up until it radiates in the visible range. The rapid heating causes the gas to expand rapidly, blowing most of it into space, where it then cools down. This is why novas flare up suddenly and then slowly fade back to their normal brightness. 
 
 ## The Cycle Continues
-The gas from the nova is largely blasted off into space and the white dwarf cools back to its original temperature. This marks a return to the original binary white dwarf system, where the white ddwarf can go nova again, or even turn into a Type Ia Supernova for an even more spectacular burst of light.
+The gas from the nova is largely blasted off into space and the white dwarf cools back to its original temperature. This marks a return to the original binary white dwarf system, where the white dwarf can go nova again, or even turn into a **[Type Ia Supernova](type_1a_supernova.md)** for an even more spectacular burst of light.
 
 [Next: Binary White Dwarves](../dwarves/binary_white_dwarf.md)
 

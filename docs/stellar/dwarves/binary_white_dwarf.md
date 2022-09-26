@@ -40,4 +40,4 @@ As the gas accumulates on the white dwarf surface, it becomes hotter and denser 
 https://www.nationalgeographic.com/science/article/white-dwarfs \
 https://www.skyatnightmagazine.com/space-science/accretion-disk/ \
 Astronomy Today
-Images source from Astronomy Today and Science Photo Library
+Images sourced from Astronomy Today and Science Photo Library
