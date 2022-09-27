@@ -39,6 +39,8 @@
     
       <link rel="stylesheet" href="../../../stylesheets/solar_justice.css">
     
+      <link rel="stylesheet" href="../../../stylesheets/quiz.css">
+    
     <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -259,7 +261,7 @@
   
     <li class="md-tabs__item">
       <a href="../../stars/massive_star/" class="md-tabs__link">
-        Massive Stars
+        Massive Track
       </a>
     </li>
   
@@ -275,7 +277,7 @@
   
     <li class="md-tabs__item">
       <a href="../../stars/low_mass_star/" class="md-tabs__link">
-        Low-Mass Stars
+        Low-Mass Track
       </a>
     </li>
   
@@ -550,7 +552,7 @@
   
     <li class="md-nav__item">
       <a href="../../beginning/molecular_cloud/" class="md-nav__link">
-        Molecular cloud
+        The Molecular Cloud
       </a>
     </li>
   
@@ -564,7 +566,7 @@
   
     <li class="md-nav__item">
       <a href="../../beginning/protostar/" class="md-nav__link">
-        Protostar
+        The Protostar
       </a>
     </li>
   
@@ -578,7 +580,7 @@
   
     <li class="md-nav__item">
       <a href="../../beginning/herbig-ae-be/" class="md-nav__link">
-        Herbig Ae/Be
+        Herbig Ae/Be Stars
       </a>
     </li>
   
@@ -592,7 +594,7 @@
   
     <li class="md-nav__item">
       <a href="../../beginning/t-tauri/" class="md-nav__link">
-        T tauri
+        T-Tauri Stars
       </a>
     </li>
   
@@ -636,14 +638,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          Massive Stars
+          Massive Track
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Massive Stars" data-md-level="1">
+      <nav class="md-nav" aria-label="Massive Track" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          Massive Stars
+          Massive Track
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -682,7 +684,7 @@
   
     <li class="md-nav__item">
       <a href="../../nova/type_2_supernova/" class="md-nav__link">
-        Type II Supernova
+        Type II Supernovae
       </a>
     </li>
   
@@ -776,7 +778,7 @@
   
     <li class="md-nav__item">
       <a href="../../others/x_ray_emission/" class="md-nav__link">
-        X-Ray Emission
+        X-Ray Emissions
       </a>
     </li>
   
@@ -881,14 +883,14 @@
       
       
         <label class="md-nav__link" for="__nav_6">
-          Low-Mass Stars
+          Low-Mass Track
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Low-Mass Stars" data-md-level="1">
+      <nav class="md-nav" aria-label="Low-Mass Track" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
-          Low-Mass Stars
+          Low-Mass Track
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -899,7 +901,7 @@
   
     <li class="md-nav__item">
       <a href="../../stars/low_mass_star/" class="md-nav__link">
-        Low mass star
+        Low-Mass Stars
       </a>
     </li>
   
@@ -1125,6 +1127,69 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#hydrostatic-equilibrium" class="md-nav__link">
+    Hydrostatic Equilibrium
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-actual-structure-of-the-star" class="md-nav__link">
+    The Actual Structure of the Star
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-key-equations" class="md-nav__link">
+    The Key Equations
+  </a>
+  
+    <nav class="md-nav" aria-label="The Key Equations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-equation-of-mass-continuity" class="md-nav__link">
+    The Equation of Mass Continuity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-equation-of-hydrostatic-equilibrium" class="md-nav__link">
+    The Equation of Hydrostatic Equilibrium
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-equation-of-energy-conservation" class="md-nav__link">
+    The Equation of Energy Conservation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-equation-for-radiative-energy-transfer" class="md-nav__link">
+    The Equation for Radiative Energy Transfer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1138,6 +1203,48 @@
 
 
 <h1 id="stellar-structure">Stellar Structure</h1>
+<p>The stellar structure is largely predicated by two distinct but important phenomena: <strong>nuclear fusion</strong> and <strong>hydrostatic equilibrium</strong>.</p>
+<h2 id="hydrostatic-equilibrium">Hydrostatic Equilibrium</h2>
+<p>Consider a star as a singular container which holds a set of molecules together in vaccuum. By logic, we know that this structure, on it's own, does NOT hold, since, by the Ideal Gas Law,</p>
+<div class="arithmatex">\[PV = nRT\]</div>
+<p>Anything which holds a certain amount of molecules, <span class="arithmatex">\(n\)</span>, exerts an outward pressure. The intuition behind this is the consistent collisions of molecules against the walls of the container, exerting a large force per unit area which leads to an outward pressure. To counteract this pressure, we suggest that these molecules are in fact giant masses, owing to us currently exploring how a star might work. If the parts are so big, we know that there is a net inward gravitational force which suggests that we can counteract the outward pressure with "gravitational pressure". This is known as <strong>hydrostatic equilibrium</strong>.</p>
+<h2 id="the-actual-structure-of-the-star">The Actual Structure of the Star</h2>
+<p>The </p>
+<h2 id="the-key-equations">The Key Equations</h2>
+<p>There are four key differential equations that dictate the star's evolution history.</p>
+<h3 id="the-equation-of-mass-continuity">The Equation of Mass Continuity</h3>
+<p>Given a mass <span class="arithmatex">\(M(r)\)</span> is contained within a radius <span class="arithmatex">\(r\)</span>, with density <span class="arithmatex">\(\rho(r)\)</span>, we have:
+$$
+\frac{d}{dr} M(r) = 4\pi r^2 \rho(r)
+$$</p>
+<p>Nothing much is to be said here, except this result is very useful for the other 3 equations.</p>
+<h3 id="the-equation-of-hydrostatic-equilibrium">The Equation of Hydrostatic Equilibrium</h3>
+<p>For the above situation, it must be balanced by an outward gas pressure <span class="arithmatex">\(P(r)\)</span> such that:</p>
+<div class="arithmatex">\[
+\begin{align*}
+\frac{d}{dr} P(r) &amp;= - \rho(r) \frac{GM(r)}{r^2} \\
+\text{or otherwise, }\frac{dP}{dM} &amp;= - \frac{GM(r)}{4\pi r^4} \\
+\text{We can hence solve this via:} \\
+4\pi \int_0^r r^4 \frac{dP}{dr} dr &amp;= G \int_0^M M(r) dM \\
+4\pi (r^4 P(r) - 4\int_0^r r^3 P dr) &amp;= G\frac{(M(r))^2}{2} \\ 
+\end{align*}
+\]</div>
+<h3 id="the-equation-of-energy-conservation">The Equation of Energy Conservation</h3>
+<p>Given a star has some outward luminosity, <span class="arithmatex">\(L\)</span> for a given mass <span class="arithmatex">\(M(r)\)</span> of density <span class="arithmatex">\(\rho(r)\)</span> and energy per unit mass per unit time <span class="arithmatex">\(\varepsilon(r)\)</span> (which is defined based on the chemical composition and mass, density and temperature), it holds that:</p>
+<div class="arithmatex">\[
+\begin{align*}
+\frac{dL}{dr} &amp;= 4\pi r^2 \rho(r) \varepsilon(r) \\
+\text{or by Eqn 1, }\frac{dL}{dM} &amp;= \varepsilon(r)
+\end{align*}
+\]</div>
+<h3 id="the-equation-for-radiative-energy-transfer">The Equation for Radiative Energy Transfer</h3>
+<p>To represent the Temperature, <span class="arithmatex">\(T(r)\)</span> of this given star, based on the radiative energy transferred to that distance, in addition some radiative resistance <span class="arithmatex">\(\kappa(r)\)</span>,</p>
+<div class="arithmatex">\[
+\begin{align*}
+\frac{d}{dr} T(r) &amp;= - \frac{3\kappa(r)\rho(r)L(r)}{16\pi r^2 ac (T(r))^3} \\
+\text{or by Eqn 1, }\frac{dT}{dM} &amp;= -\frac{3\Kappa(r)L(r)}{64\pi^2 acr^4 (T(r))^3}
+\end{align*}
+\]</div>
 
               
             </article>
