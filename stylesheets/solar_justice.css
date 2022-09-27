@@ -1,0 +1,38 @@
+table.solarJustice {
+    border: 1px solid white;
+    border-collapse: collapse;
+    float: left;
+    align: center;
+}
+
+table#solar_justice_grid {
+    width: 300px;
+    height: 300px;
+}
+
+table#solar_justice_compass {
+    width: 180px;
+    height: 180px;
+    margin: 60px;
+}
+
+.solar_justice_child {
+    /* display: table-cell; */
+    /* float: left; */
+    position: relative;
+    align: center;
+}
+
+.solar_justice_game_board {
+    display: table;
+    margin: 10px;
+    align: center;
+}
+
+td.solarJustice {
+    padding-top: 25px;
+        padding-bottom: 25px;
+        border: 1px solid white;
+        text-align: center;
+        width: 60px;
+}
