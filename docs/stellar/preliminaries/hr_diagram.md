@@ -1,4 +1,4 @@
-<!--Contributors: Khang-->
+<!--Contributors: Khang, Prannaya-->
 # The Hertzsprung–Russell Diagram
 
 ## Overview
@@ -285,8 +285,16 @@ The person from [XKCD](https://xkcd.com) developed an amazing image illustrating
     <span>The "Expanded" Hertzprung Russell Diagram<br><i>(Brought to you by <a href="https://xkcd.com/2009/">XKCD</a>)</i></span>
 </p>
 
-## The Henyey Track
-
-
 ## The Hayashi Track
+![](../../assets/preliminaries/hayashi.jpg)
+<br>
+The **Hayashi Track** is the almost vertical "path" that protostars (with masses less than $3 M_\odot$) take down the HR diagram.<br>
+It represents the gravitational collapse of [T Tauri stars](../beginning/t-tauri.md), the collapsing star becomes less luminous because as the star contracts, there is less area available for the star to emit light. <br>
+### The Forbidden Zone 💀
+*Add something here later*
+
+## The Henyey Track
+![](../../assets/preliminaries/henyey.png)
+<br>
+The **Henyey Track** is a the almost horizontal "path" to the main sequence that stars take after the hayashi track, or right as they form if they have sufficient mass kickstart hydrogen fusion in their cores. Stars that enter the henyey track directly are known as [Herbig Ae/Be Stars](../beginning/herbig-ae-be.md)
 
