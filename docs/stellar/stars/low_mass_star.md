@@ -139,6 +139,7 @@ where
 - $M$ is the mass of the star
 - $\mu_{env}$ is the mean molecular weight of the envelope
 - $\mu_{ic}$ is the mean molecular weight of the core
+
 ### Exceeding the SC Limit
 Note, however, that the SC limit can be exceeded if there is another source of pressure supporting the weight of the star, aside from gas and radiation pressure.
 This can occur in the star if the electrons in the gas become **degenerate**, which happens when the gas density is so high that the electrons are forced to occupy the *lowest possible energy state*.
