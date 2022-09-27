@@ -70,7 +70,7 @@
 
         { id: 20, label: "Herbig Ae/Be Star", margin: 20, url: "./beginning/herbig-ae-be/", level: 3 },
         { id: 21, label: "T-Tauri Star", margin: 20, url: "./beginning/t-tauri/", level: 3 },
-
+        
         { id: 3, label: "Massive\nStar", margin:20, url: "./stars/massive_star/" , level: 4 },
         { id: 4, label: "Low Mass\nStar", margin:20, url: "./stars/low_mass_star/" , level: 4 },
         { id: 5, label: "Brown\nDwarf", margin:20, url: "./dwarves/brown_dwarf/" , level: 4},
@@ -101,27 +101,27 @@
       var edges = new vis.DataSet([
         { from: 1, to: 2, arrows: "to" },
 
-        { from: 2, to: 21, arrows: "to" , label: "<8 Solar Mass", font: { multi: "md" } },
-        { from: 2, to: 20, arrows: "to", label: ">8 Solar Mass", font: { multi: "md" } },
+        { from: 2, to: 21, arrows: "to" , label: "<2 Msun", font: { multi: "md" } },
+        { from: 2, to: 20, arrows: "to", label: "2-10 Msun", font: { multi: "md" } },
 
-        { from: 21, to: 5, arrows: "to" },
-        { from: 21, to: 4, arrows: "to" },
+        { from: 21, to: 5, arrows: "to" , label: "<0.08 \nMsun", font: { multi: "md" } },
+        { from: 21, to: 4, arrows: "to", label: ">0.08 \nMsun", font: { multi: "md" } },
         { from: 20, to: 3, arrows: "to" },
-
+      
         { from: 6, to: 7, arrows: "to" },
         { from: 3, to: 6, arrows: "to" },
         { from: 7, to: 8, arrows: "to" },
-        { from: 7, to: 9, arrows: "to", label: "> 40 × Mass\n of Sun", font: { multi: "md" } },
+        { from: 7, to: 9, arrows: "to", label: "> 40 Msun", font: { multi: "md" } },
         { from: 9, to: 10, arrows: "to" },
-        { from: 7, to: 11, arrows: "to", label: "< 40 × Mass\n of Sun", font: { multi: "md" } },
+        { from: 7, to: 11, arrows: "to", label: "< 40 Msun", font: { multi: "md" } },
         { from: 11, to: 12, arrows: "to" },
         { from: 4, to: 13, arrows: "to" },
         { from: 13, to: 14, arrows: "to" },
         { from: 13, to: 17, arrows: "to" },
         { from: 17, to: 18, arrows: "to" },
         { from: 18, to: 19, arrows: "to" },
-        { from: 14, to: 15, arrows: "to", label: "< 1.4 × Mass\n of Sun", font: { multi: "md" } },
-        { from: 14, to: 16, arrows: "to", label: "> 1.4 × Mass\n of Sun", font: { multi: "md" } },
+        { from: 14, to: 15, arrows: "to", label: "< 1.4 Msun", font: { multi: "md" } },
+        { from: 14, to: 16, arrows: "to", label: "> 1.4 Msun", font: { multi: "md" } },
         { from: 15, to: 18, arrows: "to" },
 
       ]);
