@@ -1,12 +1,16 @@
+<!--Contributors: Markus-->
+
 # T-Tauri
 
 ![T- Tauri star](../../assets/beginning/ttauri.png){ align=center }
 
 ## The T-Tauri star
 
-The protostar at some point becomes massive enough that it can be considered a _T-Tauri_ Star. T tauri stars are intermediaries between protostars and low-mass stars. If the mass of the T-tauri star is more than 60 times the mass of jupiter, this light intermediary phase is sufficient to support a reaction known as lithium burning.
+The protostar at some point becomes massive enough that it can be considered a _T-Tauri_ Star. The circumstellar disk from the protostar phase also begins to disappate. This can happen because of loss of mass, excessive heat or simply because it is blown away by the protostellar jets. 
 
-The circumstellar disk from the protostar phase also begins to disappate. This can happen because of loss of mass, excessive heat or simply because it is blown away by the protostellar jets. 
+T tauri stars are intermediaries between protostars and low-mass stars. If the mass of the T-tauri star is more than 60 times the mass of jupiter, this light intermediary phase is sufficient to support a reaction known as lithium burning.
+
+
 
 ### Lithium Burning
 The nuclear reactions for Lithium Burning are as follows. 
@@ -50,7 +54,7 @@ If the mass is larger than 0.08 solar masses, then the energy is sufficient to c
 
 ### Mass <0.08 Solar Masses
 
-If the protostar never exceeds 0.08 solar masses, then it does not have enough energy to form a radiative core. 
+If the protostar never exceeds 0.08 solar masses, then it does not have enough energy to form a radiative core, and becomes a brown dwarf. 
 
 [Next: Brown Dwarf](../dwarves/brown_dwarf.md)
 
@@ -58,4 +62,5 @@ If the protostar never exceeds 0.08 solar masses, then it does not have enough e
 <hr/>
 
 [1] https://astronomy.swin.edu.au/cosmos/t/T+Tauri+Stars
+
 [2] https://crossfield.ku.edu/8901_2019A/lec022.pdf
