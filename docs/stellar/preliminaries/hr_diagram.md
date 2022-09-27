@@ -1,4 +1,4 @@
-<!--Contributors: Khang-->
+<!--Contributors: Khang, Prannaya-->
 # The Hertzsprung–Russell Diagram
 
 ## Overview
