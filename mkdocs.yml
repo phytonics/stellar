@@ -41,6 +41,7 @@ theme:
 
 extra_css:
     - stylesheets/style.css
+    - stylesheets/solar_justice.css
 
 markdown_extensions:
     - pymdownx.highlight:
@@ -107,7 +108,7 @@ nav:
                 - stellar/dwarves/black_dwarf.md
     - Games:
           - Home: stellar/games/index.md
-          - Solar Justice: stellar/games/solarJustice/index.html
+          - Solar Justice: stellar/games/solarJustice/index.md
 
 plugins:
     - mkdocs-jupyter
