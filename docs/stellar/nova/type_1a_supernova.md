@@ -1,7 +1,9 @@
 # Type Ia Supernova
-![A diagrammatic representation of the roche lobes of a binary system](../../assets/nova/supernova.PNG)
+<p align="center">
+    <img src="../../assets/nova/supernova.png">A visible supernova</img>
+</p>
 
-White dwarves in binary systems slowly accrete mass from their partners, and can eventually turn into [novas](nova.md) or Type Ia Supernovas. Supernovas, as one can tell from the name, obtain their name as they flare up suddenly like novas, but have even greater brightness than them. Despite their similar names oweing to the similar phenomenon at the surface level, the mechanisms behind supernovas actually are quite distinct from that of novas. 
+White dwarves in binary systems slowly accrete mass from their partners, and can eventually turn into [novas](nova.md) or **Type Ia Supernovas**. Supernovas obtain their name as they flare up suddenly like novas, but have even greater brightness than them as their name would suggest. Despite their similar names oweing to the similar phenomenon at the surface level, the mechanisms behind supernovas actually are quite distinct from that of novas. 
 
 ## Supernovas vs Novas
 
@@ -13,6 +15,12 @@ The reason for supernovas occuring only once is a direct result of the greater m
 
 Supernovas today are divided into two types, Type I and Type II, based on how much hydrogen they contain, deduced from the emission lines of their radiation. Type I supernovas are characterized by being hydrogen-poor, lacking the characteristic lines of the radiation hydrogen emits when heated, and has its brightness over time vary more similarly to that of a regular nova. 
 
+<p align="center">
+<img src="../../assets/nova/supernova_spectra.png">
+</p>
+
+In the above graph, the red box shows the spectra of type II supernovas, while the blue boxes are Ia, Ib and Ic respectively from the top. Notice that only type II supernovas show the hydrogen absorption line (denoted in green). Interestingly, Type Ia Supernovas also uniquely show a silicon absorption line that is not present for the others. 
+
 Type I supernovas are also divided into further subtypes, Types Ia, Ib and Ic, depending on their cause. Types Ib and Ic occur due to the collapse of the core of a massive star, while Ia differs from them as it is the result of a **[binary white dwarf](../dwarves/binary_white_dwarf.md)** system. This article will focus on Type Ia Supernovas.
 
 ## Mass Accretion and Accumulation
@@ -20,7 +28,7 @@ Recall that in a binary white dwarf system, the white dwarf will accrete mass fr
 
 ## Balancing Pressures
 
-Opposing the gravity of the white dwarf trying to collapse in on itself is the **electron degeneracy pressure**. In the high-density conditions of white dwarves, the electrons are packed very closely together, but due to the quantum property of microstates, they are forced to stay a certain distance apart so they do not encroach on one another's microstates. This requirement results in an outward pressure that balances the gravitation. However, this pressure has a limit: if too much mass accumulates, the electron degeneracy pressure will no longer be able to support the gravitational force and the white dwarf will collapse.
+Opposing the gravity of the white dwarf trying to collapse in on itself is the **electron degeneracy pressure**. In the high-density conditions of white dwarves, the electrons are packed very closely together, but due to the quantum property of microstates, they are forced to stay a certain distance apart so they do not encroach on one another's microstates. In simple terms, this means that each electron is already squeezed into as little space as it can occupy, and must maintain this minimum distance from other electrons. This requirement results in an outward pressure that balances the gravitation. However, this pressure has a limit: if too much mass accumulates, the electron degeneracy pressure will no longer be able to support the gravitational force and the white dwarf will collapse.
 
 The mass at which this occurs is calculated to be about 1.4 solar masses, which is known as the **Chandrasekhar mass** or **Chandrasekhar limit**. 
 
@@ -38,9 +46,15 @@ This process generates a huge amount of energy as practically the whole star und
 
 ## Properties of a Type Ia Supernova
 
+Type Ia Supernovas have a few distinct properties that makes them distinguishable from other kinds of supernovas. An important one of them is that Type Ia Supernovas always have the same brightness, since they occur when the white dwarf reaches a fixed mass and always triggers at that same point. This property makes Type Ia Supernovas very good as ways to measure distances, since the intensity of the light we receive can be related to the distance from the star when the brightness is always the same. 
 
+## After the Explosion
+The white dwarf is obliterated in the supernova explosion, with its mass being thrown out into space by the force of the thermonuclear expansion. The result is the formation of a supernova remnant.
+
+[Next: Supernova Remnant](supernova_remnant.md)
 
 *References:*
 
 http://www.differencebetween.net/science/nature/differences-between-a-nova-and-a-supernova/
-https://www.physics.rutgers.edu/analyze/wiki/Ia_supernovae.html
+https://www.physics.rutgers.edu/analyze/wiki/Ia_supernovae.html (information and graph)
+https://www.schoolsobservatory.org/learn/astro/stars/cycle/ia_supernova
