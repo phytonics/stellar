@@ -224,11 +224,38 @@ $$E = mc^2$$
 
 This means that logically, a more massive star has a higher radioactive output, which means that the mass has a significant effect on this situation as will. Stars often spend billions and billions of years in this class, before it moves on to others.
 
-Main Sequence is the ideal scenario, but when we approach stranger masses, we get peculiar patterns. Let's go into them.
+#### Pre-Main Sequence
+Pre-Main Sequence Stars tend to follow two different tracks to enter on their journey, the **Henyey and Hayashi Tracks**.
+
+To represent them as a diagram, here is a good depiction:
+
+<p align = "center">
+<figure markdown>
+<img src="../../../assets/preliminaries/pre-main_sequence_evo.svg#only-light" />
+<img src="../../../assets/preliminaries/pre-main_sequence_evo_dark.svg#only-dark" />
+  <figcaption>Figure 1.2.5: Main Sequence stars often follow the above path in evolution.<br><i>Source: Wikipedia</i></figcaption>
+</figure>
+</p>
+
+##### The Hayashi Track
+<p align = "center">
+<figure markdown>
+<img src="../../../assets/preliminaries/hayashi.png" />
+  <figcaption>Figure 1.2.6: A depiction of the Hayashi Track as taken by the T Tauri stars.</figcaption>
+</figure>
+</p>
+
+The **Hayashi Track** is the almost vertical "path" that protostars (with masses less than $3 M_\odot$) take down the HR diagram.
+
+It represents the gravitational collapse of [T Tauri stars](../../beginning/t-tauri), wherein the collapsing star becomes less luminous because as the star contracts, there is less area available for the star to emit light.
+
+##### The Henyey Track
+The **Henyey Track** is a the nearly horizontal "path" to the main sequence that stars take after the Hayashi track, or right as they form if they have sufficient mass kickstart hydrogen fusion in their cores. This is when the nuclear fusion has just started and the star is slowly but surely collapsing in order to reach a hydrostatic equilibrium. Throughout this, the star becomes hotter, even whilst staying at a consistent luminosity. Stars that enter the Henyey track directly are known as [Herbig Ae/Be Stars](../../beginning/herbig-ae-be).
+
 
 ### Giants and Supergiants
 
-Giants and Supergiants often tend to be red in color, which usually means their temperatures are very low. However, due to their relative sizes and radii, they shine much, **much** brighter than even some blue main sequence stars. [As we will later learn](../giats/../giants/red_giant), Giants are mostly formed after a while of a main sequence star existing, and their masses are also much larger. Usually, these occur the most after main sequence stars, but due to their intense luminosities, the red giant stars are vaguely visible via the naked eye, which means a large proportion of stars we see in the sky are in fact red giants.
+Giants and Supergiants often tend to be red in color, which usually means their temperatures are very low. However, due to their relative sizes and radii, they shine much, **much** brighter than even some blue main sequence stars. [As we will later learn](../../giants/red_giant), Giants are mostly formed after a while of a main sequence star existing, and their masses are also much larger. Usually, these occur the most after main sequence stars, but due to their intense luminosities, the red giant stars are vaguely visible via the naked eye, which means a large proportion of stars we see in the sky are in fact red giants.
 
 Here are some notable giants and supergiants you can find in the night sky:
 
@@ -247,7 +274,7 @@ Dwarves don't commonly occur, since the universe isn't old enough for such dwarv
 - Procyon B
 - 40 Eridani B
 
-Notice that these stars are often the "B" star, which means secondary in the system. This is because they often orbit around a larger main sequence star which is the "A" star. We will read more about dwarves [later](../dwarves/whit_dwarf).
+Notice that these stars are often the "B" star, which means secondary in the system. This is because they often orbit around a larger main sequence star which is the "A" star. We will read more about dwarves [later](../../dwarves/whit_dwarf).
 
 
 ## Key Variations of the Diagram
@@ -285,16 +312,4 @@ The person from [XKCD](https://xkcd.com) developed an amazing image illustrating
     <span>The "Expanded" Hertzprung Russell Diagram<br><i>(Brought to you by <a href="https://xkcd.com/2009/">XKCD</a>)</i></span>
 </p>
 
-## The Hayashi Track
-![](../../assets/preliminaries/hayashi.jpg)
-<br>
-The **Hayashi Track** is the almost vertical "path" that protostars (with masses less than $3 M_\odot$) take down the HR diagram.<br>
-It represents the gravitational collapse of [T Tauri stars](../beginning/t-tauri.md), the collapsing star becomes less luminous because as the star contracts, there is less area available for the star to emit light. <br>
-### The Forbidden Zone 💀
-*Add something here later*
-
-## The Henyey Track
-![](../../assets/preliminaries/henyey.png)
-<br>
-The **Henyey Track** is a the almost horizontal "path" to the main sequence that stars take after the hayashi track, or right as they form if they have sufficient mass kickstart hydrogen fusion in their cores. Stars that enter the henyey track directly are known as [Herbig Ae/Be Stars](../beginning/herbig-ae-be.md)
 
