@@ -1,0 +1,27 @@
+button.quizNormal {
+    background-color: #05D5FA;
+    color: white;
+}
+
+button.quizCorrect {
+    background-color: #39ff14;
+
+}
+
+button.quizIncorrect {
+    background-color: #ff4122;
+
+}
+
+table.quiz {
+    width: 500px;
+
+}
+
+td.quiz {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 1px solid white;
+    text-align: center;
+    width: 250px;
+}

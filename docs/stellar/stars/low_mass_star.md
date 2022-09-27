@@ -151,26 +151,20 @@ However, due to **Pauli's exclusion principle**, which forbids electrons from oc
 ---
 ## Questions! :)
 
-### Question 1: Low-Mass Stars
-a) Are the cores of low-mass stars convective or radiative? <br>
-b) What does it mean for a core to be convective? <br>
-c) What does it mean for a core to be radiative? <br>
+### Question 1: How do Low Mass Stars Work?
 
-**Solutions** <br>
-a) *They are radiative* <br>
-b) *The energy of the core is transported by convection current of matter* <br>
-c) *The energy of the core is transported through radiation and conduction* <br>
+!!! Question "Are the cores of low-mass stars convective or radiative?"
+	<div>
+	<button class='md-button quizNormal' id="q1_1" onClick="markQ1(0)">Convective</button>
+	<button class='md-button quizNormal' id="q1_2" onClick="markQ1(1)">Radiative</button>
+	<hr>
+	</div>
+??? Abstract "What does it mean for a core to be convective?"
+	_The energy of the core is transported by convection current of matter._
+??? Abstract "What does it mean for a core to be radiative?"
+	_The energy of the core is transported through radiation and conduction._
 
-### Question 2: Pressure Integral
-The pressure intergral computes the pressure distribution given some distribution function $n_pdp$
-$$
-P = \frac{1}{3}\int_0^\infty pvn_pdp
-$$
-Calculate the expression for the radiation pressure of a star
-
-*Add solutions here later*
-
-### Question 3: Virial Theorem
+### Question 2: Virial Theorem
 For an inverse square force, **virial theorem** states that
 $$
 E = \frac{1}{2} U
@@ -184,4 +178,25 @@ U = -G\frac{Mm}{r}
 $$
 Find the total mechanical energy of a star given its mass $M$ and radius $R$
 
-*Add solution here later*
+??? Abstract "Solution"
+	*Add solution here later*
+
+
+### Question 3: Pressure Integral
+The pressure intergral computes the pressure distribution given some distribution function $n_pdp$
+$$
+P = \frac{1}{3}\int_0^\infty pvn_pdp
+$$
+Calculate the expression for the radiation pressure of a low-mass star.
+
+??? Abstract "Solution"
+	*Add solution here later*
+
+<script>
+function markQ1(answer) {
+	const wrong = document.getElementById("q1_1")
+	const right = document.getElementById("q1_2")
+	wrong.classList.add("quizIncorrect")
+	right.classList.add("quizCorrect")
+}
+</script>
