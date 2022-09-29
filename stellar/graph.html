@@ -192,6 +192,21 @@
         }
         }
     });
+
+      network.once("beforeDrawing", function () {
+          network.focus(2, {
+            scale: 3,
+          });
+        });
+        network.once("afterDrawing", function () {
+          network.fit({
+            animation: {
+              duration: 5000,
+              easingFunction: "easeOutQuint",
+            },
+          });
+        });
+
     </script>
   </body>
 </html>
