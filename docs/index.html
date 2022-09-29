@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+        <script>
+            window.addEventListener("load", function () {
+                    let myAnimation = anime({
+                        targets: '#star .cls-1',
+                        strokeDashoffset: [anime.setDashoffset, 0],
+                        easing: 'easeInOutSine',
+                        duration: 1500,
+                        delay: function (el, i) { 
+                            var result =  3000 - 3000*Math.pow(Math.E,-i/30); //Integral of Math.pow(Math.E, -i / 5) * 100 
+                            return result;
+                        },
+                        
+                    });
+                    //document.querySelector('#star').addEventListener("click", myAnimation.restart);
+                });
+
+            document.querySelector('#enterbutton').addEventListener("click", window.location.assign("http://www.mozilla.org"));
+        </script>
+
+        <style>
+            .cls-1{
+                opacity: 0.5;
+            }
+
+            body{
+                background-color: black;
+                color: white;
+            }
+            
+            #stardiv{
+                width: 90vw;
+                max-width: 90vh;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+            }
+
+            #enterbutton{
+                border: thin solid white;
+                background-color: black;
+                border-radius: 1rem;
+                width: 5rem;
+                height: 2rem;
+                display: flex;
+                color: white;
+                font-family: 'Courier New', Courier, monospace;
+
+                position:absolute;
+                left: 50%;
+                top: 58.5%;
+                transform: translate(-50%,-50%);
+
+                align-items: center;
+                justify-content: center;
+            }
+
+            #enterbutton:hover{
+                background-color: rgb(40,40,40);
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="stardiv">
+            <a href="stellar/graph.html">
+            <div id="enterbutton">
+                enter
+            </div>
+            </a>
+            <svg data-name="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96.78 94.59" id="star" class="centered-element">
+                <filter id="neon">
+                    <feFlood flood-color="rgb(255,255,128)" flood-opacity="1" in="SourceGraphic" />
+                    <feComposite operator="in" in2="SourceGraphic" />
+                    <feGaussianBlur stdDeviation="10" />
+                    <feComponentTransfer result="glow1">
+                        <feFuncA type="linear" slope="4" intercept="0" />
+                    </feComponentTransfer>
+                    <feMerge>
+                        <feMergeNode in="glow1" />
+                        <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                </filter>
+
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: none;
+                            stroke: #fff;
+                            stroke-linecap: round;
+                            stroke-linejoin: round;
+                            stroke-width: 0.1px;
+                        }
+                    </style>
+                </defs>
+                <g id="CIRCLE">
+                    <path class="cls-1" d="M38.6,58.57A11.17,11.17,0,1,1,49.77,69.74,11.17,11.17,0,0,1,38.6,58.57Z"
+                        transform="translate(-1.38 -2.71)" />
+                </g>
+                <g id="LWPOLYLINE">
+                    <polyline class="cls-1" points="45.5 45.08 48.39 22.38 51.28 45.08" />
+                    <path class="cls-1" d="M49.77,58.57" transform="translate(-1.38 -2.71)" />
+                </g>
+                <g id="LINE">
+                    <line class="cls-1" x1="37.61" y1="52.98" x2="19.39" y2="39.12" />
+                </g>
+                <g id="LINE-2" data-name="LINE">
+                    <line class="cls-1" x1="19.39" y1="39.12" x2="40.49" y2="47.97" />
+                </g>
+                <g id="LINE-3" data-name="LINE">
+                    <line class="cls-1" x1="40.49" y1="63.76" x2="19.39" y2="72.61" />
+                </g>
+                <g id="LINE-4" data-name="LINE">
+                    <line class="cls-1" x1="19.39" y1="72.61" x2="37.61" y2="58.76" />
+                </g>
+                <g id="LINE-5" data-name="LINE">
+                    <line class="cls-1" x1="51.28" y1="66.65" x2="48.39" y2="89.36" />
+                </g>
+                <g id="LINE-6" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="89.36" x2="45.5" y2="66.65" />
+                </g>
+                <g id="LINE-7" data-name="LINE">
+                    <line class="cls-1" x1="59.17" y1="58.76" x2="77.39" y2="72.61" />
+                </g>
+                <g id="LINE-8" data-name="LINE">
+                    <line class="cls-1" x1="77.39" y1="72.61" x2="56.28" y2="63.76" />
+                </g>
+                <g id="LINE-9" data-name="LINE">
+                    <line class="cls-1" x1="56.28" y1="47.97" x2="77.39" y2="39.12" />
+                </g>
+                <g id="LINE-10" data-name="LINE">
+                    <line class="cls-1" x1="77.39" y1="39.12" x2="59.17" y2="52.98" />
+                </g>
+                <g id="LINE-11" data-name="LINE">
+                    <path class="cls-1" d="M49.77,58.57" transform="translate(-1.38 -2.71)" />
+                    <path class="cls-1" d="M59.43,53" transform="translate(-1.38 -2.71)" />
+                </g>
+                <g id="LINE-12" data-name="LINE">
+                    <path class="cls-1" d="M59.43,64.15" transform="translate(-1.38 -2.71)" />
+                    <path class="cls-1" d="M49.77,58.57" transform="translate(-1.38 -2.71)" />
+                </g>
+                <g id="LINE-13" data-name="LINE">
+                    <line class="cls-1" x1="58.06" y1="50.28" x2="93.04" y2="55.87" />
+                </g>
+                <g id="LINE-14" data-name="LINE">
+                    <line class="cls-1" x1="93.04" y1="55.87" x2="58.06" y2="61.45" />
+                </g>
+                <g id="LINE-15" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="44.7" x2="70.71" y2="17.2" />
+                </g>
+                <g id="LINE-16" data-name="LINE">
+                    <line class="cls-1" x1="70.71" y1="17.2" x2="58.06" y2="50.28" />
+                </g>
+                <g id="LINE-17" data-name="LINE">
+                    <line class="cls-1" x1="38.72" y1="50.28" x2="26.06" y2="17.2" />
+                </g>
+                <g id="LINE-18" data-name="LINE">
+                    <line class="cls-1" x1="26.06" y1="17.2" x2="48.39" y2="44.7" />
+                </g>
+                <g id="LINE-19" data-name="LINE">
+                    <line class="cls-1" x1="38.72" y1="61.45" x2="3.74" y2="55.87" />
+                </g>
+                <g id="LINE-20" data-name="LINE">
+                    <line class="cls-1" x1="3.74" y1="55.87" x2="38.72" y2="50.28" />
+                </g>
+                <g id="LINE-21" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="67.03" x2="26.06" y2="94.54" />
+                </g>
+                <g id="LINE-22" data-name="LINE">
+                    <line class="cls-1" x1="26.06" y1="94.54" x2="38.72" y2="61.45" />
+                </g>
+                <g id="LINE-23" data-name="LINE">
+                    <line class="cls-1" x1="58.06" y1="61.45" x2="70.71" y2="94.54" />
+                </g>
+                <g id="LINE-24" data-name="LINE">
+                    <line class="cls-1" x1="70.71" y1="94.54" x2="48.39" y2="67.03" />
+                </g>
+                <g id="LWPOLYLINE-2" data-name="LWPOLYLINE">
+                    <polygon class="cls-1" points="48.39 42.98 37.23 62.31 59.55 62.31 48.39 42.98" />
+                </g>
+                <g id="LWPOLYLINE-3" data-name="LWPOLYLINE">
+                    <polygon class="cls-1" points="54.83 44.7 35.5 55.87 54.83 67.03 54.83 44.7" />
+                </g>
+                <g id="LWPOLYLINE-4" data-name="LWPOLYLINE">
+                    <polygon class="cls-1" points="37.23 49.42 48.39 68.76 59.55 49.42 37.23 49.42" />
+                </g>
+                <g id="LWPOLYLINE-5" data-name="LWPOLYLINE">
+                    <polygon class="cls-1" points="41.94 67.03 61.28 55.87 41.94 44.7 41.94 67.03" />
+                </g>
+                <g id="CIRCLE-2" data-name="CIRCLE">
+                    <path class="cls-1" d="M47,58.57a2.8,2.8,0,1,1,2.8,2.79A2.79,2.79,0,0,1,47,58.57Z"
+                        transform="translate(-1.38 -2.71)" />
+                </g>
+                <g id="LWPOLYLINE-6" data-name="LWPOLYLINE">
+                    <polyline class="cls-1" points="47 54.47 56.28 47.97 49.78 57.26" />
+                </g>
+                <g id="LINE-25" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="44.7" x2="50.36" y2="55.87" />
+                </g>
+                <g id="LINE-26" data-name="LINE">
+                    <line class="cls-1" x1="46.42" y1="55.87" x2="48.39" y2="44.7" />
+                </g>
+                <g id="LINE-27" data-name="LINE">
+                    <line class="cls-1" x1="40.49" y1="47.97" x2="49.78" y2="54.47" />
+                </g>
+                <g id="LINE-28" data-name="LINE">
+                    <line class="cls-1" x1="47" y1="57.26" x2="40.49" y2="47.97" />
+                </g>
+                <g id="LINE-29" data-name="LINE">
+                    <line class="cls-1" x1="37.22" y1="55.87" x2="48.39" y2="53.9" />
+                </g>
+                <g id="LINE-30" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="57.83" x2="37.22" y2="55.87" />
+                </g>
+                <g id="LINE-31" data-name="LINE">
+                    <line class="cls-1" x1="40.49" y1="63.76" x2="47" y2="54.47" />
+                </g>
+                <g id="LINE-32" data-name="LINE">
+                    <line class="cls-1" x1="49.78" y1="57.26" x2="40.49" y2="63.76" />
+                </g>
+                <g id="LINE-33" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="67.03" x2="46.42" y2="55.87" />
+                </g>
+                <g id="LINE-34" data-name="LINE">
+                    <line class="cls-1" x1="50.36" y1="55.87" x2="48.39" y2="67.03" />
+                </g>
+                <g id="LINE-35" data-name="LINE">
+                    <line class="cls-1" x1="56.28" y1="63.76" x2="47" y2="57.26" />
+                </g>
+                <g id="LINE-36" data-name="LINE">
+                    <line class="cls-1" x1="49.78" y1="54.47" x2="56.28" y2="63.76" />
+                </g>
+                <g id="LINE-37" data-name="LINE">
+                    <line class="cls-1" x1="59.55" y1="55.87" x2="48.39" y2="57.83" />
+                </g>
+                <g id="LINE-38" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="53.9" x2="59.55" y2="55.87" />
+                </g>
+                <g id="LINE-39" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="21.26" x2="48.39" y2="7.86" />
+                </g>
+                <g id="LINE-40" data-name="LINE">
+                    <line class="cls-1" x1="48.39" y1="5.63" x2="48.39" y2="0.05" />
+                </g>
+                <g id="LINE-41" data-name="LINE">
+                    <line class="cls-1" x1="18.42" y1="73.17" x2="6.82" y2="79.87" />
+                </g>
+                <g id="LINE-42" data-name="LINE">
+                    <line class="cls-1" x1="4.88" y1="80.98" x2="0.05" y2="83.77" />
+                </g>
+                <g id="LINE-43" data-name="LINE">
+                    <line class="cls-1" x1="78.36" y1="73.17" x2="89.96" y2="79.87" />
+                </g>
+                <g id="LINE-44" data-name="LINE">
+                    <line class="cls-1" x1="91.89" y1="80.98" x2="96.73" y2="83.77" />
+                </g>
+                <g id="LINE-45" data-name="LINE">
+                    <line class="cls-1" x1="32.76" y1="40.24" x2="28.81" y2="36.29" />
+                </g>
+                <g id="LINE-46" data-name="LINE">
+                    <line class="cls-1" x1="27.18" y1="34.66" x2="23.23" y2="30.71" />
+                </g>
+                <g id="LINE-47" data-name="LINE">
+                    <line class="cls-1" x1="21.87" y1="29.35" x2="17.93" y2="25.4" />
+                </g>
+                <g id="LINE-48" data-name="LINE">
+                    <line class="cls-1" x1="21.87" y1="82.38" x2="17.93" y2="86.33" />
+                </g>
+                <g id="LINE-49" data-name="LINE">
+                    <line class="cls-1" x1="27.18" y1="77.08" x2="23.23" y2="81.02" />
+                </g>
+                <g id="LINE-50" data-name="LINE">
+                    <line class="cls-1" x1="32.76" y1="71.49" x2="28.81" y2="75.44" />
+                </g>
+                <g id="LINE-51" data-name="LINE">
+                    <line class="cls-1" x1="74.9" y1="82.38" x2="78.85" y2="86.33" />
+                </g>
+                <g id="LINE-52" data-name="LINE">
+                    <line class="cls-1" x1="69.6" y1="77.08" x2="73.54" y2="81.02" />
+                </g>
+                <g id="LINE-53" data-name="LINE">
+                    <line class="cls-1" x1="64.02" y1="71.49" x2="67.96" y2="75.44" />
+                </g>
+                <g id="LINE-54" data-name="LINE">
+                    <line class="cls-1" x1="74.9" y1="29.35" x2="78.85" y2="25.4" />
+                </g>
+                <g id="LINE-55" data-name="LINE">
+                    <line class="cls-1" x1="69.6" y1="34.66" x2="73.54" y2="30.71" />
+                </g>
+                <g id="LINE-56" data-name="LINE">
+                    <line class="cls-1" x1="64.02" y1="40.24" x2="67.96" y2="36.29" />
+                </g>
+                <g id="LINE-57" data-name="LINE">
+                    <line class="cls-1" x1="27.81" y1="50.35" x2="19.18" y2="48.04" />
+                </g>
+                <g id="LINE-58" data-name="LINE">
+                    <line class="cls-1" x1="17.16" y1="47.5" x2="11.77" y2="46.05" />
+                </g>
+                <g id="LINE-59" data-name="LINE">
+                    <line class="cls-1" x1="40.02" y1="87.09" x2="38.58" y2="92.48" />
+                </g>
+                <g id="LINE-60" data-name="LINE">
+                    <line class="cls-1" x1="42.87" y1="76.44" x2="40.56" y2="85.07" />
+                </g>
+                <g id="LINE-61" data-name="LINE">
+                    <line class="cls-1" x1="79.61" y1="64.23" x2="85" y2="65.68" />
+                </g>
+                <g id="LINE-62" data-name="LINE">
+                    <line class="cls-1" x1="68.97" y1="61.38" x2="77.59" y2="63.69" />
+                </g>
+                <g id="LINE-63" data-name="LINE">
+                    <line class="cls-1" x1="56.75" y1="24.64" x2="58.2" y2="19.25" />
+                </g>
+                <g id="LINE-64" data-name="LINE">
+                    <line class="cls-1" x1="53.9" y1="35.29" x2="56.21" y2="26.66" />
+                </g>
+            </svg>
+        </div>
+
+    </body>
+</html>
