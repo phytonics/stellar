@@ -41,6 +41,8 @@ theme:
 
 extra_css:
     - stylesheets/style.css
+    - stylesheets/solar_justice.css
+    - stylesheets/quiz.css
 
 markdown_extensions:
     - pymdownx.highlight:
@@ -69,34 +71,34 @@ extra_javascript:
 
 nav:
     - Home:
-          - Admin: index.md
+          - Admin: index.html
           - Stellar Evolution: stellar/index.md
           - Index: stellar/graph.html
     - How to Use:
           - Home: instructions/index.md
     - Preliminaries:
           - stellar/preliminaries/magnitude_scale.md
-          - 'The Hertzprung-Russell Diagram': stellar/preliminaries/hr_diagram.md
+          - "The Hertzprung-Russell Diagram": stellar/preliminaries/hr_diagram.md
     - The Beginning:
-          - stellar/beginning/molecular_cloud.md
-          - stellar/beginning/protostar.md
-          - stellar/beginning/herbig-ae-be.md
-          - stellar/beginning/t-tauri.md
-          - stellar/dwarves/brown_dwarf.md
-    - Massive Stars:
-          - stellar/stars/massive_star.md
-          - stellar/giants/red_supergiant.md
-          - stellar/nova/type_2_supernova.md
-          - stellar/nova/supernova_remnant.md
+          - "The Molecular Cloud": stellar/beginning/molecular_cloud.md
+          - "The Protostar": stellar/beginning/protostar.md
+          - "Herbig Ae/Be Stars": stellar/beginning/herbig-ae-be.md
+          - "T-Tauri Stars": stellar/beginning/t-tauri.md
+          - "Brown Dwarves": stellar/dwarves/brown_dwarf.md
+    - Massive Track:
+          - "Massive Stars": stellar/stars/massive_star.md
+          - "Red Supergiants": stellar/giants/red_supergiant.md
+          - "Type II Supernovae": stellar/nova/type_2_supernova.md
+          - "Supernova Remnant": stellar/nova/supernova_remnant.md
           - Death:
                 - Supermassive Stars:
-                      - stellar/others/black_hole.md
-                      - stellar/others/x_ray_emission.md
+                      - "Black Holes": stellar/others/black_hole.md
+                      - "X-Ray Emissions": stellar/others/x_ray_emission.md
                 - Less Massive Stars:
                       - stellar/others/neutron_star.md
                       - stellar/others/pulsar.md
-    - Low-Mass Stars:
-          - stellar/stars/low_mass_star.md
+    - Low-Mass Track:
+          - "Low-Mass Stars": stellar/stars/low_mass_star.md
           - stellar/giants/red_giant.md
           - Death:
                 - stellar/dwarves/binary_white_dwarf.md
@@ -107,7 +109,7 @@ nav:
                 - stellar/dwarves/black_dwarf.md
     - Games:
           - Home: stellar/games/index.md
-          - Solar Justice: stellar/games/solarJustice/index.html
+          - Solar Justice: stellar/games/solarJustice/index.md
 
 plugins:
     - mkdocs-jupyter

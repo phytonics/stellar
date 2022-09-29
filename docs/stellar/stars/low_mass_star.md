@@ -92,9 +92,9 @@ The *mean molecular weight* $\mu$ is defined as
 $$
 \mu = \frac{\overline m}{m_H}
 $$
-where
-- $\overline m$ is the average nuclear mass in the star
-- $m_H$ is the mass of a hydrogen atom.
+where<br>
+- $\overline m$ is the average nuclear mass in the star<br>
+- $m_H$ is the mass of a hydrogen atom.<br>
 We know that the pressure at the core of the star is due to a combination of gas and radiation pressure, which is given by the **hydrostatic pressure equation**
 
 $$
@@ -103,12 +103,12 @@ $$
 $$
 \Rightarrow P \approx \frac{\rho kT}{\mu m_H}\quad \text{(at low temperatures)}
 $$
-where
-- $\rho$ is the density of the star
-- $k$ is the Boltzmann constant
-- $T$ is the temperature
-- $\mu$ is the *mean molecular weight*
-- $m_H$ is the mass of a hydrogen atom
+where<br>
+- $\rho$ is the density of the star<br>
+- $k$ is the Boltzmann constant<br>
+- $T$ is the temperature<br>
+- $\mu$ is the *mean molecular weight*<br>
+- $m_H$ is the mass of a hydrogen atom<br>
 We also know that a star exists in a state of **hydrostatic equlibrium** where the pressure inside the star *fight against* the gravitational collapse of the star.
 
 From the *pressure equation*, we see that as the *mean molecular weight* of the star increases the pressure will tend to decrease. As such, in order to maintain the pressure such that it can still support the weight of the star, either the *density* $\rho$ or the *temperature* $T$, or **both** must increase to compensate for the increase in $\mu$.
@@ -147,30 +147,24 @@ where
 Note, however, that the SC limit can be exceeded if there is another source of pressure supporting the weight of the star, aside from gas and radiation pressure.
 This can occur in the star if the electrons in the gas become **degenerate**, which happens when the gas density is so high that the electrons are forced to occupy the *lowest possible energy state*.
 However, due to **Pauli's exclusion principle**, which forbids electrons from occupying the same quantum state, the electrons will be stacked on progressively higher energy levels. This results in a sort of non-thermal **electron degeneracy pressure** which pushes against the gravitional collapse and allowing the star to **exceed the Schönberg–Chandrasekhar limit**
-
+For more details, visit the article on [white dwarves](../dwarves/white_dwarf.md)
 ---
 ## Questions! :)
 
-### Question 1: Low-Mass Stars
-a) Are the cores of low-mass stars convective or radiative? <br>
-b) What does it mean for a core to be convective? <br>
-c) What does it mean for a core to be radiative? <br>
+### Question 1: How do Low Mass Stars Work?
 
-**Solutions** <br>
-a) *They are radiative* <br>
-b) *The energy of the core is transported by convection current of matter* <br>
-c) *The energy of the core is transported through radiation and conduction* <br>
+!!! Question "Are the cores of low-mass stars convective or radiative?"
+	<div>
+	<button class='md-button quizNormal' id="q1_1" onClick="markQ1(0)">Convective</button>
+	<button class='md-button quizNormal' id="q1_2" onClick="markQ1(1)">Radiative</button>
+	<hr>
+	</div>
+??? Abstract "What does it mean for a core to be convective?"
+	_The energy of the core is transported by convection current of matter._
+??? Abstract "What does it mean for a core to be radiative?"
+	_The energy of the core is transported through radiation and conduction._
 
-### Question 2: Pressure Integral
-The pressure intergral computes the pressure distribution given some distribution function $n_pdp$
-$$
-P = \frac{1}{3}\int_0^\infty pvn_pdp
-$$
-Calculate the expression for the radiation pressure of a star
-
-*Add solutions here later*
-
-### Question 3: Virial Theorem
+### Question 2: Virial Theorem
 For an inverse square force, **virial theorem** states that
 $$
 E = \frac{1}{2} U
@@ -184,4 +178,25 @@ U = -G\frac{Mm}{r}
 $$
 Find the total mechanical energy of a star given its mass $M$ and radius $R$
 
-*Add solution here later*
+??? Abstract "Solution"
+	*Add solution here later*
+
+
+### Question 3: Pressure Integral
+The pressure intergral computes the pressure distribution given some distribution function $n_pdp$
+$$
+P = \frac{1}{3}\int_0^\infty pvn_pdp
+$$
+Calculate the expression for the radiation pressure of a low-mass star.
+
+??? Abstract "Solution"
+	*Add solution here later*
+
+<script>
+function markQ1(answer) {
+	const wrong = document.getElementById("q1_1")
+	const right = document.getElementById("q1_2")
+	wrong.classList.add("quizIncorrect")
+	right.classList.add("quizCorrect")
+}
+</script>
