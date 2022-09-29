@@ -50,9 +50,13 @@ The last type is simply known as the composite remnants, so named because they s
     <img src="../../assets/nova/composite_type.jpg">A thermal composite supernova remnant. The red represents radio radiation, while the blue is x-rays.</img>
 </p>
 
-## The end of the star
+## The end of the star?
 
-Supernova remnants remain as they are until they eventually radiate all their heat away. However, this process usually takes tens of thousands of years as the gases slowly cool, allowing them to remain visible for a very, very long time.
+Supernova remnants remain as they are until they eventually radiate all their heat away. However, this process usually takes tens of thousands of years as the gases slowly cool, allowing them to remain visible for a very, very long time. 
+
+Is the supernova truly the end of a star as all its mass is blown off into space? Not quite. While [Type I Supernovas](type_1a_supernova.md) are believed to be completely shattered, [Type II Supernovas](type_2_supernova.md) can leave behind a very highly compressed remnant that we now know as a **[Neutron Star](../others/neutron_star.md)**.
+
+Next: [Neutron Stars](../others/neutron_star.md)
 
 
 *References:*
