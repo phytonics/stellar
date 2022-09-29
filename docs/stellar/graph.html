@@ -6,6 +6,7 @@
       type="text/javascript"
       src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
 
     <script>
       document.addEventListener("keydown", function () {
@@ -20,12 +21,22 @@
           }
         }
       })  
+
+      window.addEventListener("load", function () {
+          let myAnimation = anime({
+            targets: '#mynetwork',
+            easing: 'easeInOutSine',
+            duration: 1500,
+            opacity: 1
+          });
+        });
     </script>
 
     <style type="text/css">
       #mynetwork {
         width: 100vw;
         height: 100vh;
+        opacity: 0;
       }
       #topright{
         position: absolute;
@@ -195,7 +206,7 @@
 
       network.once("beforeDrawing", function () {
           network.focus(2, {
-            scale: 3,
+            scale: 8,
           });
         });
         network.once("afterDrawing", function () {
