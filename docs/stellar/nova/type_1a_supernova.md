@@ -36,11 +36,11 @@ The mass at which this occurs is calculated to be about 1.4 solar masses, which 
 
 The collapsing white dwarf causes its core to be forced together again, creating an even stronger gravitational field that pulls on the matter comprising the white dwarf even more strongly. The result is that the pressures are high enough for the carbon core of the white dwarf to undergo **carbon fusion**, which is the same process of that in massive stars. Carbon fusion can yield multiple products, for example in the following:
 
-$$$
+$$
 \ce{^{12}_{6}C} + \ce{^{12}_{6}C} \rightarrow \ce{^{20}_{10}Ne} + \ce{^{4}_{2}He}
 \ce{^{12}_{6}C} + \ce{^{12}_{6}C} \rightarrow \ce{^{23}_{11}Na} + \ce{^{1}_{1}H}
 \ce{^{12}_{6}C} + \ce{^{12}_{6}C} \rightarrow \ce{^{23}_{12}Mg} + \ce{^{1}_{0}n}
-$$$
+$$
 
 This process generates a huge amount of energy as practically the whole star undergoes fusion at once. This burst of energy overcomes the gravitational pull of the white dwarf's matter, and the white dwarf explodes in a large conflagaration that also releases a large amount of light, which we observe as a **Type Ia Supernova**.
 
