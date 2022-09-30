@@ -5,7 +5,7 @@ Supernova explosions are some of the brightest and highest-energy events in the 
 One of the most well-known supernova remnants is the **Crab Nebula**, the remnant of a supernova that exploded close to nine centuries ago. Astronomers have recognised that the Crab Nebula must have resulted from an explosion due to how the gas cloud expands, creating a Doppler shift in the emission spectral lines that we can observe.
 
 <p align="center">
-    <img src = "../../assets/nova/crab_nebula.jpg">An image of the Crab Nebula</img>
+    <img src = "../../../assets/nova/crab_nebula.jpg">An image of the Crab Nebula</img>
 </p>
 
 ## The formation of a Supernova Remnant
@@ -21,7 +21,7 @@ $$
 In certain cases, the explosion of the supernova also forms a reverse shock wave that collapses back towards the center of the explosion. This usually occurs due to an expanding shell hitting another mass of gass, and the pressure buildup forcing the first shell to collapse back inwards. This effect has been observed in Cassiopeia A, one of the most prominent supernova remnants we have found.
 
 <p align="center">
-    <img src="../../assets/nova/double_shock.jpg">A diagram showing the two shock waves as a supernova explodes</img>
+    <img src="../../../assets/nova/double_shock.jpg">A diagram showing the two shock waves as a supernova explodes</img>
 </p>
 
 ## The phases of a Supernova Remnant
@@ -35,19 +35,19 @@ Supernova remnants are largely divided into 3 types based on their observable sh
 The first of these is known as the **shell type**, so named because the radiation originates largely from an outer shell of shocked material. When we see these remnants, they appear as a bright ring as we see the radiation from the outer ring. This phenomenon of having the outer portion more visible since there is more hot gas at the edges of our line of sight is known as **limb brightening**.
 
 <p align="center">
-    <img src="../../assets/nova/shell_type.jpg">A shell-type supernova remnant</img>
+    <img src="../../../assets/nova/shell_type.jpg">A shell-type supernova remnant</img>
 </p>
 
 The second of these is known as the **crab type**, owing their appearance. As one might expect, the Crab Nebula shown earlier is indeed a crab-type supernova remnant. Unlike the shell-type remnants, which appear as a single bright ring with a hollow center, crab-type remnants have a **[pulsar](../others/pulsar.md)** at their center, which flings out electrons. The electrons moving at relativistic speeds interact with the magnetic field within the remnant created by the matter, emitting all forms of electromagnetic radiation in the form of **synchrotron radiation**. This causes the center of the remnant to appear bright as well.
 
 <p align="center">
-    <img src="../../assets/nova/crab_type.jpg">A crab-type supernova remnant</img>
+    <img src="../../../assets/nova/crab_type.jpg">A crab-type supernova remnant</img>
 </p>
 
 The last type is simply known as the composite remnants, so named because they show properties of both the shell and crab types. There are two different ways this can occur: one of them is **thermal composites**, which radiate shell-like in radio waves and crab-like in X-rays, but another is plerionic composites, which appear crab-like but also manifest shell structures.
 
 <p align="center">
-    <img src="../../assets/nova/composite_type.jpg">A thermal composite supernova remnant. The red represents radio radiation, while the blue is x-rays.</img>
+    <img src="../../../assets/nova/composite_type.jpg">A thermal composite supernova remnant. The red represents radio radiation, while the blue is x-rays.</img>
 </p>
 
 ## The end of the star?
