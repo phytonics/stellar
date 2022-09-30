@@ -1,6 +1,6 @@
 # Type Ia Supernova
 <p align="center">
-    <img src="../../../assets/nova/supernova.png">A visible supernova</img>
+    <img src="../../../assets/nova/supernova.png"><br>A visible supernova</img>
 </p>
 
 White dwarves in binary systems slowly accrete mass from their partners, and can eventually turn into [novas](nova.md) or **Type Ia Supernovas**. Supernovas obtain their name as they flare up suddenly like novas, but have even greater brightness than them as their name would suggest. Despite their similar names oweing to the similar phenomenon at the surface level, the mechanisms behind supernovas actually are quite distinct from that of novas. 
@@ -16,7 +16,7 @@ The reason for supernovas occuring only once is a direct result of the greater m
 Supernovas today are divided into two types, Type I and Type II, based on how much hydrogen they contain, deduced from the emission lines of their radiation. Type I supernovas are characterized by being hydrogen-poor, lacking the characteristic lines of the radiation hydrogen emits when heated, and has its brightness over time vary more similarly to that of a regular nova. 
 
 <p align="center">
-<img src="../../assets/nova/supernova_spectra.png">
+<img src="../../../assets/nova/supernova_spectra.png">
 </p>
 
 In the above graph, the red box shows the spectra of type II supernovas, while the blue boxes are Ia, Ib and Ic respectively from the top. Notice that only type II supernovas show the hydrogen absorption line (denoted in green). Interestingly, Type Ia Supernovas also uniquely show a silicon absorption line that is not present for the others. 
