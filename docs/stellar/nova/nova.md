@@ -20,7 +20,7 @@ $$
 The fusion reaction releases a very large amount of energy, causing the hydrogen to heat up until it radiates in the visible range. The rapid heating causes the gas to expand rapidly, blowing most of it into space, where it then cools down. This is why novas flare up suddenly and then slowly fade back to their normal brightness. 
 
 <p align="center">
-    <img src="../../assets/nova/nova_remnant.png">The still-bright gas from after a nova explosion</img>
+    <img src="../../../assets/nova/nova_remnant.png">The still-bright gas from after a nova explosion</img>
 </p>
 
 ## The Cycle Continues
