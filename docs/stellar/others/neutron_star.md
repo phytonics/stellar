@@ -12,7 +12,7 @@ Just before the supernova explodes, the force from gravity grows so large that p
 Neutron stars defy logic at every turn. They have incredibly high masses, forming from the cores of stars even more massive than the Sun, but are squeezed together so tightly that their diameters are only about 20 kilometers across, the size of a city.
 
 <p align="center">
-    <img src="../../../assets/others/neutron_star_comparison.jpg"> A neutron star overlaid on Manhattan Island</img>
+    <img src="../../../assets/others/neutron_star_comparison.jpg"><br>A neutron star overlaid on Manhattan Island</img>
 </p>
 
 Owing to their extreme densities, neutron stars also have very strong gravitational fields, almost as strong as that of black holes. Their fields are so strong that light can bend as it passes around them, allowing us to view even the sides of neutron stars. Another property of their sheer mass is how neutron star collisions can produce gravitational waves. 
