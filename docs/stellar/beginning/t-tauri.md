@@ -6,13 +6,14 @@
 
 ## The T-Tauri star
 
-The protostar at some point becomes massive enough that it can be considered a _T-Tauri_ Star. The circumstellar disk from the protostar phase also begins to disappate. This can happen because of loss of mass, excessive heat or simply because it is blown away by the protostellar jets. 
+T-tauri stars are young stars which have not yet commenced nuclear fusion. Their temperature is similar to that of a main sequence star, but are much mroe luminous as a result of their larger radius. They are characterised by strong X-ray and radio emissions, as well as powerful stellar winds. 
 
-T tauri stars are intermediaries between protostars and low-mass stars. If the mass of the T-tauri star is more than 60 times the mass of jupiter, this light intermediary phase is sufficient to support a reaction known as lithium burning.
-
+In this phase, the circumstellar disk formed during protostar phase also begins to disappate because of loss of mass, excessive heat or simply because it is blown away by the solar winds. 
 
 
 ### Lithium Burning
+If the mass of the T-tauri star is more than 60 times the mass of jupiter, this light intermediary phase is sufficient to support a reaction known as lithium burning.
+
 The nuclear reactions for Lithium Burning are as follows. 
 
 A proton fuses with lithium to form beryllium,
