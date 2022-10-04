@@ -24,7 +24,15 @@ Furthermore, the outer envelope continues to expand and cools down, causing the 
 <span>Figure 2: Reactions in the red giant</span>
 </p>
 
-## Burning Helium
+As such, the star has 3 layers
+<ul>
+<li> <b>Helium burning core:</b> the collapsing helium burning core</li>
+<li> <b>Fusion layer:</b> the layer immediately enveloping the core </li>
+<li> <b>Expanding layer:</b> the hydrogen shell enveloping the core and the fusion layer, it itself it not hot enough for hydrogen fusion so it just expands </li>
+</ul>
+
+## The Helium Burning Core
+### Burning Helium
 
 In 1951, Öpik realised that helium burning can take place in the core at a sufficiently high temperature (around 100 million Kelvins). The reaction involves a triple collision of helium nuclei to form a carbon nuclei.
 $$
@@ -32,6 +40,9 @@ $$
 $$
 
 Surprisingly, the triple collision happens very frequently in the immensely hot core of the star that enough energy is produced to power the red giant's intense luminosity.
+
+## The Fusion layer
+
 
 ## Helium Depletion
 
@@ -42,6 +53,3 @@ As the cores runs out of helium to burn, it sheds its outer gaseous envelope, wh
 <br>
 <span>Figure 3: Cat eye nebula</span>
 </p>
-
-_**Elaborate on each concept further later**_
-
