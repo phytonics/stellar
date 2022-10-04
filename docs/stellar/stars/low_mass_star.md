@@ -179,18 +179,10 @@ $$
 Find the total mechanical energy of a star given its mass $M$ and radius $R$
 
 ??? Abstract "Solution"
-	*Add solution here later*
+	<p align="center">
+		<img src="../../../assets/stars/ans.jpeg"></img>
+	</p>
 
-
-### Question 3: Pressure Integral
-The pressure intergral computes the pressure distribution given some distribution function $n_pdp$
-$$
-P = \frac{1}{3}\int_0^\infty pvn_pdp
-$$
-Calculate the expression for the radiation pressure of a low-mass star.
-
-??? Abstract "Solution"
-	*Add solution here later*
 
 <script>
 function markQ1(answer) {

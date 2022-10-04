@@ -11,6 +11,21 @@ Now, astronomers noticed that galaxies are spinning a bit too fast for the mass 
 We would expect a dark matter candidate to be something with **a lot of mass** and **very hard to detect**. We see that black dwarves satisfies both of these criteria, as it possess the mass of a star - making it very massive. And it is very small and doesn't emit light, making it very hard to detect.
 As such, it is quite an interesing exercise to entertain the possibility that black dwarves are actually what is responsible for the phenonmenon we call **dark matter**.
 
+### Why isn't it discussed in science more?
+Black dwarves are theoretical objects, and have never been observed. The time it takes for a white dwarf to become a black dwarf is longer than the life-time of the universe. Hence, scientists believe that it is improbable that black dwarves are responsible for the dark matter anomaly, lest our current physical theoreies are wrong in some limit.
+
+## Questions
+Show that the time it takes for white dwarves to cool down to black dwarves is longer than the hypothesized age of the universe (13.77 billion years!). Given that white dwarf must cool down to $3000\ K$ to be considered a black dwarf, take the initial temperature of the white dwarf to be that of Sirius B, $25200\ K$. Furthermore, take the heat capacity of the white dwarf to be $1.623\times10^{33}\ J/K$ and that the radius of Sirius B is $5.89\times10^6\ m$
+
+??? Abstract "Solution"
+	<p align="center">
+    	<img src="../../../assets/stars/jj.jpeg"></img>
+	</p>
+### Postface
+The heat capacity of the dwarf was calculated by taking the molar heat capacity of carbon ($C = 10\ J/molK$) and multiplying it by $M_{Sirius B}/(12.01)$.
+
+
+<!--
 ### Why isn't there a lot of literature on this topic?
 Though it is an interesting thought, why isn't there more literature on this topic?<br>
 Why did I only know about this until I started looking into black dwarves?<br>
@@ -34,3 +49,4 @@ function markQ1(answer) {
 	right.classList.add("quizCorrect")
 }
 </script>
+-->
