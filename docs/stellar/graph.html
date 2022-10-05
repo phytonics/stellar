@@ -82,26 +82,21 @@
         { id: 20, label: "Herbig Ae/Be Star", margin: 20, url: "./beginning/herbig-ae-be/", level: 3 },
         { id: 21, label: "T-Tauri Star", margin: 20, url: "./beginning/t-tauri/", level: 3 },
         
-        { id: 3, label: "Massive\nStar", margin:20, url: "./stars/massive_star/" , level: 4 },
+        
         { id: 4, label: "Low Mass\nStar", margin:20, url: "./stars/low_mass_star/" , level: 4 },
         { id: 5, label: "Brown\nDwarf", margin:20, url: "./dwarves/brown_dwarf/" , level: 4},
 
-        { id: 6, label: "Red\nSupergiant", margin:20, url: "./giants/red_supergiant/" , level: 5 },
+        { id: 3, label: "Massive\nStar", margin: 20, url: "./stars/massive_star/", level: 5 },
         { id: 13, label: "Red\nGiant", margin: 20, url: "./giants/red_giant/", level: 5 },
 
-        { id: 7, label: "Type II\nSupernova", margin:20, url: "./nova/type_2_supernova/" , level: 6 },
-        { id: 14, label: "Binary\nWhite\nDwarf", margin: 20, url: "./dwarves/binary_white_dwarf/", level: 6 },
+        { id: 22, label: "Binary\nWhite\nDwarf", margin: 20, url: "./dwarves/binary_white_dwarf/", level: 6 },
+        { id: 14, label: "Massive\nStar Death", margin: 20, url: "./others/massive_star_death" , level: 8 },
 
         { id: 15, label: "Nova", margin: 20, url: "./nova/nova/" , level: 8 },
         { id: 17, label: "Planetary\nNebula", margin: 20, url: "./others/planetary_nebula/" , level: 8 },
         { id: 16, label: "Type Ia\nSupernova", margin: 20, url: "./nova/type_1a_supernova/" , level: 8 },
-        { id: 8, label: "Supernova\nRemnant", margin:20, url: "./nova/supernova_remnant/" , level: 8 },
-        { id: 9, label: "Black\nHole", margin:20, url: "./others/black_hole/" , level: 8 },
-        { id: 11, label: "Neutron\nStar", margin: 20, url: "./others/neutron_star/" , level: 8 },
 
-        { id: 10, label: "X-Ray\nEmission", margin:20, url: "./others/x_ray_emission/" , level: 9 },
         { id: 18, label: "White\nDwarf", margin: 20, url: "./dwarves/white_dwarf/", level: 9 },
-        { id: 12, label: "Pulsar", margin: 20, url: "./others/pulsar/", level: 9 },
         
         { id: 19, label: "Black\nDwarf", margin: 20, url: "./dwarves/black_dwarf/", level: 10 },
 
@@ -110,6 +105,7 @@
 
       // create an array with edges
       var edges = new vis.DataSet([
+        
         { from: 1, to: 2, arrows: "to" },
 
         { from: 2, to: 21, arrows: "to" , label: "<2 Msun", font: { multi: "md" } },
@@ -118,21 +114,15 @@
         { from: 21, to: 5, arrows: "to" , label: "<0.08 \nMsun", font: { multi: "md" } },
         { from: 21, to: 4, arrows: "to", label: ">0.08 \nMsun", font: { multi: "md" } },
         { from: 20, to: 3, arrows: "to" },
-      
-        { from: 6, to: 7, arrows: "to" },
-        { from: 3, to: 6, arrows: "to" },
-        { from: 7, to: 8, arrows: "to" },
-        { from: 7, to: 9, arrows: "to", label: "> 40 Msun", font: { multi: "md" } },
-        { from: 9, to: 10, arrows: "to" },
-        { from: 7, to: 11, arrows: "to", label: "< 40 Msun", font: { multi: "md" } },
-        { from: 11, to: 12, arrows: "to" },
+    
+        { from: 3, to: 14, arrows: "to" },
         { from: 4, to: 13, arrows: "to" },
-        { from: 13, to: 14, arrows: "to" },
+        { from: 13, to: 22, arrows: "to" },
         { from: 13, to: 17, arrows: "to" },
         { from: 17, to: 18, arrows: "to" },
         { from: 18, to: 19, arrows: "to" },
-        { from: 14, to: 15, arrows: "to", label: "< 1.4 Msun", font: { multi: "md" } },
-        { from: 14, to: 16, arrows: "to", label: "> 1.4 Msun", font: { multi: "md" } },
+        { from: 22, to: 15, arrows: "to", label: "< 1.4 Msun", font: { multi: "md" } },
+        { from: 22, to: 16, arrows: "to", label: "> 1.4 Msun", font: { multi: "md" } },
         { from: 15, to: 18, arrows: "to" },
 
       ]);
@@ -199,7 +189,7 @@
    if (params.nodes.length === 1) {
         var node = nodes.get(params.nodes[0]);
         if(node.url != null) {
-        window.open(node.url, '_blank');
+        window.location.replace(node.url);
         }
         }
     });
