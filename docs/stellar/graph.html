@@ -189,7 +189,7 @@
    if (params.nodes.length === 1) {
         var node = nodes.get(params.nodes[0]);
         if(node.url != null) {
-        window.open(node.url, '_blank');
+        window.location.replace(node.url);
         }
         }
     });
