@@ -90,6 +90,7 @@ nav:
           - "Red Supergiants": stellar/giants/red_supergiant.md
           - "Type II Supernovae": stellar/nova/type_2_supernova.md
           - "Supernova Remnant": stellar/nova/supernova_remnant.md
+          - "Massive Star Death": stellar/others/massive_star_death.md
           - Death:
                 - Supermassive Stars:
                       - "Black Holes": stellar/others/black_hole.md
