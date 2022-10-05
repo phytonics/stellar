@@ -7,34 +7,26 @@ White dwarves in binary systems slowly accrete mass from their partners, and can
 
 ## Supernovas vs Novas
 
-Supernovas were not well-understood for a long time, with astronomers puzzled on what differentiated them with the similarly bright novas. In particular, the perplexing discovery of how supernovas only rose in brightness once before disappearing as opposed to the recurring flares of novas. However, with us now knowing more about the process of how supernovas explode, we now have a better understanding of how they differ. 
-
-The reason for supernovas occuring only once is a direct result of the greater magnitude of their burst of brightness — the reaction responsible for this greater release in energy also causes the entire star to blow apart and violently explode, leaving no chance for a repeat performance.
+Unlike the recurring novas, supernovas explode only once. The reason for supernovas occuring only once is a direct result of the greater magnitude of their burst of brightness, since this greater energy release destroys the whole star.
 
 ## Types of Supernova
 
-Supernovas today are divided into two types, Type I and Type II, based on how much hydrogen they contain, deduced from the emission lines of their radiation. Type I supernovas are characterized by being hydrogen-poor, lacking the characteristic lines of the radiation hydrogen emits when heated, and has its brightness over time vary more similarly to that of a regular nova. 
+Supernovas today are divided into two types, Type I and Type II, based on how much hydrogen they contain, deduced from the emission lines of their radiation. Type I supernovas are characterized by being hydrogen-poor, and have brightness curves more similar to those of novas.
 
-<p align="center">
-<img src="../../../assets/nova/supernova_spectra.png">
-</p>
-
-In the above graph, the red box shows the spectra of type II supernovas, while the blue boxes are Ia, Ib and Ic respectively from the top. Notice that only type II supernovas show the hydrogen absorption line (denoted in green). Interestingly, Type Ia Supernovas also uniquely show a silicon absorption line that is not present for the others. 
-
-Type I supernovas are also divided into further subtypes, Types Ia, Ib and Ic, depending on their cause. Types Ib and Ic occur due to the collapse of the core of a massive star, while Ia differs from them as it is the result of a **[binary white dwarf](../dwarves/binary_white_dwarf.md)** system. This article will focus on Type Ia Supernovas.
+This article focuses specifically on Type Ia Supernovas: hydrogen-poor supernovas that arise from **[Binary White Dwarf Systems](../dwarves/binary_white_dwarf.md)**.
 
 ## Mass Accretion and Accumulation
-Recall that in a binary white dwarf system, the white dwarf will accrete mass from its partner when the partner expands past its own Roche lobe, allowing the white dwarf's gravitational pull to dominate and pull gas towards itself. When too much gas accumulates and pressure increases, the gas will tend to ignite in the form of a **nova**; however with every nova flare not all the gas is consumed and more of it begins to accumulate. Thus, across multiple cycles, the mass of the white dwarf tends to increase.
+Recall that in a binary white dwarf system, the white dwarf can accrete mass from its partner. When too much gas accumulates and pressure increases, the gas will tend to ignite in the form of a **nova**; however some gas still remains after the nova explosion. This remaining gas builds up over time, causing the mass of the white dwarf to increase.
 
 ## Balancing Pressures
 
-Opposing the gravity of the white dwarf trying to collapse in on itself is the **electron degeneracy pressure**. In the high-density conditions of white dwarves, the electrons are packed very closely together, but due to the quantum property of microstates, they are forced to stay a certain distance apart so they do not encroach on one another's microstates. In simple terms, this means that each electron is already squeezed into as little space as it can occupy, and must maintain this minimum distance from other electrons. This requirement results in an outward pressure that balances the gravitation. However, this pressure has a limit: if too much mass accumulates, the electron degeneracy pressure will no longer be able to support the gravitational force and the white dwarf will collapse.
+Opposing the gravity of the white dwarf trying to collapse in on itself is the **electron degeneracy pressure**. In simple terms, the electrons cannot be squeezed any closer, and exert an outward pressure to resist further collapse. However, once gravity gets too strong from too much mass, it can overcome this pressure. 
 
 The mass at which this occurs is calculated to be about 1.4 solar masses, which is known as the **Chandrasekhar mass** or **Chandrasekhar limit**. 
 
 ## The White Dwarf Collapses
 
-The collapsing white dwarf causes its core to be forced together again, creating an even stronger gravitational field that pulls on the matter comprising the white dwarf even more strongly. The result is that the pressures are high enough for the carbon core of the white dwarf to undergo **carbon fusion**, which is the same process of that in massive stars. Carbon fusion can yield multiple products, for example in the following:
+The collapsing white dwarf causes its core to be forced together again, increasing the core's density and hence the intensity of gravity. Pressures become high enough for the carbon core of the white dwarf to undergo **carbon fusion**, which is the same process of that in massive stars. Carbon fusion can yield multiple products, for example in the following:
 
 $$
 \ce{^{12}_{6}C} + \ce{^{12}_{6}C} \rightarrow \ce{^{20}_{10}Ne} + \ce{^{4}_{2}He}
@@ -42,14 +34,10 @@ $$
 \ce{^{12}_{6}C} + \ce{^{12}_{6}C} \rightarrow \ce{^{23}_{12}Mg} + \ce{^{1}_{0}n}
 $$
 
-This process generates a huge amount of energy as practically the whole star undergoes fusion at once. This burst of energy overcomes the gravitational pull of the white dwarf's matter, and the white dwarf explodes in a large conflagaration that also releases a large amount of light, which we observe as a **Type Ia Supernova**.
-
-## Properties of a Type Ia Supernova
-
-Type Ia Supernovas have a few distinct properties that makes them distinguishable from other kinds of supernovas. An important one of them is that Type Ia Supernovas always have the same brightness, since they occur when the white dwarf reaches a fixed mass and always triggers at that same point. This property makes Type Ia Supernovas very good as ways to measure distances, since the intensity of the light we receive can be related to the distance from the star when the brightness is always the same. 
+This process generates a huge amount of energy as practically the whole star undergoes fusion at once. This burst of energy overcomes the gravitational pull of the white dwarf's matter, and the white dwarf explodes and releases a large amount of light, which we observe as a **Type Ia Supernova**.
 
 ## After the Explosion
-The white dwarf is obliterated in the supernova explosion, with its mass being thrown out into space by the force of the thermonuclear expansion. The result is the formation of a supernova remnant.
+The white dwarf is obliterated in the supernova explosion, with its mass being thrown out into space by the force of the thermonuclear expansion and forming a supernova remnant.
 
 [Next: Supernova Remnant](supernova_remnant.md)
 

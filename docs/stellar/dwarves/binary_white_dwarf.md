@@ -4,19 +4,11 @@ Previously, we have considered stars as isolated systems that evolve independent
 
 ## Recap: White Dwarves
 
-Recall that a white dwarf is the result of the death of a low-mass star, where its gas envelope has been stripped away to leave only the carbon core at the center. Nuclear fusion no longer occurs within the core of the white dwarf and it glows its white color simply due to its remaining heat. When a red giant eventually forms a white dwarf, what remains is usually simply a husk that will slowly cool as it radiates its remaining heat, eventually forming a black dwarf. However, in a binary system, the white dwarf has the potential to evolve further -- and in far mmore spectacular ways.
-
-## The Characteristics of Binary Systems
-
-In a binary system, the space around the system is affected by the gravitational pull of both stars. A common representation of this is each star being surrounded by its **Roche lobe**, a teardrop-shaped zone. Within the zone, the star's gravity dominates its partner's pull. The lobes of the two stars meet at a point between them known as the **Lagrangian point**, where the gravity of the two is balanced. Larger stars, owing to their stronger gravitational pull, have larger Roche lobes and further Lagrangian points along the line between the two. 
-
-<p align="center">
-    <img src="../../../assets/dwarves/roche_lobes.png"><br>A diagrammatic representation of the Roche Lobes of a binary system</img>
-</p>
+A white dwarf is the remnant of a dead star -- only inert carbon that does not fuse remains, remaining light coming from only its remaining heat. Usually, a white dwarf will simply cool as it radiates its remaining heat, eventually forming a black dwarf. However, in a binary system, the white dwarf has the potential to evolve further -- and in far mmore spectacular ways.
 
 ## Stealing Gas
 
-In a binary white dwarf system, the white dwarf's gravitational field can begin to pull gas from its partner to itself -- in other words, the size of its partner exceeds their Roche lobe. The result is that the white dwarf slowly gains gas from its partner. This occurs most when its partner is also reaching the end of its main sequence and has expanded to a red giant, where it is much easier for the size of the partner to exceed their lobe. 
+In a binary white dwarf system, the white dwarf's gravitational field can begin to pull gas from its partner to itself -- in other words, the size of its partner exceeds their Roche lobe, or the sphere of their gravitational influence. The result is that the white dwarf slowly gains gas from its partner. This occurs most when its partner is also reaching the end of its main sequence and has expanded to a red giant. 
 
 <p align="center">
     <img src="../../../assets/dwarves/mass_accretion.png"><br>Accretion of mass from a red giant</img>
