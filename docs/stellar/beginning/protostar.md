@@ -19,17 +19,19 @@ If its mass is between 2 and 10 solar masses, it turns into a [Herbig Ae/Be star
 !!! note
     Some believe stars of mass lower than 0.5 solar mass never enter the T-tauri phase. However, there is also conflicting (but not conclusive) results suggesting the existence of a T-tauri phase in brown dwarfs. See [3].
 
-## Protoplanetary Disks
+## Protostar Structures
+
+### Protoplanetary Disks
 
 Gas initially collapses towards the dense core of the protostar, but also begins to form a protoplanetary disk. The protoplanetary disk (Not to be confused with an accretion disk), as mentioned earlier, is where the protostar pulls in its mass from. 
 
 As the protostar collapses under its own gravity, conservation of angular momentum causes the rotation of the star to speed up. Centripital accelleration from the rotation resists the radial pull of the star, while axially the outer shell continues to collapse. 
 
-### Planet Formation
+#### Planet Formation
 
 From this relatively stable disk around the star, planets can form. It is widely believed that our solar system was birthed out of a system like this. Electrostatic and gravitational effects pull clumps of dust together against the push of stellar wind to create planetesimals. If the outward pushing solar wind and inward pulling gravity are stable for long enough, these planetesimals accrete into planets. 
 
-## Protostellar Jets
+### Protostellar Jets
 
 Many depictions of protostars show jet-like shapes appearing to come axially out of the protostar. These mysterious structures are called protostellar jets, and though their origin is yet unknown, they play an important part in supporting the protostar. 
 

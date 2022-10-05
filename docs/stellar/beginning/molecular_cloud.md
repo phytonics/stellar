@@ -14,6 +14,14 @@ A molecular cloud is a cloud of light gas (mostly H$_2$) and dust. These humongo
 
 If the mass of a cloud exceeds the threshold where pressure can maintain equilibrium, _gravitational collapse_ begins, and cloud fragments begin to implode until their cores are dense enough to be considered [a protostar](protostar.md).
 
+## Stability 
+
+In many giant molecular clouds the density for a long-lived stable equlibrium to exist. In addition to gas pressure, magnetic forces also oppose the contraction of gas within the molecular cloud.
+
+Mostly, molecular clouds are too light, hot and magnetic for gravitational collapse to occur, so how does this happen? Usually cloud collapse is _triggered_ by an event such as the collision of gas clouds or gravitational waves from supernovae. These events compress the gas on astronomical scales, kickstarting the star formation process. 
+
+The gravitational forces of the dust gradually begins to overcome gas pressure, turbulence, rotation, and the magnetic field of the cloud, leading to _cloud collapse_ at multiple points within the cloud. The waves and forces produced by these young stars pushes its surrounding gas together in a phenomenon known as _starbursts_ where for a period the rate of star formation in a molecular cloud is greatly increased.
+
 ## Gravitational collapse
 
 In the 20th century, a scientist named James Jeans investigated this phenomenon of cloud collapse. Jeans found that fluctuations in size or mass larger than certain thresholds (now known as the Jeans Mass and Jeans Length) will cause instability in the molecular cloud and begin gravitational collapse.
@@ -81,16 +89,6 @@ $$
 
 When a cloud's mass exceeds the Jeans Mass, the gravitational forces of the dust gradually begins to overcome gas pressure, turbulence, rotation, and the magnetic field of the cloud. This leads to _cloud collapse_, where gas collapses inwards into balls at multiple points within the molecular cloud, forming smatterings of dustballs known as...
 The Jeans mass was derived from examining the point at which grevitational potential energy increases exceed the pressure increase which opposes the collapse.
-
-## Stability 
-
-In many giant molecular clouds the density for a long-lived stable equlibrium to exist. In addition to gas pressure, magnetic forces also oppose the contraction of gas within the molecular cloud.
-
-Mostly, molecular clouds are too light, hot and magnetic for gravitational collapse to occur. However, an event such as the collision of gas clouds or gravitational waves from supernovae compress the gas on astronomical scales, kickstarting the star formation process. 
-
-The gravitational forces of the dust gradually begins to overcome gas pressure, turbulence, rotation, and the magnetic field of the cloud, leading to _cloud collapse_ at multiple points within the cloud. The waves and forces produced by these young stars pushes its surrounding gas together in a phenomenon known as _starbursts_ where for a period the rate of star formation in a molecular cloud is greatly increased.
-
-[Next: Protostars](protostar.md)
 
 <hr/>
 
