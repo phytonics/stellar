@@ -42,6 +42,3 @@ As the cores runs out of helium to burn, it sheds its outer gaseous envelope, wh
 <br>
 <span>Figure 3: Cat eye nebula</span>
 </p>
-
-_**Elaborate on each concept further later**_
-
