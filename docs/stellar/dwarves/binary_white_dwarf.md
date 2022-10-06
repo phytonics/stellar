@@ -11,7 +11,7 @@ A white dwarf is the remnant of a dead star -- only inert carbon that does not f
 In a binary white dwarf system, the white dwarf's gravitational field can begin to pull gas from its partner to itself -- in other words, the size of its partner exceeds their Roche lobe, or the sphere of their gravitational influence. The result is that the white dwarf slowly gains gas from its partner. This occurs most when its partner is also reaching the end of its main sequence and has expanded to a red giant. 
 
 <p align="center">
-    <img src="../../../assets/dwarves/mass_accretion.png"><br>Accretion of mass from a red giant</img>
+    <img src="../../../assets/dwarves/mass_accretion.PNG"><br>Accretion of mass from a red giant</img>
 </p>
 
 This process, where the white dwarf gradually gains mass from its partner, is known as **accretion**.
