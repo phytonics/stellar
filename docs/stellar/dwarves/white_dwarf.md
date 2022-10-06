@@ -16,7 +16,7 @@ $$
 
 ??? Abstract "Derivation of Electron Denegeneracy Pressure (Optional)"
 
-	If you recall from [low-mass stars](../stars/low_mass_star.md) we have defined the following pressure integral for calculating the pressure given a distribution.
+	We have the following pressure integral for calculating the pressure given a distribution.
 	$$
 	P = \frac{1}{3}\int_0^{\infty} pv_pn(p)dp
 	$$
