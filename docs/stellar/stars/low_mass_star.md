@@ -60,32 +60,6 @@ We include the following nice diagram from *Bradley's Introduction to Modern Ast
     <img src="../../../assets/stars/bradley.png"></img>
 </p>
 
-## Temperature Requirement
-For a **pp-chain** to occur, the colliding nuclei must overcome the electrostatic repulsion between them to get into the regime of the *strong nuclear force*, whereby the nuclei fuses, we call this energy barrier the **Coulomb barrier**.
-<p align="center">
-    <img src="../../../assets/stars/coulomb-barrier.png"></img>
-</p>
-
-Classically, we would expect only nuclei that possesses kinetic energy that surpasses that of the *Coulomb barrier* to react. In which case, considering the reduced mass $\mu$ of two colliding particles give
-$$
-\frac{1}{2}\mu \overline v_{rel}^2 = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
-\Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
-$$
-$$
-\Rightarrow T = \frac{1}{6\pi\epsilon_0}\frac{q_1q_2}{rk}\approx 10^{10}\quad \text{(for the sun)}
-$$
-However, from experimental observation, we find that pp-chain still happen in stars that operate at a temperatures much lower than this, for example our sun has a core temperature of $\approx 1.57\times10^{7} < 10^{10}$.<br>
-This is because, in real life, quantum effects allows the nuclei to **quantum tunnel** through the Coulomb barrier, resulting in a much lower required temperature of 
-$$
-T = \frac{q_1^2q_2^2\mu}{12\pi^2\epsilon_0^2h^2k}
-$$
-where
-- $\mu$ is the reduced mass<br>
-- $\epsilon_0$ is vaccuum permittivity<br>
-- $h$ is the Planck constant<br>
-- $k$ is the Boltzmann constant<br>
-For context, this temperature comes out to $\approx 10^7$ for the sun, which agrees with our observations.
-
 ## Main-Sequence Evolution
 As the **pp-chain** burns away hydrogen, the *mean molecular weight* of the core increases as we have substituted 4 lighter nucleus for 1 heavier nucleus.
 The *mean molecular weight* $\mu$ is defined as
@@ -113,7 +87,7 @@ We also know that a star exists in a state of **hydrostatic equlibrium** where t
 
 From the *pressure equation*, we see that as the *mean molecular weight* of the star increases the pressure will tend to decrease. As such, in order to maintain the pressure such that it can still support the weight of the star, either the *density* $\rho$ or the *temperature* $T$, or **both** must increase to compensate for the increase in $\mu$.<br>
 In this case both will increase in the following fashion. The decreased hydrostatic pressure becomes insufficient to fight against the gravitational collapse, thus the core compresses. As the core compresses the **density $\rho$ is increased**. Furthermore, this compression results in gravitational potential energy being released. By **virial theorem**, only half of the gravitational energy will be released in the form of radiation, with the other half being absorbed as heat which will **increase the temperature** $T$ of the star.<br>
-Now as the temperature is increased, there will be more parts of the star that reaches the [temperature required](./low_mass_star.md#temperature-requirement) to initiate hydrogen fusion, this causes there to be **more pp-chain reaction**.<br>
+Now as the temperature is increased, there will be more parts of the star that reaches the temperature required to initiate hydrogen fusion, this causes there to be **more pp-chain reaction**.<br>
 Furthermore, the rate at which the pp-chain occurs is also **increased** as
 $$
 \text{rate of pp reaction} \propto \rho\mathcal X^2T^4
@@ -124,6 +98,33 @@ where
 - $T$ is the temperature<br>
 Hence, more energy is produced per unit time and the power delivery of the star increases, causing it to **shine brighter**.
 
+??? Abstract "Temperature requirement (Optional)"
+	For a **pp-chain** to occur, the colliding nuclei must overcome the electrostatic repulsion between them to get into the regime of the *strong nuclear force*, whereby the nuclei fuses, we call this energy barrier the **Coulomb barrier**.
+	<p align="center">
+		<img src="../../../assets/stars/coulomb-barrier.png"></img>
+	</p>
+
+	Classically, we would expect only nuclei that possesses kinetic energy that surpasses that of the *Coulomb barrier* to react. In which case, considering the reduced mass $\mu$ of two colliding particles give
+	$$
+	\frac{1}{2}\mu \overline v_{rel}^2 = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
+	\Rightarrow \frac{3}{2}kT = \frac{1}{4\pi\epsilon_0}\frac{q_1q_2}{r}
+	$$
+	$$
+	\Rightarrow T = \frac{1}{6\pi\epsilon_0}\frac{q_1q_2}{rk}\approx 10^{10}\quad \text{(for the sun)}
+	$$
+	However, from experimental observation, we find that pp-chain still happen in stars that operate at a temperatures much lower than this, for example our sun has a core temperature of $\approx 1.57\times10^{7} < 10^{10}$.<br>
+	This is because, in real life, quantum effects allows the nuclei to **quantum tunnel** through the Coulomb barrier, resulting in a much lower required temperature of 
+	$$
+	T = \frac{q_1^2q_2^2\mu}{12\pi^2\epsilon_0^2h^2k}
+	$$
+	where
+	- $\mu$ is the reduced mass<br>
+	- $\epsilon_0$ is vaccuum permittivity<br>
+	- $h$ is the Planck constant<br>
+	- $k$ is the Boltzmann constant<br>
+	For context, this temperature comes out to $\approx 10^7$ for the sun, which agrees with our observations.
+
+
 ## Leaving the Main-Sequence
 Eventually, the hydrogen at the core will be **depleted**, in which case the core will stop burning hydrogen and the core contracts due to gravitational collapse. This releases gravitational energy which heats up the outer envelope, which still contained hydrogen, causing hydrogen burning to resume.
 This continued hydrogen burning of the outer envelope causes the **luminosity of the star to continue to rise**. Furthermore, some of the energy generated by the envelope goes back into heating itself which causes it to further expand.<br>
@@ -132,22 +133,22 @@ The ash from the hydrogen burning in the envelope goes into **increasing the mas
 **Eventually the envelope of the star grows and cools sufficiently to become convective, in which case it has reached the Red Giant Phase**
 [Next: Red Giant](../giants/red_giant.md)
 
-### The Schönberg–Chandrasekhar Limit
-The **Schönberg–Chandrasekhar limit** (SC limit) decribes the maximum ratio of *core mass* to *star mass* whereby the star is still able to support itself, it is given by
-$$
-\frac{M_{ic}}{M} = 0.37\left(\frac{\mu_{env}}{\mu_{ic}}\right)^2
-$$
-where
-- $M_{ic}$ is the mass of the core
-- $M$ is the mass of the star
-- $\mu_{env}$ is the mean molecular weight of the envelope
-- $\mu_{ic}$ is the mean molecular weight of the core
+??? Abstract "The limit of the core mass (Optional)"
+	The **Schönberg–Chandrasekhar limit** (SC limit) decribes the maximum ratio of *core mass* to *star mass* whereby the star is still able to support itself, it is given by
+	$$
+	\frac{M_{ic}}{M} = 0.37\left(\frac{\mu_{env}}{\mu_{ic}}\right)^2
+	$$
+	where
+	- $M_{ic}$ is the mass of the core
+	- $M$ is the mass of the star
+	- $\mu_{env}$ is the mean molecular weight of the envelope
+	- $\mu_{ic}$ is the mean molecular weight of the core
 
-### Exceeding the SC Limit
-Note, however, that the SC limit can be exceeded if there is another source of pressure supporting the weight of the star, aside from gas and radiation pressure.<br>
-This can occur in the star if the electrons in the gas become **degenerate**, which happens when the gas density is so high that the electrons are forced to occupy the *lowest possible energy state*.<br>
-However, due to **Pauli's exclusion principle**, which forbids electrons from occupying the same quantum state, the electrons will be stacked on progressively higher energy levels. This results in a sort of non-thermal **electron degeneracy pressure** which pushes against the gravitional collapse and allowing the star to **exceed the Schönberg–Chandrasekhar limit**<br>
-For more details, visit the article on [white dwarves](../dwarves/white_dwarf.md).
+??? Abstract "Exceeding the core mass limit (Optional)"
+	Note, however, that the SC limit can be exceeded if there is another source of pressure supporting the weight of the star, aside from gas and radiation pressure.<br>
+	This can occur in the star if the electrons in the gas become **degenerate**, which happens when the gas density is so high that the electrons are forced to occupy the *lowest possible energy state*.<br>
+	However, due to **Pauli's exclusion principle**, which forbids electrons from occupying the same quantum state, the electrons will be stacked on progressively higher energy levels. This results in a sort of non-thermal **electron degeneracy pressure** which pushes against the gravitional collapse and allowing the star to **exceed the Schönberg–Chandrasekhar limit**<br>
+	For more details, visit the article on [white dwarves](../dwarves/white_dwarf.md).
 ---
 ## Questions! :)
 
