@@ -4,7 +4,7 @@
 ## Overview
 <p align="center">
 <img src="../../../assets/preliminaries/coloured_hr_diagram.png" id="fig121"></img>
-<span>Figure 1.2.1: The Combined, Labelled Hertzsprung-Russell Diagram<br>(from <a href="https://www.eso.org/public/images/eso0728c/"><i>European Space Astronomy</i></a>)</span>
+<span>Figure 1.3.1: The Combined, Labelled Hertzsprung-Russell Diagram<br>(from <a href="https://www.eso.org/public/images/eso0728c/"><i>European Space Astronomy</i></a>)</span>
 </p>
 
 The HR Diagram was developed years ago to represent the relationship between the Luminosity, $L$ and the Surface Temperature, $T$. Let's start by exploring the history of this diagram.
@@ -14,11 +14,11 @@ The HR Diagram was developed years ago to represent the relationship between the
 
 The HR Diagram was the brainchild of its namesake, Danish astronomer **Ejnar Hertzsprung** (1873 - 1967) and American astronomer **Henry Norris Russell** (1877 - 1957). It was developed independently by both astronomers, in 1911 and 1914 respectively.
 
-The original HR Diagram was completely different from that pictured in [Figure 1.2.1](#fig121). It looked a lot more than what is shown below:
+The original HR Diagram was completely different from that pictured in [Figure 1.3.1](#fig121). It looked a lot more than what is shown below:
 
 <p align = "center" id = "fig122">
 <img src="../../../assets/preliminaries/hr_init.png" width="300px" /><br>
-<span>Figure 1.2.2: The Original HR Diagram<br>(from <a href="http://spiff.rit.edu/classes/phys301/lectures/hr/hr.html"><i>Rochester Institute of Technology</i></a>)</span>
+<span>Figure 1.3.2: The Original HR Diagram<br>(from <a href="http://spiff.rit.edu/classes/phys301/lectures/hr/hr.html"><i>Rochester Institute of Technology</i></a>)</span>
 </p>
 
 Notice that the y-axis is the Absolute Visual Magnitude, while the x-axis is populated by letters. These are Spectral Classes. Let's get into them.
@@ -125,7 +125,7 @@ The following is a representation of the Stellar Spectra, broken down by the Spe
 The diagram looks as such
 <p align="center">
 <img src="../../../assets/preliminaries/hr.png"></img><br>
-<span>Figure 1.2.3: The Actual HR Diagram<br><i>(From the ESA/HIPPARCOS Mission)</i></span>
+<span>Figure 1.3.3: The Actual HR Diagram<br><i>(From the ESA/HIPPARCOS Mission)</i></span>
 </p>
 
 ### Key Features
@@ -149,7 +149,7 @@ For instance, here is a diagram I've plotted to show the relation:
 
 <p align = "center">
 <img src="../../../assets/preliminaries/main_seq.png" /><br>
-<span>Figure 1.2.4: A plot of the possible pattern of main sequence stars. This assumes R is on a exponentiated normal distribution about the radius of the Sun, and T is varied on the given list.</span>
+<span>Figure 1.3.4: A plot of the possible pattern of main sequence stars. This assumes R is on a exponentiated normal distribution about the radius of the Sun, and T is varied on the given list.</span>
 </p>
 
 ??? Abstract "Code Used to Create the Plot above"
@@ -233,7 +233,7 @@ To represent them as a diagram, here is a good depiction:
 <figure markdown>
 <img src="../../../assets/preliminaries/pre-main_sequence_evo.svg#only-light" />
 <img src="../../../assets/preliminaries/pre-main_sequence_evo_dark.svg#only-dark" />
-  <figcaption>Figure 1.2.5: Main Sequence stars often follow the above path in evolution.<br><i>Source: Wikipedia</i></figcaption>
+  <figcaption>Figure 1.3.5: Main Sequence stars often follow the above path in evolution.<br><i>Source: Wikipedia</i></figcaption>
 </figure>
 </p>
 
@@ -241,7 +241,7 @@ To represent them as a diagram, here is a good depiction:
 <p align = "center">
 <figure markdown>
 <img src="../../../assets/preliminaries/hayashi.png" />
-  <figcaption>Figure 1.2.6: A depiction of the Hayashi Track as taken by the T Tauri stars.</figcaption>
+  <figcaption>Figure 1.3.6: A depiction of the Hayashi Track as taken by the T Tauri stars.</figcaption>
 </figure>
 </p>
 
@@ -285,7 +285,7 @@ Color Magnitude Diagrams are another way of approaching HR Diagrams. They are sl
 
 <p align = "center">
 <img src = "../../../assets/preliminaries/cmd.png" /><br>
-<span>Figure 1.2.5: A Color Magnitude Diagram based on the Data from the Gaia Early Data Release 3 (eDR3), specifically pertaining to the M67 Cluster as obtained via the HDBScan algorithm<br><i>(Data Courtesy of the Gaia Early Data Release 3)</i></span>
+<span>Figure 1.3.5: A Color Magnitude Diagram based on the Data from the Gaia Early Data Release 3 (eDR3), specifically pertaining to the M67 Cluster as obtained via the HDBScan algorithm<br><i>(Data Courtesy of the Gaia Early Data Release 3)</i></span>
 </p>
 ??? Abstract "Why was the above done?"
 
@@ -298,14 +298,14 @@ This is mainly caused by the fact that M67 is a cluster that holds mostly stars 
 
 <p align = "center">
 <img src = "../../../assets/preliminaries/actual_cmd.png" /><br>
-<span>Figure 1.2.6: The Actual Color Magnitude Diagram based on the Data from the Gaia Early Data Release 3 (eDR3), in the direction of the M67 Cluster. Highlighted in Blue is the M67 Color Magnitude Diagram as in Figure 1.2.5<br><i>(Data Courtesy of the Gaia Early Data Release 3)</i></span>
+<span>Figure 1.3.6: The Actual Color Magnitude Diagram based on the Data from the Gaia Early Data Release 3 (eDR3), in the direction of the M67 Cluster. Highlighted in Blue is the M67 Color Magnitude Diagram as in Figure 1.3.5<br><i>(Data Courtesy of the Gaia Early Data Release 3)</i></span>
 </p>
 
 The reason for this is that not all of these are moving away at precisely the same speeds, whereas based on our current understanding of cosmology, the cluster itself moves slowly but roughly at the same speed away from us. This was in fact how we obtained the M67 cluster from the data, which is pretty cool.
 
 
 ### The XKCD Cut
-The person from [XKCD](https://xkcd.com) developed an amazing image illustrating an "expanded" version on the HR Diagram in Figure 1.2.1. See below:
+The person from [XKCD](https://xkcd.com) developed an amazing image illustrating an "expanded" version on the HR Diagram in Figure 1.3.1. See below:
 
 <p align = "center">
     <img src="../../../assets/preliminaries/xkcd_hr.png" /><br>

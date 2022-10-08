@@ -78,6 +78,7 @@ nav:
           - Home: instructions/index.md
     - Preliminaries:
           - stellar/preliminaries/magnitude_scale.md
+          - 'Stellar Structure': stellar/preliminaries/stellar_structure.md
           - 'The Hertzprung-Russell Diagram': stellar/preliminaries/hr_diagram.md
     - The Beginning:
           - 'The Molecular Cloud': stellar/beginning/molecular_cloud.md

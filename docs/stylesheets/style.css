@@ -29,3 +29,8 @@ div[chembox] {
 .test tr:nth-child(2) {
     background: orange;
 }
+
+@font-face {
+    font-family: 'KulminoituvaRegular';
+    src: url('http://www.miketaylr.com/f/kulminoituva.ttf');
+}
