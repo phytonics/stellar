@@ -71,35 +71,23 @@ extra_javascript:
 
 nav:
     - Home:
-          - Admin: index.md
-          - Stellar Evolution: stellar/index.md
           - Index: stellar/graph.html
-    - How to Use:
-          - Home: instructions/index.md
+          - Welcome Screen: index.html
     - Preliminaries:
           - stellar/preliminaries/magnitude_scale.md
           - 'Stellar Structure': stellar/preliminaries/stellar_structure.md
           - 'The Hertzprung-Russell Diagram': stellar/preliminaries/hr_diagram.md
     - The Beginning:
-          - 'The Molecular Cloud': stellar/beginning/molecular_cloud.md
-          - 'The Protostar': stellar/beginning/protostar.md
-          - 'Herbig Ae/Be Stars': stellar/beginning/herbig-ae-be.md
-          - 'T-Tauri Stars': stellar/beginning/t-tauri.md
-          - 'Brown Dwarves': stellar/dwarves/brown_dwarf.md
+          - "The Molecular Cloud": stellar/beginning/molecular_cloud.md
+          - "The Protostar": stellar/beginning/protostar.md
+          - "Herbig Ae/Be Stars": stellar/beginning/herbig-ae-be.md
+          - "T-Tauri Stars": stellar/beginning/t-tauri.md
+          - "Brown Dwarves": stellar/dwarves/brown_dwarf.md
     - Massive Track:
-          - 'Massive Stars': stellar/stars/massive_star.md
-          - 'Red Supergiants': stellar/giants/red_supergiant.md
-          - 'Type II Supernovae': stellar/nova/type_2_supernova.md
-          - 'Supernova Remnant': stellar/nova/supernova_remnant.md
-          - Death:
-                - Supermassive Stars:
-                      - 'Black Holes': stellar/others/black_hole.md
-                      - 'X-Ray Emissions': stellar/others/x_ray_emission.md
-                - Less Massive Stars:
-                      - stellar/others/neutron_star.md
-                      - stellar/others/pulsar.md
+          - "Massive Stars": stellar/stars/massive_star.md
+          - "Massive Star Death": stellar/others/massive_star_death.md
     - Low-Mass Track:
-          - 'Low-Mass Stars': stellar/stars/low_mass_star.md
+          - "Low-Mass Stars": stellar/stars/low_mass_star.md
           - stellar/giants/red_giant.md
           - Death:
                 - stellar/dwarves/binary_white_dwarf.md
