@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A Hypothetical Star</title>
+</head>
+
+<body>
+<div align="center">
+    <canvas id="myCanvas" width="500" height="465"></canvas>
+    <div id="buttons">
+    <button class='md-button quizNormal' id="play" onClick="play()">Play</button>
+    <button class='md-button quizNormal' id="pause" onClick="pause()">Pause</button>
+    <button class='md-button quizNormal' id="reset" onClick="reset()">Reset</button>
+    </div>
+<br>
+    <div id="tempSlider">
+        <b>Temperature</b>: Cold<input 
+        type="range" id="tempValue" min="0.6" max="3.4" 
+        value="1" step="0.05" oninput="showTempValue(this.value)" 
+        onchange="showTempValue(this.value)">Hot
+    </div>
+</div>
+
+<script>
+
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+var simTitle = 'An Idealised Version of the Sun';
+
+var time = 0.0;
+var timer;
+var runFlag = 1;
+var numBalls = 200;
+var diameter = 400;
+var centerX = canvas.width/2;
+var centerY = 235;
+var ballRadius = 5;
+
+var ball = new Array(numBalls);
+for (var i = 0; i <= numBalls; i++) {
+ball[i] = {};
+ball[i].xValue = centerX;
+ball[i].yValue = centerY;
+ball[i].deltaX = -1.0+2.0*Math.random();
+ball[i].deltaY = -1.0+2.0*Math.random();
+ball[i].radius = ballRadius;
+ball[i].color = "#242635";
+}
+
+var speedFactor = 1;
+var overlap = create2DArray(numBalls,numBalls,0);
+var oldOverlap = create2DArray(numBalls,numBalls,1);
+
+runMotion();
+
+function create2DArray(rows, columns, initialValue) {
+    var x = new Array(rows);
+    for (var i = 0; i < rows; i++) {
+        x[i] = new Array(columns);
+        for (var j = 0; j < columns; j++) x[i][j] = initialValue;
+    }
+    return x;
+}
+
+function drawMotion() {
+    if (time >= 50) runFlag = 0;
+
+    if (runFlag == 1) {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        
+        context.fillStyle = "#242635";
+        context.fillRect(0, 0, canvas.width, canvas.height);
+        
+        context.beginPath()
+        context.arc(centerX, centerY, 0.5*diameter, 0, 2*Math.PI, false)
+        context.fillStyle = "#F4C70A";
+        context.fill()
+
+        for (var i = 0; i<(numBalls-1); i++) {
+            for (var j = i+1; j<numBalls; j++) {
+                if (((ball[j].xValue-ball[i].xValue)*(ball[j].xValue-ball[i].xValue)+(ball[j].yValue-ball[i].yValue)*(ball[j].yValue-ball[i].yValue)) < (2*ball[j].radius*2*ball[i].radius)) overlap[i][j] = 1;
+                else overlap[i][j] = 0;
+            }
+        }
+
+        for (var i = 0; i<(numBalls-1); i++) {
+            for (var j = i+1; j<numBalls; j++) {
+                if ((overlap[i][j] == 1) && (oldOverlap[i][j] == 0)) {
+                    vxi = ball[i].deltaX;
+                    vyi = ball[i].deltaY;
+                    vxj = ball[j].deltaX;
+                    vyj = ball[j].deltaY;
+                    distance = Math.sqrt((ball[j].xValue-ball[i].xValue)*(ball[j].xValue-ball[i].xValue)+(ball[j].yValue-ball[i].yValue)*(ball[j].yValue-ball[i].yValue));
+                    cosTheta = (ball[j].yValue-ball[i].yValue)/distance;
+                    sinTheta = (ball[j].xValue-ball[i].xValue)/distance;
+                    ball[i].deltaX = vxi + sinTheta*( -vxi*sinTheta + vxj*sinTheta - vyi*cosTheta + vyj*cosTheta);
+                    ball[j].deltaX = vxj + vxi - ball[i].deltaX;
+                    ball[i].deltaY = vyi + cosTheta*( -vyi*cosTheta + vyj*cosTheta - vxi*sinTheta + vxj*sinTheta);
+                    ball[j].deltaY = vyj + vyi - ball[i].deltaY;
+                }
+                oldOverlap[i][j] = overlap[i][j];
+            }
+        }
+
+
+        for (var i = (numBalls-1); i>=0; i--) {
+            ball[i].xValue = ball[i].xValue + speedFactor*ball[i].deltaX;
+            ball[i].yValue = ball[i].yValue + speedFactor*ball[i].deltaY;
+
+            let x = ball[i].xValue - centerX
+            let y = ball[i].yValue - centerY
+
+            let mag = Math.sqrt(x * x + y * y) + ball[i].radius
+
+            if(mag > diameter*0.5) {
+                console.log(`${ball[i].xValue} + ${ball[i].yValue} while ${diameter}`)
+                uX = ball[i].deltaX
+                uY = ball[i].deltaY
+                uMag = Math.sqrt(uX*uX + uY*uY)
+
+                pX = x
+                pY = y
+                pMag = Math.sqrt(pX*pX + pY*pY)
+                phatX = pX/pMag
+                phatY = pY/pMag
+
+                proj = uX * phatX + uY * phatY
+                projX = 2 * (uX - phatX * proj)
+                projY = 2 * (uY - phatY * proj)
+
+                dx = projX - uX
+                dy = projY - uY
+                if(Math.sqrt((x + dx)*(x+dx)+(y+dy)*(y+dy)) + ball[i].radius > diameter*0.5) {
+                    ball[i].deltaX = -phatX * uMag
+                    ball[i].deltaY = -phatY * uMag
+                } else {
+                    ball[i].deltaX = projX - uX
+                    ball[i].deltaY = projY - uY
+                }
+                
+            }
+
+            context.fillStyle = ball[i].color;
+            context.beginPath();
+            context.arc(ball[i].xValue, ball[i].yValue, ball[i].radius, 0, 2 * Math.PI, false);
+            context.fill();
+        }
+
+        context.font = 'bold 16pt Roboto';
+        context.fillStyle = '#F4C70A';
+        context.textAlign = 'center';
+        context.fillText(simTitle, (canvas.width)/2, 25);
+    }
+}
+
+function runMotion() {
+    drawMotion();
+    if (runFlag == 1) {
+        timer = window.setTimeout(runMotion, 20/60);
+    }
+}
+function changeTemp(newTempValue) {
+    speedFactor = Math.sqrt(Number(newTempValue));
+}
+
+
+function play() {
+    window.clearTimeout(timer);
+    runFlag = 1;
+    runMotion();
+}
+
+function pause() {
+    window.clearTimeout(timer);
+    runFlag = 0;
+}
+
+
+function reset() {
+    window.clearTimeout(timer);
+    time = 0.0;
+    numBalls = 200;
+    
+    for (var i = 0; i < numBalls; i++) {
+        ball[i].xValue = centerX;
+        ball[i].yValue = centerY;
+    }
+
+    ball[0].deltaX = -1.0+2.0*Math.random();
+    ball[0].deltaY = -1.0+2.0*Math.random();
+
+
+    for (var i = 0; i < numBalls; i++) {
+        for (var j = 0; j< nBalls; j++) oldOverlap[i][j] = 1;
+    }
+
+    runFlag = 1;
+    runMotion();
+}
+</script>
+
+</body>
+</html>
