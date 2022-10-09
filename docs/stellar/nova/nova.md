@@ -1,5 +1,5 @@
 # Nova
-Novas are a kind of star that have sudden, large increases in brightness before fading back to their original brightness. Stargazers of ancient times believed that new stars were created, as the bursts of light seemed to appear from nowhere in the night sky -- hence their name *nova*, which means "new" in Latin. 
+Novas are stars that have sudden, large increases in brightness before fading back to their original brightness. Stargazers of ancient times believed that new stars were created, as the bursts of light seemed to appear from nowhere in the night sky -- hence their name *nova*, which means "new" in Latin. 
 
 Astronomers today now know that novas are not, in fact, new stars, but rather white dwarves -- stars that have already reached the end of their main sequence and are now husks of mainly carbon and oxygen. 
 
@@ -14,7 +14,7 @@ $$
 4\ce{^{1}_{1}H} + 2\ce{^{0}_{-1}e} \rightarrow \ce{^{4}_{2}He} + 2\nu
 $$
 
-The fusion reaction releases a very large amount of energy, causing the hydrogen to heat up until it radiates in the visible range. The rapid heating causes the gas to expand rapidly, blowing most of it into space, where it then cools down. This is why novas flare up suddenly and then slowly fade back to their normal brightness. 
+The fusion reaction releases a very large amount of energy, resulting in radiation in the visible range. The rapid heating causes the gas to expand rapidly, blowing most of it into space, where it then cools down. This is why novas flare up suddenly and then slowly fade back to their normal brightness. 
 
 <p align="center">
     <img src="../../../assets/nova/nova_remnant.png">The still-bright gas from after a nova explosion</img>
@@ -24,6 +24,30 @@ The fusion reaction releases a very large amount of energy, causing the hydrogen
 The gas from the nova is largely blasted off into space and the white dwarf cools back to its original temperature. This marks a return to the original binary white dwarf system, where the white dwarf can go nova again, or even turn into a **[Type Ia Supernova](type_1a_supernova.md)** for an even more spectacular burst of light.
 
 [Next: Binary White Dwarves](../dwarves/binary_white_dwarf.md)
+
+## Test Yourself!
+### Question: Visible Novas
+
+!!! Question "Which of the following is not true of novas?]?"
+	<div>
+	<button class='md-button quizNormal' id="q1_1" onClick="markQ1(0)">Novas are observed as bursts of short-lived brightness</button>
+	<button class='md-button quizNormal' id="q1_2" onClick="markQ1(1)">The same star can become a nova multiple times</button>
+    <button class='md-button quizNormal' id="q1_3" onClick="markQ1(2)">The energy from novas comes differently from in normal stars</button>
+	<hr>
+	</div>
+??? Abstract "Solution and Explanation"
+	_The last statement is false. Novas glow bright due to the energy release of hydrogen fusion, exactly the same as in the cores of stars._
+
+<script>
+function markQ1(answer) {
+	const wrong1 = document.getElementById("q1_1")
+    const wrong2 = document.getElementById("q1_2")
+	const right = document.getElementById("q1_3")
+	wrong1.classList.add("quizIncorrect")
+    wrong2.classList.add("quizIncorrect")
+	right.classList.add("quizCorrect")
+}
+</script>
 
 *References:*
 

@@ -8,7 +8,7 @@ A white dwarf is the remnant of a dead star -- only inert carbon that does not f
 
 ## Stealing Gas
 
-In a binary white dwarf system, the white dwarf's gravitational field can begin to pull gas from its partner to itself -- in other words, the size of its partner exceeds their Roche lobe, or the sphere of their gravitational influence. The result is that the white dwarf slowly gains gas from its partner. This occurs most when its partner is also reaching the end of its main sequence and has expanded to a red giant. 
+In a binary white dwarf system, the white dwarf's gravitational field can begin to pull gas from its partner to itself -- in other words, the size of its partner exceeds their Roche lobe, or the sphere of their gravitational influence. The result is that the white dwarf slowly gains gas from its partner. 
 
 <p align="center">
     <img src="../../../assets/dwarves/mass_accretion.PNG"><br>Accretion of mass from a red giant</img>
@@ -32,6 +32,30 @@ As the gas accumulates on the white dwarf surface, it becomes hotter and denser 
 
 [Next: Novas](../nova/nova.md)  
 [Next: Type Ia Supernovas](../nova/type_1a_supernova.md)
+
+## Test Yourself!
+### Question: Accretion
+
+!!! Question "Which of the following is a white dwarf most likely to accrete gas from?"
+	<div>
+	<button class='md-button quizNormal' id="q1_1" onClick="markQ1(0)">White Dwarf</button>
+	<button class='md-button quizNormal' id="q1_2" onClick="markQ1(1)">Red Giant</button>
+    <button class='md-button quizNormal' id="q1_3" onClick="markQ1(2)">Neutron Star</button>
+	<hr>
+	</div>
+??? Abstract "Solution and Explanation"
+	_The gravitational influence of a star is dependent on its mass. White Dwarfs are empty husks, and have practically no mass to steal in the first place; while neutron stars are extremely dense and have very small volumes. In contrast, Red Giants have large volumes for their mass, and hence are likely to exceed their own gravitational influence, making it easier for a white dwarf binary to accrete gas._
+
+<script>
+function markQ1(answer) {
+	const wrong1 = document.getElementById("q1_1")
+    const wrong2 = document.getElementById("q1_3")
+	const right = document.getElementById("q1_2")
+	wrong1.classList.add("quizIncorrect")
+    wrong2.classList.add("quizIncorrect")
+	right.classList.add("quizCorrect")
+}
+</script>
 
 *References:*
 
