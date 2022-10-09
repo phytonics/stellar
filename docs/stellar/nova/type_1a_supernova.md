@@ -1,6 +1,6 @@
 # Type Ia Supernova
 <p align="center">
-    <img src="../../../assets/nova/supernova.png"><br>A visible supernova</img>
+    <img src="../../../assets/nova/supernova.PNG"><br>A visible supernova</img>
 </p>
 
 White dwarves in binary systems slowly accrete mass from their partners, and can eventually turn into [novas](nova.md) or **Type Ia Supernovas**. Supernovas obtain their name as they flare up suddenly like novas, but have even greater brightness than them as their name would suggest. Despite their similar names oweing to the similar phenomenon at the surface level, the mechanisms behind supernovas actually are quite distinct from that of novas. 
