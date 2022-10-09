@@ -88,7 +88,7 @@ nav:
           - "Massive Star Death": stellar/others/massive_star_death.md
     - Low-Mass Track:
           - "Low-Mass Stars": stellar/stars/low_mass_star.md
-          - stellar/giants/red_giant.md
+          - "Red Giants": stellar/giants/red_giant.md
           - Death:
                 - stellar/dwarves/binary_white_dwarf.md
                 - stellar/nova/nova.md
