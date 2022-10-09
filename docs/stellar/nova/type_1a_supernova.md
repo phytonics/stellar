@@ -41,6 +41,30 @@ The white dwarf is obliterated in the supernova explosion, with its mass being t
 
 [Next: Supernova Remnant](supernova_remnant.md)
 
+## Test Yourself!
+### Question: Supernova Factors
+
+!!! Question "Which of the following is not a condition leading to a Type Ia Supernova?"
+	<div>
+	<button class='md-button quizNormal' id="q1_1" onClick="markQ1(0)">The pressure balance in a white dwarf being disrupted</button>
+	<button class='md-button quizNormal' id="q1_2" onClick="markQ1(1)">The white dwarf gaining heat from its partner through radiation</button>
+    <button class='md-button quizNormal' id="q1_3" onClick="markQ1(2)">A large partner star</button>
+	<hr>
+	</div>
+??? Abstract "Solution and Explanation"
+	_A large partner star is required for a white dwarf to accrete the mass it needs. This mass increases the gravity of the white dwarf until it overcomes the electron degeneracy and causes an imbalance in the pressures, leading to the collapse, and subsequent fusion of the carbon white dwarf. While the fusion does indeed occur partially due to the heating of the white dwarf as pressures increase, this is not related to the absorption of radiation from its partner, as the power gained from the process is extremely low._
+
+<script>
+function markQ1(answer) {
+	const wrong1 = document.getElementById("q1_1")
+    const wrong2 = document.getElementById("q1_3")
+	const right = document.getElementById("q1_2")
+	wrong1.classList.add("quizIncorrect")
+    wrong2.classList.add("quizIncorrect")
+	right.classList.add("quizCorrect")
+}
+</script>
+
 *References:*
 
 http://www.differencebetween.net/science/nature/differences-between-a-nova-and-a-supernova/
