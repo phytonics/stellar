@@ -242,7 +242,7 @@ To represent them as a diagram, here is a good depiction:
 The **Hayashi Track** is the almost vertical "path" that protostars (with masses less than $3 M_\odot$) take down the HR diagram, representing the gravitational collapse of [T Tauri stars](../../beginning/t-tauri), wherein the collapsing star becomes less luminous due to a decreasing surface area.
 
 ##### The Henyey Track
-The **Henyey Track** is a the nearly horizontal "path" to the main sequence that stars take after the Hayashi track, or right as they form if they have sufficient mass to kickstart hydrogen fusion in their cores (e.g. [Herbig Ae/Be Stars](../../beginning/herbig-ae-be)). This is when the nuclear fusion has just started and the star is slowly collapsing in order to reach hydrostatic equilibrium. Throughout this, the star becomes hotter, even whilst staying at a consistent luminosity.
+The **Henyey Track** is a the nearly horizontal "path" to the main sequence that stars take after the Hayashi track, or right as they form if they have sufficient mass to kickstart hydrogen fusion in their cores (e.g. [Herbig Ae/Be Stars](../../stars/massive_star)). This is when the nuclear fusion has just started and the star is slowly collapsing in order to reach hydrostatic equilibrium. Throughout this, the star becomes hotter, even whilst staying at a consistent luminosity.
 
 
 ### Giants and Supergiants

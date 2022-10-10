@@ -71,7 +71,8 @@ extra_javascript:
 
 nav:
     - Home:
-          - Index: stellar/graph.html
+          - Graph: stellar/graph.html
+          - About: stellar/about.md
           - Welcome Screen: index.html
     - Preliminaries:
           - stellar/preliminaries/magnitude_scale.md
@@ -80,7 +81,6 @@ nav:
     - The Beginning:
           - "The Molecular Cloud": stellar/beginning/molecular_cloud.md
           - "The Protostar": stellar/beginning/protostar.md
-          - "Herbig Ae/Be Stars": stellar/beginning/herbig-ae-be.md
           - "T-Tauri Stars": stellar/beginning/t-tauri.md
           - "Brown Dwarves": stellar/dwarves/brown_dwarf.md
     - Low-Mass Track:

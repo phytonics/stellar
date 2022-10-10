@@ -380,7 +380,7 @@ Notably, in different mass stars, this zone occurs at **different** locations, b
 
 ### The Radiative Zone
 
-The Radiative Zone is where you'd largely see heat being transferred via radiative transfer, in addition to thermal conduction. Notably, due to the immensely dense nature of the radiative zone, especially for main sequence stars, photons being transferred keep colliding with electrons which causes immense amounts of scatterings and this generally leads to most of the photons taking forever to get our of the zone. In addition, when they collide wit the nuclei, the nuclei absorb most of the light, leaving only some to be emitted: *the emission spectra*.
+The Radiative Zone is where you'd largely see heat being transferred via radiative transfer, in addition to thermal conduction. Notably, due to the immensely dense nature of the radiative zone, especially for main sequence stars, photons being transferred keep colliding with electrons which causes immense amounts of scatterings and this generally leads to most of the photons taking forever to get our of the zone. In addition, when they collide with the nuclei, the nuclei absorb most of the light, leaving only some to be emitted: *the emission spectra*.
 
 
 ??? Abstract "Optional Readings"
