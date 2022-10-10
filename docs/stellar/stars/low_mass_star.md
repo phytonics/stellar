@@ -179,10 +179,33 @@ U = -G\frac{Mm}{r}
 $$
 Find the total mechanical energy of a star given its mass $M$ and radius $R$
 
+<!--
+<p align="center">
+	<img src="../../../assets/stars/ans.jpeg"></img>
+</p>
+-->
+
 ??? Abstract "Solution"
-	<p align="center">
-		<img src="../../../assets/stars/ans.jpeg"></img>
-	</p>
+
+	$$
+	U = -\frac{GMm}{r} \Rightarrow dU = -\frac{GM_r dm}{r} = -G\frac{4}{3}\pi r^3\rho \frac{\rho dV}{r} = -\frac{4}{3}G\pi\rho^2 r^2dV
+	$$
+
+	$$
+	dV = r^2\sin\theta drd\theta d\phi \Rightarrow U_{planet} = -\iiint\frac{-4}{3}G\pi\rho^2r^4\sin\theta drd\theta d\phi
+	$$
+	
+	$$
+	\Rightarrow U_{planet} = -\frac{16}{3}\pi^2 G\rho^2\int^R_0r^4dr = -\frac{16}{3}\pi^2G\rho^2\frac{R^5}{5} = -\frac{3G}{5R}\left(\frac{4}{3}\pi\rho R\right)^2
+	$$
+	
+	$$
+	\Rightarrow U_{planet} = -\frac{3GM^2}{5R}
+	$$
+	
+	$$
+	E = \frac{1}{2}U = -\frac{3GM^2}{10R}\quad\text{(by Virial theorem)}
+	$$
 
 
 <script>
