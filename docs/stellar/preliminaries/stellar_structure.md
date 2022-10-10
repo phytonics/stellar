@@ -157,7 +157,7 @@ The stellar structure is largely predicated by two distinct but important phenom
     </div>
 
     <p>
-    Figure 1.2.1 - An Idealised Simulation of the Sun
+    Figure 1.2.3 - An Idealised Simulation of the Sun
     </p>
 
 
@@ -344,7 +344,7 @@ A graphical representation of this can be seen below:
 
 <p align="center">
 <img src="../../../assets/preliminaries/hydrostatic.png" /><br>
-<span>Figure 1.2.1 - Forces acting on our idealised depiction of a Star.</span>
+<span>Figure 1.2.4 - Forces acting on our idealised depiction of a Star.</span>
 </p>
 
 ## The Actual Structure of the Star
@@ -360,7 +360,7 @@ A graphical representation of this can be seen below:
     ![](../../../assets/preliminaries/high_mass_star_comp.png)
 
 <p align="center">
-<span>Figure 1.2.2 - The Composition of a Star.</span>
+<span>Figure 1.2.5 - The Composition of a Star.</span>
 </p>
 
 ### The Core
