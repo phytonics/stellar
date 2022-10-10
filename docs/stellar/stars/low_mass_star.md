@@ -11,7 +11,7 @@
 A classic example of a **low-mass star** is our very own **sun**!
 
 !!! caution
-	Be sure to read [stellar structure](../preliminaries/stellar_structure) before proceeding with this one
+	Be sure to read [stellar structure](../../preliminaries/stellar_structure) before proceeding with this one
 
 ## The Proton-Proton Chain
 The **proton-proton chain** (or **pp-chain**) is the main mechanism that converts hydrogen into helium-4 in the cores of low-mass stars. In doing so, energy is released which fuels the star.<br>
@@ -54,7 +54,7 @@ $$
 $$
 Due to the slower speed of the proton as compared to the eletron, this branch is less likely to occur than the **PP II** branch.
 ### In the Sun
-We include the following nice diagram from *Bradley's Introduction to Modern Astronomy* which illustrates the branches along with their probability of occuring in **the sun**
+We include the following nice diagram from *Bradley's Introduction to Modern Astronomy* which illustrates the branches along with their probability of occuring in **the sun**:
 
 <p align="center">
     <img src="../../../assets/stars/bradley.png"></img>
@@ -66,36 +66,47 @@ The *mean molecular weight* $\mu$ is defined as
 $$
 \mu = \frac{\overline m}{m_H}
 $$
-where<br>
-- $\overline m$ is the average nuclear mass in the star<br>
-- $m_H$ is the mass of a hydrogen atom.<br>
+where:
+
+- $\overline m$ is the average nuclear mass in the star
+- $m_H$ is the mass of a hydrogen atom.
+
+
 We know that the pressure at the core of the star is due to a combination of gas and radiation pressure, which is given by the **hydrostatic pressure equation**
 
 $$
 P = \frac{\rho kT}{\mu m_H} + \frac{1}{3}aT^4
 $$
+
 $$
 \Rightarrow P \approx \frac{\rho kT}{\mu m_H}\quad \text{(at low temperatures)}
 $$
-where<br>
-- $\rho$ is the density of the star<br>
-- $k$ is the Boltzmann constant<br>
-- $T$ is the temperature<br>
-- $\mu$ is the *mean molecular weight*<br>
-- $m_H$ is the mass of a hydrogen atom<br>
+
+where:
+
+- $\rho$ is the density of the star
+- $k$ is the Boltzmann constant
+- $T$ is the temperature
+- $\mu$ is the *mean molecular weight*
+- $m_H$ is the mass of a hydrogen atom
+
 We also know that a star exists in a state of **hydrostatic equlibrium** where the pressure inside the star *fight against* the gravitational collapse of the star.
 
 From the *pressure equation*, we see that as the *mean molecular weight* of the star increases the pressure will tend to decrease. As such, in order to maintain the pressure such that it can still support the weight of the star, either the *density* $\rho$ or the *temperature* $T$, or **both** must increase to compensate for the increase in $\mu$.<br>
 In this case both will increase in the following fashion. The decreased hydrostatic pressure becomes insufficient to fight against the gravitational collapse, thus the core compresses. As the core compresses the **density $\rho$ is increased**. Furthermore, this compression results in gravitational potential energy being released. By **virial theorem**, only half of the gravitational energy will be released in the form of radiation, with the other half being absorbed as heat which will **increase the temperature** $T$ of the star.<br>
 Now as the temperature is increased, there will be more parts of the star that reaches the temperature required to initiate hydrogen fusion, this causes there to be **more pp-chain reaction**.<br>
 Furthermore, the rate at which the pp-chain occurs is also **increased** as
+
 $$
 \text{rate of pp reaction} \propto \rho\mathcal X^2T^4
 $$
+
 where
-- $\rho$ is the density<br>
-- $\mathcal X$ is the mole fraction of hydrogen<br>
-- $T$ is the temperature<br>
+
+- $\rho$ is the density
+- $\mathcal X$ is the mole fraction of hydrogen
+- $T$ is the temperature
+
 Hence, more energy is produced per unit time and the power delivery of the star increases, causing it to **shine brighter**.
 
 ??? Abstract "Temperature requirement (Optional)"
@@ -179,10 +190,33 @@ U = -G\frac{Mm}{r}
 $$
 Find the total mechanical energy of a star given its mass $M$ and radius $R$
 
+<!--
+<p align="center">
+	<img src="../../../assets/stars/ans.jpeg"></img>
+</p>
+-->
+
 ??? Abstract "Solution"
-	<p align="center">
-		<img src="../../../assets/stars/ans.jpeg"></img>
-	</p>
+
+	$$
+	U = -\frac{GMm}{r} \Rightarrow dU = -\frac{GM_r dm}{r} = -G\frac{4}{3}\pi r^3\rho \frac{\rho dV}{r} = -\frac{4}{3}G\pi\rho^2 r^2dV
+	$$
+
+	$$
+	dV = r^2\sin\theta drd\theta d\phi \Rightarrow U_{planet} = -\iiint\frac{-4}{3}G\pi\rho^2r^4\sin\theta drd\theta d\phi
+	$$
+	
+	$$
+	\Rightarrow U_{planet} = -\frac{16}{3}\pi^2 G\rho^2\int^R_0r^4dr = -\frac{16}{3}\pi^2G\rho^2\frac{R^5}{5} = -\frac{3G}{5R}\left(\frac{4}{3}\pi\rho R\right)^2
+	$$
+	
+	$$
+	\Rightarrow U_{planet} = -\frac{3GM^2}{5R}
+	$$
+	
+	$$
+	E = \frac{1}{2}U = -\frac{3GM^2}{10R}\quad\text{(by Virial theorem)}
+	$$
 
 
 <script>

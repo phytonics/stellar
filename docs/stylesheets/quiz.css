@@ -25,3 +25,7 @@ td.quiz {
     text-align: center;
     width: 250px;
 }
+
+p.invisible {
+    visibility: hidden;
+}

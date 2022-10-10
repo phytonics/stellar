@@ -1,5 +1,10 @@
 # Magnitude Scale
 
+!!! Note "Please Note"
+
+    This is an **optional** reading, not to be graded.
+
+
 This is a brief overview of the Magnitude Scale system before we move on to the classification of stars.
 
 The understand the Magnitude System, we must first start by discussing the historical significance of the system.
