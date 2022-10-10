@@ -50,18 +50,40 @@
         padding: 1rem;
         opacity: 0.5;
       }
+      #bottomleft{
+        position: absolute;
+        left: 1rem;
+        bottom: 1rem;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: left;
+        z-index: 1;
+        padding: 1rem;
+        font-size: 20pt;
+      }
       #help{
         display: none;
       }
       body{
         background-color: black;
       }
+      .block {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #FF0000;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      color:white;
+    }
     </style>
   </head>
   <body>
     <div id="topright">
       <p>
-        <strong>PC5131 Website</strong>
+        <strong style="font-size: 20pt">PC5132 Website - Stellar Evolution</strong>
       </p>
       <p>By Prannaya, Khang, Pin Che and Markus</p>
       <p>Press "?" for instructions</p>
@@ -73,6 +95,12 @@
       </div>
     </div>
     <div id="mynetwork" align="center"></div>
+    <div id="bottomleft">
+      <p>
+        <strong>Others</strong>
+      </p>
+      <button type="button" class="block"><strong></strong>Watch our YouTube Video!</strong></button>
+    </div>
     <script type="text/javascript">
       // create an array with nodes
       var nodes = new vis.DataSet([

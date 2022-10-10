@@ -83,9 +83,6 @@ nav:
           - "Herbig Ae/Be Stars": stellar/beginning/herbig-ae-be.md
           - "T-Tauri Stars": stellar/beginning/t-tauri.md
           - "Brown Dwarves": stellar/dwarves/brown_dwarf.md
-    - Massive Track:
-          - "Massive Stars": stellar/stars/massive_star.md
-          - "Massive Star Death": stellar/others/massive_star_death.md
     - Low-Mass Track:
           - "Low-Mass Stars": stellar/stars/low_mass_star.md
           - "Red Giants": stellar/giants/red_giant.md
@@ -96,6 +93,9 @@ nav:
                 - stellar/others/planetary_nebula.md
                 - stellar/dwarves/white_dwarf.md
                 - stellar/dwarves/black_dwarf.md
+    - Massive Track:
+          - "Massive Stars": stellar/stars/massive_star.md
+          - "Massive Star Death": stellar/others/massive_star_death.md
     - Games:
           - Home: stellar/games/index.md
           - Solar Justice: stellar/games/solarJustice/index.md
